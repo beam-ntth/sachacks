@@ -7,10 +7,12 @@ import "./Copyright.css";
 
 const Copyright = () => {
   return (
-    <div className="copyright">
-      {/* Copyright© 2020-21 Sachacks */}
+    <React.Fragment>
+      <div className="copyright">
+        {/* Copyright© 2020-21 Sachacks */ }
       Black Lives Matter
-    </div>
+      </div>
+    </React.Fragment>
   );
 };
 

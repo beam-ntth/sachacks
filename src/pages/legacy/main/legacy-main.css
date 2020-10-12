@@ -1,0 +1,57 @@
+.lg-container {
+    display: flex;
+}
+
+.lg-main {
+    display: flex;
+    height: 100vh;
+    width: 84%;
+}
+
+.lg-left {
+    display: flex;
+    height: 100vh;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.lg-main-logo {
+    width: 60%;
+    height: auto;
+}
+
+.lg-right {
+    display: flex;
+    height: 100vh;
+    width: 70%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.lg-main-header {
+    font-size: 50px;
+    font-family: Graphik, serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.lg-main-subheader {
+    font-size: 20px;
+    font-family: Graphik, serif;
+    margin: 3% 0;
+}
+
+.lg-main-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    height: 80px;
+    width: 300px;
+    background-color: #F4F7FA;
+    box-shadow: 3px 6px 13px 0px lightgray ;
+    font-family: Graphik, serif;
+    font-size: 20px;
+}

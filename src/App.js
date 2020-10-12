@@ -11,9 +11,10 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // Import different pages here
-import Hero from './pages/heroPage/hero';
+import Hero from './pages/hero/hero';
 import Schedule from './pages/schedule/schedule';
 import Resources from './pages/resources/resources';
+import LegacyMain from './pages/legacy/main/legacy-main';
 
 // This is for animation
 import Aos from 'aos';
@@ -37,6 +38,9 @@ function App () {
           } } />
 
           {/* Switch to different pages here */}
+          <Route path="/legacy">
+            <LegacyMain />
+          </Route>
           <Route path="/schedule">
             <Schedule />
           </Route>

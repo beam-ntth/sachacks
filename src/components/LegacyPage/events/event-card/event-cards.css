@@ -1,0 +1,68 @@
+.lg-event-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    height: 40vh;
+    width: 90%;
+    font-family: Graphik, serif;
+}
+
+.lg-event-card-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.lg-event-card-left img {
+    width: 70%;
+    height: auto;
+}
+
+.lg-event-card-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.lg-event-name {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.lg-event-header {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.lg-event-date {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.lg-event-des {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.lg-event-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #024CF3;
+    font-size: 15px;
+    font-weight: 700;
+}

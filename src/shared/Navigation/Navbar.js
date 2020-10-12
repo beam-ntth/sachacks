@@ -28,7 +28,7 @@ const Navbar = () => {
     return (
         <React.Fragment>
             <div className='nav' style={ !open ? { backgroundColor: '#000' } : null }>
-                <Link className='logo' to='/'><img src='/rocket.png' alt='SacHacks Main Logo' /></Link>
+                <Link className='logo' to='/'><img src='sachacks-logo/rocket.png' alt='SacHacks Main Logo' /></Link>
                 <div className='space-between'></div>
                 {/* <Link className='schedule' to='/schedule'>Schedule</Link>
                 <Link to='/resources'>Resources</Link> */}

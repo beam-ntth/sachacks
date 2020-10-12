@@ -2,7 +2,7 @@
  * All the questions in the FAQ section shares the same format
  * We take advantage of React by creating a card to display the Q&A
  * Please go to the corresponding file to make changes
- * - FAQCard - src/components/HeroPage/FAQCards/FaqCard.js
+ * - FAQCard - src/components/HeroPage/FaqCards/FaqCard.js
  * 
  * We store all the questions and answers in the Question.js file in this same folder
  */
@@ -12,7 +12,7 @@ import './Faq.css';
 
 // Components
 import * as Questions from './Questions';
-import Cards from './FAQCards/FaqCard';
+import Cards from './FaqCards/FaqCard';
 
 // Icons
 import { GoTriangleDown } from 'react-icons/go';

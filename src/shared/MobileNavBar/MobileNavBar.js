@@ -31,7 +31,7 @@ const MobileNavBar = () => {
 
                 {/* SacHacks Logo in the middle */}
                 <div className='mobile-logo'>
-                    <Link to='/'><img src='/rocket.png' alt='SacHacks Mobile Logo' /></Link>
+                    <Link to='/'><img src='sachacks-logo/rocket.png' alt='SacHacks Mobile Logo' /></Link>
                 </div>
 
                 {/* Apply button - top-right of the screen */}
