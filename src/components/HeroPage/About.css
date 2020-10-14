@@ -1,125 +1,108 @@
 .about {
-  width: 600px;
-  margin-left: 7%;
-  color: white;
-  z-index: 1;
-  position: relative;
-  top: calc(100vw * 0.0801 * -1 + 0px);
+    width: 600px;
+    margin-left: 7%;
+    color: white;
+    z-index: 1;
+    position: relative;
+    top: calc(100vw * 0.0801 * -1 + 0px);
 }
 
 .sachacks {
-  font-size: calc(100vw * 0.04697986577 + 0pt);
-  font-weight: 700;
-  margin: 20px 0px;
+    font-size: calc(100vw * 0.04697986577 + 0pt);
+    font-weight: 700;
+    margin: 20px 0px;
 }
 
 .motto {
-  font-size: calc(100vw * 0.02013422818 + 5pt);
-  font-weight: 600;
-  width: 100%;
-  margin: 15px 0px;
+    font-size: calc(100vw * 0.02013422818 + 5pt);
+    font-weight: 600;
+    width: 100%;
+    margin: 15px 0px;
 }
 
 .motto .red {
-  color: #f27672;
-  padding-right: 10px;
+    color: #f27672;
+    padding-right: 10px;
 }
 
 .motto .green {
-  color: #7bddde;
-  padding-right: 10px;
+    color: #7bddde;
+    padding-right: 10px;
 }
 
 .motto .blue {
-  color: #8995ff;
+    color: #8995ff;
 }
 
 .date {
-  font-size: calc(100vw * 0.01140939597 + 5pt);
-  margin: 10px 0;
+    font-size: calc(100vw * 0.01140939597 + 5pt);
+    margin: 10px 0;
 }
 
 .description {
-  width: calc(100vw * 0.4497992 + 0px);
-  font-size: calc(100vw * 0.01140939597 + 5pt);
-  line-height: calc(100vw * 0.024096 + 0pt);
+    width: calc(100vw * 0.4497992 + 0px);
+    font-size: calc(100vw * 0.01140939597 + 5pt);
+    line-height: calc(100vw * 0.024096 + 0pt);
 }
 
 .map-buttons {
-  height: 60px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .map-button {
-  height: calc(100vw * 0.027 + 3px);
-  width: calc(100vw * 0.118 + 0px);
-  font-size: calc(100vw * 0.01 + 3px);
-  background-color: #ffffff;
-  margin: 0px 20px 0px 0px;
-  border: 2px solid #dcdcdc;
-  border-radius: 30px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: #000000;
-  cursor: pointer;
+    height: calc(100vw * 0.027 + 3px);
+    width: calc(100vw * 0.118 + 0px);
+    font-size: calc(100vw * 0.01 + 3px);
+    background-color: #ffffff;
+    margin: 0px 20px 0px 0px;
+    border: 2px solid #dcdcdc;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    cursor: pointer;
 }
 
 @media (max-width: 541px) {
-  .about {
-    position: relative;
-    width: 83%;
-    top: 250px;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px 0px 20px 10px;
-  }
+    .about {
+        position: relative;
+        width: 83%;
+        top: 250px;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px 0px 20px 10px;
+    }
 
-  .sachacks {
-    font-size: 55px;
-  }
+    .sachacks {
+        font-size: 55px;
+    }
 
-  .motto {
-    font-size: 30px;
-  }
+    .motto {
+        font-size: 30px;
+    }
 
-  .date {
-    font-size: 18px;
-  }
+    .date {
+        font-size: 18px;
+    }
 
-  .description {
-    width: 80%;
-    font-size: 18px;
-    line-height: 25px;
-  }
+    .description {
+        width: 80%;
+        font-size: 18px;
+        line-height: 25px;
+    }
 }
 
-/* Iphone SE and Iphone 6/7/8 */
-@media (max-height: 811px) {
-  .about {
-    top: 20vh;
-  }
-}
-
-/* Iphone SE */
-@media (max-width: 321px) {
-  .sachacks {
-    font-size: 47px;
-  }
-
-  .motto {
-    font-size: 24px;
-  }
-
-  .date {
-    font-size: 16px;
-  }
-
-  .description {
-    font-size: 16px;
-  }
+/* Iphone SE  */
+@media (max-width: 325px) {
+    .about {
+        margin-left: 0px;
+        width: 100%;
+        top: 100px;
+    }
 }
