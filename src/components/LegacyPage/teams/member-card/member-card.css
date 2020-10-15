@@ -1,0 +1,38 @@
+.lg-teams-member {
+    background: #f4f4f4;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.lg-teams-member-photo {
+    margin-left: 20px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lg-teams-member-photo img {
+    width: 50px;
+}
+
+.lg-teams-member-basic {
+    width: 50%;
+}
+
+.lg-teams-member-basic > .name {
+    font-weight: bold;
+}
+
+.lg-teams-member-social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lg-teams-member-social-media .lg-teams-media-button {
+    cursor: pointer;
+    margin-right: 10px;
+}
