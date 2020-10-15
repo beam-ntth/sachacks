@@ -5,6 +5,7 @@
 
 .lg-teams-layout {
     display: flex;
+    width: 90%;
 }
 
 .lg-teams-year-list {
@@ -12,6 +13,14 @@
     max-width: 230px;
     text-align: center;
     padding-top: 200px;
+}
+
+.lg-teams-year {
+    cursor: pointer;
+}
+
+.lg-teams-year.year-active {
+    font-weight: bold;
 }
 
 .lg-teams-title {
@@ -26,16 +35,33 @@
 .lg-teams-role {
     text-transform: uppercase;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .lg-teams-role.role-active {
-    border-bottom: solid 8px #024cf3;
+    position: relative;
+}
+
+/* Blue line under the active role */
+.lg-teams-role.role-active::after {
+    content: "";
+    background-color: #024cf3;
+    position: absolute;
+    top: 22px; /* hard-coded */
+    left: 0;
+    height: 5px;
+    width: 100%;
     border-radius: 4px;
+}
+
+.lg-teams-group-photo {
+    margin-top: 10px;
 }
 
 .lg-teams-group-photo img {
     width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
 .lg-teams-role-header {
