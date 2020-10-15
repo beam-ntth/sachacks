@@ -6,22 +6,35 @@
 
 .lg-teams-layout {
     display: flex;
-    width: 90%;
+    width: 95%;
 }
 
 .lg-teams-year-list {
-    width: 14%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 11%;
     max-width: 230px;
     text-align: center;
     padding-top: 200px;
 }
 
 .lg-teams-year {
+    color: black;
     cursor: pointer;
+    margin: 10% 0;
 }
 
 .lg-teams-year.year-active {
     font-weight: bold;
+}
+
+.lg-teams-main-panel-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14%;
+    scroll-behavior: smooth;
 }
 
 .lg-teams-title {
