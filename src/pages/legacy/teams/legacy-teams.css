@@ -1,6 +1,7 @@
 .lg-teams {
     height: auto;
     width: 84%;
+    margin-left: 16%;
 }
 
 .lg-teams-layout {
@@ -66,4 +67,8 @@
 
 .lg-teams-role-header {
     text-transform: uppercase;
+}
+
+.lg-teams-member-sublist {
+    margin: 5% 0;
 }

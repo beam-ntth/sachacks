@@ -33,13 +33,23 @@ const LegacyTeams = (props) => {
                     <div className="lg-teams-group-photo">
                         <img
                             src="/legacy/teams/group-photo-1.png"
-                            alt="Group photo 2018"
+                            alt="SacHacks event in 2018"
                         />
                     </div>
 
                     <div className="lg-teams-member-list">
-                        <div>
+                        <div className="lg-teams-member-sublist">
                             <p className="lg-teams-role-header">Executives</p>
+                            <MemberCard content={member1} />
+                            <MemberCard content={member1} />
+                        </div>
+                        <div className="lg-teams-member-sublist">
+                            <p className="lg-teams-role-header">Leads</p>
+                            <MemberCard content={member1} />
+                            <MemberCard content={member1} />
+                        </div>
+                        <div className="lg-teams-member-sublist">
+                            <p className="lg-teams-role-header">Associates</p>
                             <MemberCard content={member1} />
                             <MemberCard content={member1} />
                         </div>
