@@ -4,6 +4,13 @@
     margin-left: 16%;
 }
 
+.lg-teams-header {
+    font-family: Graphik, serif;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 7% 0;
+}
+
 .lg-teams-layout {
     display: flex;
     width: 95%;
@@ -69,7 +76,7 @@
 }
 
 .lg-teams-group-photo {
-    margin-top: 10px;
+    margin-top: 6%;
 }
 
 .lg-teams-group-photo img {

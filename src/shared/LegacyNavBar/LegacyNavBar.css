@@ -35,6 +35,12 @@
     margin-bottom: 40%;
 }
 
+.sidebar-img {
+    height: 50%;
+    width: auto;
+    margin-right: 10%;
+}
+
 .lg-button {
     height: 7%;
     width: 90%;

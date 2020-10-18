@@ -32,40 +32,39 @@ import LegacyEvents from '../events/legacy-events';
 
 const LegacyMain = props => {
 
-    const [ page, setPage ] = useState('main');
+    const [ page, setPage ] = useState( 'main' );
 
-    const setPageHandler = (page) => {
-        return setPage(page);
-    }
+    const setPageHandler = ( page ) => {
+        return setPage( page );
+    };
 
     const mainContent = (
         <div className='lg-main'>
-                {/* Left side of the page, contains logo */ }
-                <div className='lg-left'>
-                    <img className='lg-main-logo' src='/legacy/navbar/sachacks-favicon-2021.png' alt='SacHacks Favicon' />
-                </div>
-                <div className='lg-right'>
-                    <h2 className='lg-main-header'>SacHacks Legacy Dashboard</h2>
-                    <p className='lg-main-subheader'>Lorem ipsum</p>
-                    <Link to='/'><div className='lg-main-btn'>Link to SacHacks website</div></Link>
-                </div>
+            {/* Left side of the page, contains logo */ }
+            <div className='lg-left'>
+                <img className='lg-main-logo' src='/legacy/navbar/sachacks-favicon-2021.png' alt='SacHacks Favicon' />
+            </div>
+            <div className='lg-right'>
+                <h2 className='lg-main-header'>SacHacks</h2>
+                <p className='lg-main-subheader'>Sacramento's Intercollegiate Hackathon</p>
+                <Link to='/'><div className='lg-main-btn'>Enter SacHacks III Site</div></Link>
+            </div>
         </div>
-    )
+    );
 
     let displayContent = mainContent;
-
-    if (page === 'main') {
+    if ( page === 'main' ) {
         displayContent = mainContent;
-    } else if (page === 'team') {
-        displayContent = <LegacyTeams />
-    } else if (page === 'event') {
-        displayContent = <LegacyEvents />
+    } else if ( page === 'team' ) {
+        displayContent = <LegacyTeams />;
+    } else if ( page === 'event' ) {
+        displayContent = <LegacyEvents />;
     }
 
     return (
         <div className='lg-container'>
-            <LegacyNavBar curPage={page} click={setPageHandler} />
-            {displayContent}
+            <LegacyNavBar curPage={ page } click={ setPageHandler } />
+            {displayContent }
         </div>
     );
 };

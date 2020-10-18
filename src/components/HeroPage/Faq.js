@@ -12,7 +12,7 @@ import "./Faq.css";
 
 // Components
 import * as Questions from "./Questions";
-import Cards from "./FaqCards/FaqCard";
+import Cards from "./FAQCards/FaqCard";
 
 // Icons
 import { GoTriangleDown } from "react-icons/go";
