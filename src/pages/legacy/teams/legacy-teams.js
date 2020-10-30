@@ -83,6 +83,11 @@ const LegacyTeams = ( props ) => {
                         } }>2018</div>
                 </div>
                 <div className="lg-teams-main-panel-container">
+                    
+                    
+                    
+                    
+                    
                     {/* 2020 Team */ }
                     <div ref={ ref2020 } className="lg-teams-main-panel" id='2020'>
                         <h2 className="lg-teams-header">2020 Team</h2>
@@ -92,24 +97,42 @@ const LegacyTeams = ( props ) => {
                         <div className="lg-teams-member-list">
                             <div className="lg-teams-member-sublist">
                                 <p className="lg-teams-role-header">Executives</p>
+
                                 {/* Add more executives below */ }
-                                <MemberCard content={ member.megan } />
-                                <MemberCard content={ member.michaela } />
-                            </div>
+
+                                <MemberCard content={ member.derek2020 } />
+                                <MemberCard content={ member.khizer } />
+                                <MemberCard content={ member.yong2020 } />
+                            </div> 
                             <div className="lg-teams-member-sublist">
                                 <p className="lg-teams-role-header">Leads</p>
                                 {/* Add more leads below */ }
-                                <MemberCard content={ member.megan } />
-                                <MemberCard content={ member.megan } />
+                                <MemberCard content={ member.erica2020 } />
+                                <MemberCard content={ member.nikki } />
+                                <MemberCard content={ member.ravishdeep2020 } />
+                                <MemberCard content={ member.vamsi } />
+                                <MemberCard content={ member.ynna } />
                             </div>
                             <div className="lg-teams-member-sublist">
                                 <p className="lg-teams-role-header">Associates</p>
                                 {/* Add more associates below */ }
-                                <MemberCard content={ member.megan } />
-                                <MemberCard content={ member.megan } />
+                                <MemberCard content={ member.akshey } />
+                                <MemberCard content={ member.alexandra } />
+                                <MemberCard content={ member.ashley } />
+                                <MemberCard content={ member.beam } />
+                                <MemberCard content={ member.briana } />
+                                <MemberCard content={ member.jenny2020 } />
+                                <MemberCard content={ member.kimberly } />
+                                <MemberCard content={ member.malav2020 } />
+                                <MemberCard content={ member.margot } />
+                                <MemberCard content={ member.sanjim } />
+                                <MemberCard content={ member.sarah } />
+                                <MemberCard content={ member.tina } />
                             </div>
                         </div>
                     </div>
+
+
                     {/* 2018 Team */ }
                     <div ref={ ref2018 } className="lg-teams-main-panel" id='2018'>
                         <h2 className="lg-teams-header">2018 Team</h2>
@@ -121,19 +144,36 @@ const LegacyTeams = ( props ) => {
                                 <p className="lg-teams-role-header">Executives</p>
                                 {/* Add more executives below */ }
                                 <MemberCard content={ member.megan } />
-                                <MemberCard content={ member.megan } />
+                                <MemberCard content={ member.michaela } />
                             </div>
                             <div className="lg-teams-member-sublist">
                                 <p className="lg-teams-role-header">Leads</p>
                                 {/* Add more leads below */ }
-                                <MemberCard content={ member.megan } />
-                                <MemberCard content={ member.megan } />
+                                <MemberCard content={ member.bishal } />
+                                <MemberCard content={ member.christopher } />
+                                <MemberCard content={ member.erica2018 } />
+                                <MemberCard content={ member.genesia } />
+                                <MemberCard content={ member.jonathan } />
+                                <MemberCard content={ member.miko } />
+                                <MemberCard content={ member.tran } />
+                                <MemberCard content={ member.vicky } />
+                                <MemberCard content={ member.yong2018 } />
                             </div>
                             <div className="lg-teams-member-sublist">
                                 <p className="lg-teams-role-header">Associates</p>
                                 {/* Add more associates below */ }
-                                <MemberCard content={ member.megan } />
-                                <MemberCard content={ member.megan } />
+                                <MemberCard content={ member.anh } />
+                                <MemberCard content={ member.christie } />
+                                <MemberCard content={ member.derek2018 } />
+                                <MemberCard content={ member.esther } />
+                                <MemberCard content={ member.jason } />
+                                <MemberCard content={ member.jenny2018 } />
+                                <MemberCard content={ member.malav2018 } />
+                                <MemberCard content={ member.michelle } />
+                                <MemberCard content={ member.ravishdeep2018 } />
+                                <MemberCard content={ member.rokaya } />
+                                <MemberCard content={ member.taylor } />
+                                
                             </div>
                         </div>
                     </div>
