@@ -333,7 +333,7 @@ export const jenny2018 = {
 
 export const malav2018 = {
   num: "18",
-  img: "/legacy/teams/members/malav.jpg",
+  img: "/legacy/teams/members/malav.jpeg",
   name: "Malav Thakker",
   title: "Sacramento Marketing Strategist",
   linkedin: true,
@@ -700,7 +700,7 @@ export const kimberly = {
 };
 export const malav2020 = {
   num: "",
-  img: "/legacy/teams/members/malav.jpg",
+  img: "/legacy/teams/members/malav.jpeg",
   name: "Malav Thakker",
   title: "Operations Associate",
   linkedin: true,

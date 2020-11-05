@@ -9,13 +9,14 @@
 .lg-teams-member-photo {
     margin-left: 20px;
     margin-right: 30px;
+    width: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .lg-teams-member-photo img {
-    width: 50px;
+    width: 70px;
 }
 
 .lg-teams-member-basic {

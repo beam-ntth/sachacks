@@ -83,11 +83,6 @@ const LegacyTeams = ( props ) => {
                         } }>2018</div>
                 </div>
                 <div className="lg-teams-main-panel-container">
-                    
-                    
-                    
-                    
-                    
                     {/* 2020 Team */ }
                     <div ref={ ref2020 } className="lg-teams-main-panel" id='2020'>
                         <h2 className="lg-teams-header">2020 Team</h2>
@@ -131,8 +126,6 @@ const LegacyTeams = ( props ) => {
                             </div>
                         </div>
                     </div>
-
-
                     {/* 2018 Team */ }
                     <div ref={ ref2018 } className="lg-teams-main-panel" id='2018'>
                         <h2 className="lg-teams-header">2018 Team</h2>
@@ -173,7 +166,6 @@ const LegacyTeams = ( props ) => {
                                 <MemberCard content={ member.ravishdeep2018 } />
                                 <MemberCard content={ member.rokaya } />
                                 <MemberCard content={ member.taylor } />
-                                
                             </div>
                         </div>
                     </div>
