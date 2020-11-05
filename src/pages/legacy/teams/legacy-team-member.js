@@ -4,7 +4,7 @@
  * --> input "false" and leave the link field blank
  * 
  * Some members are a part of both the 2018 and 2020 SacHacks
- * ! Make sure not to create a duplicate profile !
+ * ! Make sure not to create a duplicate profile unless the member switched  their position !
  */
 
 // 2018 Members
