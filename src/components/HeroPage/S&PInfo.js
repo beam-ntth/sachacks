@@ -4,7 +4,7 @@
 
 export const sponsor1 = { img: '/sponsors/sac_kings_logo.png', alt: 'Kings Logo', link: 'https://www.nba.com/kings/' };
 export const sponsor2 = { img: '/sponsors/Bugsee-Logo.svg', alt: 'Bugsee Logo', link: 'https://www.bugsee.com/' };
-export const sponsor3 = { img: '/sponsors/8VC.png', alt: '8vc Logo', link: 'https://8vc.com/' };
+export const sponsor3 = { img: '/sponsors/8vc.png', alt: '8vc Logo', link: 'https://8vc.com/' };
 export const sponsor4 = { img: '/sponsors/digital-ocean.png', alt: 'Digital Ocean Logo', link: 'https://www.digitalocean.com/' };
 
 
