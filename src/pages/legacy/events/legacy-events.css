@@ -1,23 +1,29 @@
 .lg-events {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     height: auto;
     width: 84%;
     margin-left: 16%;
 }
 
-.lg-event, .lg-news, .lg-medium {
+.lg-event,
+.lg-news,
+.lg-medium {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     height: auto;
-    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
+.lg-news-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
 .lg-events-header {
-    margin-left: 7%;
     font-size: 40px;
 }
