@@ -31,6 +31,7 @@ const event1 = {
     air quality. Masks were distributed to ensure the safety of participants leading to a successful event with highlights like being 
     the first hackathon to have Teslas to hack from Smartcar.`,
     btn: "2018 SacHacks",
+    link: ""
 };
 
 // Boilerplate for news section components
@@ -38,11 +39,9 @@ const news1 = {
     num: "1",
     img: "/legacy/events/sachacks-news-1.png",
     header: "2018 Sacramento Kings Media Release",
-    summary:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium ornare felis, quis cursus arcu. Sed ac cursus nibh. ",
+    summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium ornare felis, quis cursus arcu. Sed ac cursus nibh. ",
+    link: ""
 };
-
-// Boilerplate for medium section components
 
 const LegacyEvents = (props) => {
     return (
@@ -64,6 +63,9 @@ const LegacyEvents = (props) => {
             <div className="lg-medium">
                 <h2 className="lg-events-header">Medium Articles</h2>
                 {/* Add more medium articles here */}
+                <NewsCards content={news1} />
+                <NewsCards content={news1} />
+                <NewsCards content={news1} />
             </div>
         </div>
     );
