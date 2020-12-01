@@ -23,11 +23,11 @@ const SocialMedia = () => {
     }
 
     const openTwitter = () => {
-        window.open('https://twitter.com/sachacks2020?lang=en')
+        window.open('https://twitter.com/sachacks2021')
     }
 
     const openMedium = () => {
-        window.open('https://medium.com/@SacHacks')
+        window.open('https://medium.com/sachacks')
     }
 
     return (

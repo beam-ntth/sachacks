@@ -9,8 +9,7 @@ const Copyright = () => {
   return (
     <React.Fragment>
       <div className="copyright">
-        {/* Copyright© 2020-21 Sachacks */ }
-      Black Lives Matter
+        Copyright© 2020-21 Sachacks
       </div>
     </React.Fragment>
   );
