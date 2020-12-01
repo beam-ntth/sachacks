@@ -9,7 +9,7 @@ const Copyright = () => {
   return (
     <React.Fragment>
       <div className="copyright">
-        Copyright© 2020-21 Sachacks
+        Developed by the Sacramento community
       </div>
     </React.Fragment>
   );
