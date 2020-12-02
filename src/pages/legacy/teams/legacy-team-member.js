@@ -67,7 +67,7 @@ export const bishal = {
 
 export const christopher = {
   num: "4",
-  img: "/legacy/teams/members/christopher.jpg",
+  img: "/legacy/teams/members/chris.jpg",
   name: "Christopher Simon",
   title: "Director of Sac State Division",
   linkedin: true,
@@ -556,7 +556,7 @@ export const vamsi  = {
 };
 export const ynna = {
   num: "",
-  /*img: "/legacy/teams/members/", COULD NOT FIND HER IMAGE*/
+  img: "/legacy/teams/members/ynna.jpg",
   name: "Ynna Lecitona",
   title: "Marketing Director",
   linkedin: true,
@@ -574,7 +574,7 @@ export const ynna = {
 };
 export const akshey = {
   num: "",
-  /*img: "/legacy/teams/members/", COULD NOT FIND HIS IMAGE*/
+  img: "/legacy/teams/members/akshey.jpg",
   name: "Akshey Nama",
   title: "Operations Associate",
   linkedin: true,
@@ -646,7 +646,7 @@ export const beam = {
 };
 export const briana = {
   num: "",
-  /*img: "/legacy/teams/members/",COULD NOT FIND HER IMAGE*/
+  img: "/legacy/teams/members/bri.JPG",
   name: "Briana Omori",
   title: "UI and Visual Designer",
   linkedin: true,

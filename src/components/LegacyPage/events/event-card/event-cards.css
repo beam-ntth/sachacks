@@ -4,8 +4,9 @@
     align-items: center;
     justify-content: center;
     min-height: 200px;
-    height: 40vh;
+    height: auto;
     width: 100%;
+    margin: 4% 0;
     font-family: Graphik, serif;
 }
 
@@ -18,7 +19,7 @@
 }
 
 .lg-event-card-left img {
-    width: 70%;
+    width: 80%;
     height: auto;
 }
 
@@ -64,4 +65,5 @@
     font-size: 15px;
     font-weight: 700;
     padding: 20px;
+    cursor: pointer;
 }
