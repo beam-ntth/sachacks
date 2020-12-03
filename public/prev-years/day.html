@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      property="og:title"
+      content="SacHacks Live | Sacramento's First Major Intercollegiate Hackathon"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://sachacks.io/live" />
+    <meta
+      property="og:image"
+      content="http://sachacks.io/images/sachack_3.png"
+    />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="172" />
+    <meta
+      property="og:description"
+      content="SacHacks is Sacramento's first upcoming intercollegiate hackathon, characterized by remarkable rounds of intense coding and brainstorming! Come together for 30 hours with the brightest developers and designers to create something amazing."
+    />
+    <meta
+      name="description"
+      content="SacHacks | Sacramento's first intercollegiate Hackathon Live Website"
+    />
+    <meta
+      name="keywords"
+      content="hackathon, Sacramento, California, hackathon, technology, startups, innovation, hacks"
+    />
+    <meta name="author" content="SacHacks" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta http-equiv="cache-control" content="public" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/rocket-color.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="images/rocket-color.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+      integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="dist/index.css" />
+    <link rel="stylesheet" href="dist/day.css" />
+    <title>SacHacks Live</title>
+  </head>
+  <body>
+    <div class="site-container">
+      <main class="site-content container">
+        <div class="title">
+          <img src="images/sachack_2.png" alt="" />
+          <div class="meta meta--md meta--gold">Live Dashboard</div>
+        </div>
+        <div class="timer">
+          <div class="timer__container">
+            <h2 class="timer__heading">timer</h2>
+            <div class="timer__time">0:0:0:0</div>
+            <p>Until the launch of...</p>
+            <div id="event-name" class="text-uppercase font-weight-bold">
+              Midnight snack
+            </div>
+          </div>
+        </div>
+        <div class="meta meta--md meta--gold text-center mb-5">
+          Scroll down for more info
+        </div>
+        <div id="row-1" class="row">
+          <div class="col-md-5 col-12 left flx-col">
+            <div class="info-block">
+              <h2 class="info-block__title">
+                wifi instructions
+              </h2>
+              <ul class="info-block__list">
+                <li class="info-block__list__item">
+                  Connect to: McClellan Guests
+                </li>
+                <li class="info-block__list__item">Voucher/Passcode: N/A</li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <h2 class="info-block__title">Tracks</h2>
+              <ul class="info-block__list">
+                <li class="info-block__list__item">
+                  Track Prompts can be found
+                  <a
+                    href="https://docs.google.com/document/d/1yjyw5iyjMyZX2BVQOrstQ-_UtJVt0-nwrNB2_RR-aGQ/edit?usp=sharing"
+                  >
+                    here</a
+                  >.
+                </li>
+                <li class="info-block__list__item">
+                  Excel Sheet for E-Sports Track can be found
+                  <a
+                    href="https://docs.google.com/spreadsheets/d/1ygt42uztRQ2tKD5iCN6lyDe42So2c27xoeDUAQslXKQ/edit?usp=sharing"
+                  >
+                    here</a
+                  >.
+                </li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <h2 class="info-block__title">Submission Instructions</h2>
+              <ul class="info-block__list">
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  Open
+                  <a href="https://sachacks.hackerearth.com/"> HackerEarth</a>.
+                  <div class="meta meta--gold">
+                    If you have not registered with HackerEarth, register now at
+                    that link
+                  </div>
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  Hit Submission on the right side of the screen
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  Fill out the appropriate sections
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  In Project Description state IF you are doing a live demo
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  In Project Description state which track (if any), and ONE
+                  other special category you are competing in
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  Every demo will automatically be competeing for Top 3
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  Upload your files and submit
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-7 col-12 right flx-col">
+            <div class="info-block">
+              <div class="info-block__controls">
+                <h2 class="info-block__title">schedule</h2>
+                <div class="btn-group wide">
+                  <button class="btn day-btn day-btn-lg day-btn-lg--active">
+                    Feb 22<sup>nd</sup>
+                  </button>
+                  <button class="btn day-btn day-btn-lg">
+                    Feb 23<sup>rd</sup>
+                  </button>
+                </div>
+              </div>
+              <table class="info-block__table">
+                <tr
+                  class="info-block__table__row info-block__table__row--highlighted"
+                >
+                  <td class="">12 AM</td>
+                  <td class="">Midnight snack</td>
+                  <td class="">
+                    Pizza from Domino's! Also snacks are stocked!
+                  </td>
+                </tr>
+                <tr class="info-block__table__row">
+                  <td class="">8 AM</td>
+                  <td class="">Breakfast</td>
+                  <td class="">
+                    Donuts and coffee. Yay!
+                  </td>
+                </tr>
+                <tr class="info-block__table__row">
+                  <td class="">10 AM</td>
+                  <td class="">Submission Deadline</td>
+                  <td class="">
+                    Submit your projects. Don't worry, you can still work on it
+                    as long as you've submitted it!
+                  </td>
+                </tr>
+                <tr class="info-block__table__row">
+                  <td class="">11 AM</td>
+                  <td class="">Hacking Ends!</td>
+                  <td class="">
+                    Congratulations!! You survived!!
+                  </td>
+                </tr>
+                <tr class="info-block__table__row">
+                  <td class="">11 AM</td>
+                  <td class="">Lunch</td>
+                  <td class="">
+                    Exceptional food from World Fare!
+                  </td>
+                </tr>
+                <tr class="info-block__table__row">
+                  <td class="">12 PM</td>
+                  <td class="">Demos and Judging</td>
+                  <td class="">Show off the cool projects you've hacked!!</td>
+                </tr>
+                <tr class="info-block__table__row">
+                  <td class="">2 PM</td>
+                  <td class="">Closing Ceremony</td>
+                  <td class="">
+                    Let's close and and conquer
+                  </td>
+                </tr>
+                <tr class="info-block__table__row">
+                  <td class="">3 PM</td>
+                  <td class="">Hackaton ends</td>
+                  <td class="">
+                    "How lucky I am to have something that makes saying goodbye
+                    so hard." -- Winnie The Pooh
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div id="row-2" class="row">
+          <div class="left col-md-5 col-12 flx-col">
+            <div class="info-block">
+              <h2 class="info-block__title">contact a mentor</h2>
+              <button class="btn day-btn day-btn-lg mb-5 py-md-5 py-4">
+                Technical Question
+              </button>
+              <button class="btn day-btn day-btn-lg py-md-5 py-4">
+                Other Inquiries
+              </button>
+            </div>
+          </div>
+          <div class="right col-md-7 col-12 flx-col">
+            <div id="hardware" class="info-block">
+              <h2 class="info-block__title">hardware & api</h2>
+              <div class="flex justify-content-between">
+                <ul class="info-block__list">
+                  <li class="info-block__list__item info-block__list__item--md">
+                    Amazon Echo
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    Fitbit Ionic
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    Arduino Uno
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    NodeMCU
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    Breadboard & Wires
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    Servos
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    LED's
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    LCD Displays
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    Buttons, Switches, Resistors
+                  </li>
+                </ul>
+                <ul class="info-block__list">
+                  <li class="info-block__list__item info-block__list__item--md">
+                    Oculus Rift
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    Samsung Gear VR
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    DragonBoard 410C
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    Thermostat Sensor
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    Relays(5VDC)
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    Potentiometer
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    Mosfets
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    High-Power LEDs (3Wats)
+                  </li>
+                  <li class="info-block__list__item info-block__list__item--md">
+                    RFID Readers and Tags
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="row-3" class="row">
+          <div class="col-12">
+            <div class="info-block">
+              <h2 class="info-block__title">map</h2>
+              <div class="media">
+                <img src="images/map_fix.png" alt="map" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="row-4" class="row">
+          <div class="col-md-7 col-12 left">
+            <div class="info-block">
+              <h2 class="info-block__title">workshops</h2>
+              <p class="info-block__sub-heading">Feb 22<sup>nd</sup></p>
+              <table class="info-block__table">
+                <tr
+                  class="info-block__table__row info-block__table__row--highlighted"
+                >
+                  <td class="">1 PM</td>
+                  <td class="">Hacker Basics Workshop</td>
+                  <td class="">
+                    Learn to code with HTML/CSS and JavaScript and make it live
+                    on Github.
+                  </td>
+                </tr>
+                <tr class="info-block__table__row">
+                  <td class="">2:15 PM</td>
+                  <td class="">Design Thinking Workshop</td>
+                  <td class="">
+                    Utilize this solutions-based design approach to creatively
+                    brainstorm, ideate, and rapid prototype new ideas
+                  </td>
+                </tr>
+                <tr class="info-block__table__row">
+                  <td class="">3:30 PM</td>
+                  <td class="">
+                    Blockchain Workshop sponsored by XYO Blockchain
+                  </td>
+                  <td class="">Learn about blockchain from XYO Blockchain!</td>
+                </tr>
+                <tr class="info-block__table__row">
+                  <td class="">4:45 PM</td>
+                  <td class="">Cryptocurrency with GXXD Pay</td>
+                  <td class="">
+                    Learn about GXXD Pay!
+                  </td>
+                </tr>
+                <tr class="info-block__table__row">
+                  <td class="">6 PM</td>
+                  <td class="">Google Cloud Platform Workshop</td>
+                  <td class="">
+                    Learn how use the GCP API!
+                  </td>
+                </tr>
+                <tr class="info-block__table__row">
+                  <td class="">7:15 PM</td>
+                  <td class="">
+                    Connect My Car: OAuth2 Workshop with Smartcar's CTO
+                  </td>
+                  <td class="">
+                    Want to know how to quickly and securely connect your car to
+                    any application? Come to Smartcar's session on OAuth2
+                  </td>
+                </tr>
+                <tr class="info-block__table__row">
+                  <td class="">8:30 PM</td>
+                  <td class="">React Router Workshop</td>
+                  <td class="">
+                    Learn the basics of React Router
+                  </td>
+                </tr>
+                <tr class="info-block__table__row">
+                  <td class="">11 PM</td>
+                  <td class="">Game Development Workshop</td>
+                  <td class="">
+                    Learn about game development.
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="info-block">
+              <h2 class="info-block__title">live feed</h2>
+              <a
+                href="https://twitter.com/SacHacks18?ref_src=twsrc%5Etfw"
+                class="twitter-timeline"
+                data-height="1250"
+              ></a>
+              <script
+                async
+                src="https://platform.twitter.com/widgets.js"
+                charset="utf-8"
+              ></script>
+            </div>
+          </div>
+          <div class="col-md-5 col-12 right">
+            <div class="info-block">
+              <h2 class="info-block__title">tracks prizes</h2>
+              <ul class="info-block__list">
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold">Esports Track:</span>
+                  King's Tickets
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold">Social Media Track:</span>
+                  King's Tickets
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold">Analytics Track:</span>
+                  King's Tickets
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold">Blockchain Track:</span>
+                  XYO Geo Mining Tickets
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold">Game Dev Track:</span>
+                  Tour, EA Games, Swag Items
+                </li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <h2 class="info-block__title">overall hack prizes</h2>
+              <ul class="info-block__list">
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold">Overall Best:</span>
+                  MLH Medal, Prize by the Kings, (x1) $400 Amazon Card
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold">2nd Overall Best:</span>
+                  MLH Medal, Prize by the Kings, (x1) $300 Amazon Card
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold">3nd Overall Best:</span>
+                  MLH Medal, Prize by the Kings, (x1) $200 Amazon Card
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold">All Winning Teams:</span>
+                  One Year Wolfram Alpha Pro 1 Personal Use
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold">Best Domain Name:</span>
+                  (x1) $200 Amazon Gift Card
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold">Best First Hack:</span>
+                  Makey Makey Kits + JetBrains Subscription
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold">Best UI/UX:</span>
+                  Sketch Subscription
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold"
+                    >Best Use of Visual Design:</span
+                  >
+                  $25 Dollar Amazon Gift Cards + Design Notebook
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold">Best Team Branding:</span>
+                  $25 Dollar Amazon Gift Card + Design Pens
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold"
+                    >Best Smartcar Tesla Hack:</span
+                  >
+                  Goodle Home Minis
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold"
+                    >Best Hack - Digital Ocean:</span
+                  >
+                  $125 - $500 API Credit
+                </li>
+                <li
+                  class="info-block__list__item info-block__list__item--small"
+                >
+                  <span class="font-weight-bold">Best Hardware Hack:</span>
+                  Arduino Starter Kits
+                </li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <h2 class="info-block__title">get featured</h2>
+              <div class="twitter-media">
+                <img src="./images/twitter_logo.svg" alt="twitter logo" />
+              </div>
+              <p class="meta text-center">
+                Want to keep up with all the action? Use
+                <a href="#">#SacHacks20</a> to be featured
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="dist/day-dashboard.js"></script>
+  </body>
+</html>
