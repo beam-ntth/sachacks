@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:title" content="SacHacks Live | Sacramento's First Major Intercollegiate Hackathon">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://sachacks.io/live" />
+  <meta property="og:image" content="http://sachacks.io/images/sachack_3.png" />
+  <meta property="og:image:width" content="1024" />
+  <meta property="og:image:height" content="172" />
+  <meta property="og:description" content="SacHacks is Sacramento's first upcoming intercollegiate hackathon, characterized by remarkable rounds of intense coding and brainstorming! Come together for 30 hours with the brightest developers and designers to create something amazing." />
+  <meta name="description" content="SacHacks | Sacramento's first intercollegiate Hackathon Live Website" />
+  <meta name="keywords" content="hackathon, Sacramento, California, hackathon, technology, startups, innovation, hacks" />
+  <meta name="author" content="SacHacks" />
+  <meta name="theme-color" content="#021D4C" />
+  <meta http-equiv="cache-control" content="public" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="shortcut icon" href="images/rocket-color.png" type="image/x-icon">
+  <link rel="icon" href="images/rocket-color.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="dist/index.css">
+  <title>SacHacks Live</title>
+</head>
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-default navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="rocket"><img class="animated" src="images/rocket-color.png" alt=""></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="nav navbar-nav control-btn">
+            <li class="nav-item" name="1"><a href="../index.html" class="nav-link">HOME</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="map_overlay">
+        <img src="live/images/Without-Tables-SacHacks-Venue-Map.jpg"/>
+        <div class="map-button">
+            <button class="btn-map">Close</button>
+        </div>
+    </div> 
+    <div class="header">
+      <div class="logo">
+        <a id="mlh-trust-badge" href="https://mlh.io/seasons/na-2019/events?utm_source=na-">
+          <img src="../images/mlh-trust-badge-2020-white.svg" />
+        </a>
+      </div>
+    </div>
+    <!-- <div class="homepage padding-top">
+        <img src="images/sachack_3.png" alt="">
+        <div class="detail">
+          <h1 class="yellow">Live Dashboard</h1>
+        </div>
+      </div> -->
+    <div class="timer-head">
+      <div class="timer">
+        <div class="outer-tile timer padding-top">
+          <h1 class="timer-title">TIMER</h1>
+          <div id="timer-box">
+              <div class="timer-number">
+                  <p id="hours">0</p>
+              </div>
+              <span>:</span>
+              <div class="timer-number">
+                  <p id="min">0</p>
+              </div>
+              <span>:</span>
+              <div class="timer-number">
+                  <p id="sec">0</p>
+              </div>
+          </div>
+          <div id="timer-description">
+            <div class="timer-text">
+              <p>Hours</p>
+            </div>
+            <span>&nbsp</span>
+            <div class="timer-text">
+              <p>Minutes</p>
+            </div>
+            <span>&nbsp</span>
+            <div class="timer-text">
+              <p>Seconds</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rocket-town">
+      <img class="img-fluid" src="live/images/Livesitemockup-01.png">
+    </div>
+    <div class="first-row">
+      <div class="columns">
+        <!-- Wifi Instruction Section -->
+        <div class="outer-tile top-row">
+          <div class="tile hardware-api padding-top">
+            <h1>WI-FI Instructions</h1>
+            <div class="lists">
+              <ul>
+                <li><span class="yellow">Connect to: </span>MBP_Guest_Wifi</li>
+                <li><span class="yellow">Voucher/Passcode: </span>There's no password!</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Contact a Mentor Section -->
+        <div class="outer-tile top-row">
+          <div class="tile contact-mentor padding-top">
+            <h1>Contact a Mentor</h1>
+            <div class="mentor-buttons">
+              <button class="btn-mentor" onclick="location.href='https://sachacks2020.slack.com/archives/CU2DVNDE1'">Technical Question</button>
+              
+            </div>
+            <div class="mentor-buttons">
+              <button class="btn-mentor" onclick="location.href='https://sachacks2020.slack.com/archives/CU2BH440M'">Other Inquiries</button>
+            </div>
+          </div>
+        </div>
+        <!-- Tracks Section -->
+        <div class="outer-tile">
+          <div class="tile hardware-api padding-top">
+            <h1>Tracks</h1>
+            <div class="lists">
+                <ul type="1" class="left-list">
+                  <li>Track Prompts can be found <a href="https://docs.google.com/document/d/1kCsJw_1LXzIhfcL69IfA2-IVadTET1Z8uE0rv8iFfzc/edit?usp=sharing"> here</a>.</li>
+                  <li>Excel Sheet for 2KL Team Stats can be found <a href="https://drive.google.com/file/d/1RoAG1mCkR9_O2EgVIZEpAJi6eVGtF-V0/view?usp=sharing"> here</a>.</li>
+                  <li>Excel Sheet for 2K Player Stats can be found <a href="https://drive.google.com/file/d/119yYXWRKDelXqcv6CK2g0570iZKh0NWU/view?usp=sharing"> here</a>.</li>                  
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="first-row">
+      <div class="columns">
+        <!-- Schedule Section -->
+        <div class="outer-tile">
+          <div class="tile schedule padding-top" id="schedule">
+            <div class="schedule-header">
+                <h1>Schedule</h1>
+            </div>
+            <!-- First Day -->
+            <div class="row">
+            <div class="col-md-6 col-12">
+              <table class="tb-left">
+                <tr>
+                  <td class="yellow"> February 22nd </td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 8:00 AM </td>
+                    <td class="t-desc"><strong class="map-title">Check in: </strong>Sign in! Check in at the main entrance of the <a href="https://goo.gl/maps/p6W1icg6zideF4Kz8" target="_blank"style="color:white;text-decoration: none;">Allegiant Innovaion Center. Click here for the map.</a></td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 9:00 AM </td>
+                  <td class="t-desc"><strong class="map-title">Opening Ceremony: </strong> Hear from tech entrepreneur and investor Sonny Mayugba! </td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 10:30 AM </td>
+                  <td class="t-desc"><strong class="map-title">Hacking Begins + Team Mixer: </strong> Start building! If you don't yet have a team, attend the mixer to find teammates! </td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 12:00 PM </td>
+                  <td class="t-desc"><strong class="map-title">Lunch: </strong> Amazing food from Red Robin! </td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 7:00 PM </td>
+                  <td class="t-desc"><strong class="map-title">Dinner: </strong>Did anyone say they want more Red Robin?</td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 8:30 PM </td>
+                  <td class="t-desc"><strong class="map-title">MLH Slideshow Karaoke</strong>Think on your toes with this fun improv game. Be the expert of a set of slides, without knowing the topic beforehand!</td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 9:00 PM </td>
+                  <td class="t-desc"><strong class="map-title"> MLH Capture the Flag Cyber Security Event </strong> CTF is a series of cybersecurity challenges, sponsored by the U.S. Airforce! Whether you're a pro hacker or never written a code in your life, it'll be fun! </td>
+                </tr>
+              </table>
+            </div>
+            <!-- Second Day -->
+            <div class="col-md-6 col-12">
+              <table class="tb-right">
+                <tr>
+                  <td class="yellow"> February 23rd </td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 12:00 AM </td>
+                  <td class="t-desc"><strong class="map-title">Midnight Snack: </strong> Cookies and tea! Don't worry, we didn't boil Gatorade.</td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 8:00 AM </td>
+                  <td class="t-desc"><strong class="map-title">Breakfast: </strong>We hope you have a sweet tooth.</td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 10:00 AM </td>
+                  <td class="t-desc"><strong class="map-title">Submission Deadline: </strong> Submit your projects. Don't worry, you can still work on it as long as you've submitted it! </td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 10:30 AM </td>
+                  <td class="t-desc"><strong class="map-title">Hacking Ends: </strong> Congratulation on finishing! </td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 11:00 AM </td>
+                  <td class="t-desc"><strong class="map-title">Lunch: </strong>Eat some subs right before your dub.</td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 12:00 PM </td>
+                  <td class="t-desc"><strong class="map-title">Demos and Judging: </strong>“Oh my God it’s happening! Everybody stay calm. Stay f*cking calm!” – Michael Scott</td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 2:00 PM </td>
+                  <td class="t-desc"><strong class="map-title">Closing Ceremony: </strong> Let's close and conquer!</td>
+                </tr>
+                <tr>
+                  <td class="t-time"> 3:00 PM </td>
+                  <td class="t-desc"><strong class="map-title">Hackathon Ends: </strong>Congrats! You did it!</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="first-row">
+      <!-- Workshops Section -->
+      <div class="columns">
+        <div class="col-md-6 col-12"><!--<div class="col-lg-6 col-12">-->
+          <div class="outer-tile">
+            <div class="tile workshops padding-top">
+              <div class="schedule-header">
+                  <h1>WORKSHOPS</h1>
+              </div>
+              <table class="tb-left">
+                <tr>
+                  <td class="yellow"> February 22nd </td>
+                </tr>
+                <tr>
+                    <td class="t-time"> 1 PM </td>
+                    <td class="t-desc"><strong class="map-title">Datathon for Social Good: ML on Z</strong> Learn about machine learning on Z from IBM engineers!  </td>
+                </tr>
+                <tr>
+                    <td class="t-time"> 2:15 PM </td>
+                    <td class="t-desc"><strong class="map-title">Design Thinking Workshop </strong> Learn the Design Basics as well as basic wireframing and prototyping techniques from UC Davis Lecturer Bill Mead.</td>
+                </tr>
+                <tr>
+                    <td class="t-time"> 3:30 PM </td>
+                    <td class="t-desc"><strong class="map-title">Data Analytics in Health Workshop </strong>Learn about from UC Davis Center for Data Science and Artificial Intelligence Research faculty!</td>
+                </tr>
+                <tr>
+                    <td class="t-time"> 4:45 PM </td>
+                    <td class="t-desc"><strong class="map-title">Intro to Full-Stack Web Dev Workshop</strong> Learn to code with HTML, CSS, JavaScript, Node.js, Express, Promises, and much more from Lorman Lau, Software Engineer at SAP SuccessFactors!</td>
+                </tr>
+                <tr>
+                    <td class="t-time"> 6 PM </td>
+                    <td class="t-desc"><strong class="map-title">Google Cloud Platform: </strong>Learn how to use the GCP from Davis Developer Student Club!</td>
+                </tr>
+                <tr>
+                    <td class="t-time"> 7:15 PM </td>
+                    <td class="t-desc"><strong class="map-title">UC Davis Student Startup Center Intro to Virtual Reality Workshop </strong>Learn the basics of on virtual reality from the VR managers of the UC Davis Student Startup Center. </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- Submission Section -->
+        <div class="col-md-6 col-12"><!--<div class="col-lg-6 col-12">-->
+          <div class="outer-tile">
+            <div class="tile hardware-api padding-top">
+              <h1>Submission Instructions</h1>
+              <div class="lists">
+                  <ol class="sub-lists" id="submission">
+                      <li>Open <a href="https://sachacks-2020.devpost.com/?preview_token=hQH7bcf851MydDt1tMoL9FtIYUzN6Md1Fefm0uzXjPs%3D" target="none">Devpost</a>.</li>
+                      <li>If you have not registered with Devpost, register now at that link</li>
+                      <li>Hit the green "Get Started" button on the right side of the screen</li>
+                      <li>Fill out the appropriate sections</li>
+                      <li>ALL team members have to be listed to be valid for prizes.</li>
+                      <li>In Project Description state <strong> IF </strong> you are doing a live demo </li>
+                      <li>In Project Description state which track (if any), and <strong> ONE </strong> other special category you are competing in</li>
+                      <li>Every demo will automatically be competing for Top Overall 3</li>
+                      <li>Upload your files and submit</li>
+                  </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="first-row">
+      <div class="columns">
+        <div class="outer-tile">
+          <div class="tile hardware-api padding-top">
+            <h1>HARDWARE & API</h1>
+            <div class="lists">
+                <lo class="list">
+                    <li>Amazon Echo</li>
+                    <li>Servos</li>
+                    <li>Samsung Gear VR</li>   
+                </lo>
+                <lo class="list">
+                  <li>Fitbit Ionic</li>
+                  <li>LEDs</li>
+                  <li>DragonBoard 410C</li>
+                  <li>Mosfets</li>
+                </lo>
+                <lo class="list">
+                  <li>Arduino Uno</li>
+                  <li>LCD Displays</li>
+                  <li>Thermostat Sensor</li>
+                  <li>High-Power LEDs (3 Wats)</li>
+                </lo>
+                <lo class="list">
+                  <li>NodeMCU</li>
+                  <li>Buttons, Switches, Resistors</li>
+                  <li>Relays(5VDC)</li>
+                  <li>RFID Readers and Tags</li>
+                </lo>
+                <lo class="list">
+                  <li>Breadboard & Wires</li>
+                  <li>Oculus Rift</li>
+                  <li>Potentiometer</li>
+                </lo>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="first-row">
+      <div class="columns">
+        <div class="col-lg-5 col-12">
+          <!-- Prizes Section -->
+          <div class="first-row">
+            <div class="outer-tile">
+              <div class="tile prizes-awards padding-top">
+                <h1>Tracks Prizes</h1>
+                <div class="lists">
+                    <ul class="left-list">
+                        <li><strong class="yellow">Sacramento Kings Track: </strong> King's Tickets </li>
+                        <li><strong class="yellow">Societal Impactful Health Track: </strong>JBL Flip 5</li>
+                        <li><strong class="yellow">IBM Track: </strong>First: Gaming Set/ Second: Raspberry Pi Kit </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Prizes 2 Section -->
+          <div class="first-row">
+            <div class="outer-tile">
+              <div class="tile prizes-awards padding-top">
+                <h1>Overall Hack Prizes</h1>
+                <div class="lists">
+                    <ul class="left-list">
+                        <li><strong class="yellow">Overall Best: </strong> MLH Medal, Oculus Go</li>
+                        <li><strong class="yellow">2nd Overall Best: </strong> MLH Medal, Powerbeats 3</li>
+                        <li><strong class="yellow">3rd Overall Best: </strong> MLH Medal, Ultimate Ears Boom 2 Portable Speaker</li>
+                        <li><strong class="yellow">Best UI/UX: </strong> Sketch Subscription </li>   
+                         <li><strong class="yellow">Best CeDAR Hack: </strong> $25 Gift Card</li>  
+                         <li><strong class="yellow">Best Startup Hack: </strong>Laser Engraved Wooden Plaque & $25 Gift Card</li>
+                        <li><strong class="yellow">Best Domain Registered with Domain.com: </strong>Domain.com backpacks </li>
+                        <li><strong class="yellow">Best UiPath Automation Hack: </strong>UiPath MLH Backpacks and Internship Interviews</li>
+                        <li><strong class="yellow">Best GCP Hack: </strong> Google Nest Minis </li>
+                        <li><strong class="yellow">Best MongoDB Atlas Hack: </strong>MongoDB AirCharge Pluses</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7 col-12"><!--<div class="col-lg-7 col-12">-->
+          <div class="outer-tile">
+            <div class="tile map padding-top">
+                  <h1>MAP</h1>
+                  <div class="map_small">
+                      <img  class="rounded mx-auto d-block" src="live/images/Without-Tables-SacHacks-Venue-Map.jpg"/>
+                  </div>
+                  <div class="map-button">
+                    <form action="live/images/Without-Tables-SacHacks-Venue-Map.jpg" target="_blank"><button class="btn-map">Expand</button></form> 
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="first-row">
+      <div class="columns">
+        <div class="col-md-5 col-12">
+          <div class="outer-tile">
+            <div class="tile live-feed-2 padding-top">
+              <h1>LIVE FEED</h1>
+              <a class="twitter-timeline" data-height="1250" href="https://twitter.com/SacHacks2020">Tweets by SacHacks2020</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7 col-12">
+          <div class="row get-featured">
+            <div class="col-11">
+              <div class="tile live-feed-1 padding-top">
+                  <h1>              
+                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M171.04387,36.8756c-6.22776,2.76503 -12.92067,4.6256 -19.94952,5.47837c7.15805,-4.31551 12.6881,-11.11178 15.27224,-19.22596c-6.71875,3.97956 -14.16106,6.87379 -22.06851,8.42428c-6.33113,-6.74459 -15.34976,-10.95673 -25.35036,-10.95673c-19.17428,0 -34.73077,15.55649 -34.73077,34.73077c0,2.71335 0.3101,5.375 0.90445,7.90746c-28.86479,-1.44712 -54.44772,-15.29808 -71.58053,-36.30709c-2.9976,5.14242 -4.70312,11.11178 -4.70312,17.49459c0,12.04206 6.1244,22.66286 15.45312,28.89062c-5.71094,-0.18088 -11.0601,-1.73137 -15.73738,-4.34135c0,0.15505 0,0.28426 0,0.43931c0,16.82271 11.96454,30.85456 27.85697,34.05889c-2.92007,0.80108 -5.96935,1.21454 -9.14783,1.21454c-2.2482,0 -4.41887,-0.20673 -6.53786,-0.62019c4.41887,13.77344 17.23617,23.85156 32.43088,24.10997c-11.86117,9.32872 -26.84915,14.85878 -43.12921,14.85878c-2.81671,0 -5.55589,-0.15505 -8.26923,-0.46515c15.34976,9.84556 33.61959,15.58233 53.23317,15.58233c63.87981,0 98.81731,-52.92308 98.81731,-98.79147c0,-1.52463 -0.02584,-3.02344 -0.10337,-4.52223c6.79628,-4.85817 12.6881,-10.98258 17.33954,-17.95974"></path></g></g></svg> GET FEATURED</h1>
+                  <div class="live-feed-items">
+                      <img class="twitter-logo" src="live/images/twitter_logo.png"/>
+                      <p> Want to keep up with all the action? </p>
+                      <p> Use <strong>#SacHacks2020</strong> to be featured! </p>
+                  </div>
+              </div>
+           </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>  
+  <script src="./dist/main.js"></script>
+  <!--<script src="../../sachacks/dist/bundle.js"></script> <!-- for particles? -->
+</body>
+</html>

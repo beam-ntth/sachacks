@@ -1,0 +1,1222 @@
+@font-face {
+  font-family: 'Avenir-Thin';
+  src: url(fonts/thin.woff2) format('woff2'),
+    url(fonts/thin.woff) format('woff'),
+    url(fonts/thin.eot) format('embedded-opentype'),
+    url(fonts/thin.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-Bold';
+  src: url(fonts/bold.woff2) format('woff2'),
+    url(fonts/bold.woff) format('woff'),
+    url(fonts/bold.eot) format('embedded-opentype'),
+    url(fonts/bold.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-Demi';
+  src: url(fonts/demi.woff2) format('woff2'),
+    url(fonts/demi.woff) format('woff'),
+    url(fonts/demi.eot) format('embedded-opentype'),
+    url(fonts/demi.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir-Regular';
+  src: url(fonts/regular.woff) format('woff'),
+    url(fonts/regular.eot) format('embedded-opentype'),
+    url(fonts/regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  background-color: white;
+  width: 100%;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.navbar .container-fluid {
+  align-items: center;
+}
+.navbar .navbar-header {
+  align-items: center;
+}
+
+.navbar-toggler {
+  margin-right: 20px;
+}
+
+.rocket {
+  height: 100%;
+  width: 60px;
+  position: relative;
+  left: 0px;
+  text-align: center;
+  /** this is for the line underneath the rocket **/
+}
+.rocket img {
+  transform: rotate(90deg);
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+
+.control-btn li {
+  font-weight: 600;
+  letter-spacing: 1.1pt;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  padding: 0 30px 0 30px;
+  font-size: 1em;
+  color: #5a5a5a;
+  filter: grayscale(0%);
+  /* unvisited link */
+  /* visited link */
+  /* mouse over link */
+  /* selected link */
+}
+.control-btn li:hover {
+  cursor: pointer;
+}
+.control-btn li a {
+  color: #0c6298;
+  text-decoration: none;
+}
+.control-btn li a:visited {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+.control-btn li a:hover {
+  color: #0c6298;
+  text-decoration: none;
+}
+.control-btn li a:active {
+  color: #5a5a5a;
+}
+
+@media screen and (min-width: 768px) {
+  .control-btn {
+    margin-left: auto;
+    height: 100%;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.header {
+  margin: 0px 2%;
+  max-width: 800px;
+  position: absolute;
+  display: flex;
+  font-weight: 500;
+}
+.header h5 {
+  color: #fbb03a !important;
+}
+.header .logo {
+  display: inline-block;
+}
+.header .logo img {
+  padding-left: 3vh;
+  max-height: 100px;
+}
+@media screen and (min-width: 1024px) {
+  .header .logo img {
+    max-height: 180px;
+  }
+}
+.header .header-title {
+  width: 200px;
+  display: none;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+.header .header-title img {
+  max-width: 100%;
+  margin: 40px;
+}
+
+.homepage {
+  text-align: center;
+}
+.homepage img {
+  max-width: 100%;
+  width: 75%;
+}
+@media screen and (min-width: 768px) {
+  .homepage img {
+    width: 80vw;
+  }
+}
+@media screen and (min-width: 1023px) { /* for iPad Pro */
+  .homepage img { /* landing page sachacks logo */
+    width: 70vw;
+    max-width: 1000px; 
+  }
+}
+@media screen and (min-width: 1025px) { /* for bigger iPad Pro */
+  .homepage img { /* landing page sachacks logo */
+    max-width: 650px; 
+  }
+}
+.homepage .mainButtons {
+  margin-bottom: 10vh;
+}
+.homepage #space {
+  margin-top: 4vh !important;
+  margin-bottom: -2vh;
+  text-align: center; 
+  
+}
+.homepage .homepagespace {
+  height: 11vh;
+}
+.homepage h5 { /* date of event */
+  color: #fbb03a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 100 !important;
+  text-align: center;
+  font-size: 1.0em;    
+}
+.homepage .detail {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
+  .homepage .detail { /* space for venue, date, co-host */
+      max-width:600px;    
+      margin: 0;  
+    }
+}
+
+.homepage .detail h2 {
+  margin: 20px 0 10px 0;
+  font-size: 2em;
+  color: #fbb03a;
+  font-weight: 500;
+}
+.homepage .detail h3 { /* venue, data, co-host */
+  white-space: pre-wrap;
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 1.1pt;
+  word-spacing: 1.05pt;
+  -webkit-margin-before: 0;
+  padding: 10px 0 25px 0;
+}
+.homepage .detail h4 {
+  color: #72aec4;
+  line-height: 25pt;
+  letter-spacing: normal;
+}
+.homepage .detail h4 img {
+  width: 120px;
+  height: 100%;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+@media screen and (min-width: 768px) {
+  .homepage .detail h4 {
+    font-size: 1.2em;
+  }
+  .homepage .detail h4 img {
+    width: 150px;
+  }
+}
+.homepage .detail div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+@media screen and (min-width: 1023px) {
+  .homepage .detail h3 { /* venue location */
+    font-size: 1.0em;
+  }
+  .homepage #space:hover { /* venue location */
+    opacity:0.7;
+  }    
+  .homepage .detail div {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row; 
+  }
+  .homepage .detail .btn {
+    margin-bottom: 0px;
+  }
+}
+.homepage .detail .nextteam {
+  padding-bottom: 10px;
+}
+.homepage .detail .host {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5vh;
+}
+.homepage .detail .host h3 { /* co-host info */
+  white-space: pre-wrap;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 500;
+  letter-spacing: 1.1pt;
+  word-spacing: 1.05pt;
+  -webkit-margin-before: 0;
+  padding: 10px 0 25px 0;
+}
+.homepage .detail .host img { /* landing page Kings logo */
+  height: 95px;
+  width: 80px;
+}
+.mlh-trust-badge {
+    z-index: 1;
+}
+/* particles control */
+.particles-js-canvas-el {
+  position: absolute; /*fixed; whole page */
+  z-index: -1;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 110vh !important; 
+  overflow:auto; 
+  width: 100vw;
+  height: 100vh;
+  clear:none;
+  padding:0;
+  margin:0;
+  will-change: transform;    
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  will-change: transform    
+}
+@media screen and (min-width: 321px) { /* phones except iPhone 5/SE */
+  .about{
+    height: 130vh;        
+   }
+}
+@media screen and (min-width: 375px) { /* iPhone 6/7/8 */
+  .about{
+    height: 120vh;        
+   }
+}
+@media screen and (min-width: 400px) { /* iPhone 6/7/8 plus */
+  .about{
+    height: 110vh;        
+   }
+}
+@media screen and (min-height: 800px) { /* iPhone X */
+  .about{
+    height: 100vh;        
+   }
+}
+@media screen and (min-height: 1000px) { /* iPad */
+  .about{
+    height: 60vh;        
+   }
+}
+@media screen and (min-height: 1300px) { /* iPad Pro*/
+  .about{
+    height: 50vh;        
+   }
+}
+.about h1 {
+  color: white;
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-weight: 500;
+  letter-spacing: -1.7px;
+}
+.about .yellow {
+  color: #fbb03a;
+  font-weight: 900;
+}
+.about .about-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.about .about-description {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+}
+/* .about .detail {
+    width: 75%; } */
+.about .detail p {
+  color: white;
+  font-size: 1.2em;
+  line-height: 25pt;
+  font-weight: 400;
+}
+.about .about-image {
+  height: 300px;
+  width: 300px;
+}
+@media screen and (min-width: 1025px) {
+  .about {
+    flex-direction: row;
+  }
+  .about h1 {
+    text-align: left;
+    font-size: 3.5em;
+  }
+  .about p {
+    text-align: left;
+    font-size: 1em;
+    letter-spacing: 1.2pt;
+  }
+  .about .detail p {
+    font-size: 1em;
+  }
+  .about .about-description {
+    display: block;
+  }
+  .about .about-content {
+    flex-direction: row;
+  }
+  .about .about-image {
+    display: flex;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    width: auto;
+  }
+}
+
+.FAQ {
+  text-align: left;
+  /* height: 75vh;*/
+  will-change: transform    
+}
+.FAQ h1 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.FAQ .Q-and-A {
+  width: 100%;
+  display: block;
+}
+.FAQ .Q-and-A li {
+  list-style: none;
+  width: 100%;
+}
+.FAQ .Q-and-A li h3 {
+  font-family: 'Avenir-Demi';
+  color: #fbb03a;
+  font-size: 1em;
+  margin: 30px 0 20px 0;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 23px !important;
+}
+.FAQ .Q-and-A li p {
+  color: white;
+  font-size: 1.2em;
+  line-height: 30px;
+  text-align: left;
+  margin-left: 0px;
+}
+.FAQ .Q-and-A li p a {
+  text-decoration: underline;
+  font-weight: bold;
+  text-underline-position: under;
+  color: white;
+}
+.FAQ h3 {
+  color: white;
+  font-size: 1em;
+}
+.FAQ h3 a {
+  color: #fbb03a;
+  text-decoration: underline;
+}
+.FAQ h3 a:hover {
+  color: #72adc4;
+  opacity: 50%;
+}
+@media screen and (min-width: 1024px) {
+  /* .FAQ .Q-and-A {
+      column-count: 2;
+      column-gap: 120px; } */
+  .FAQ h1 {
+    color: white;
+    font-size: 3.5em;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  .FAQ .Q-and-A li h3 {
+    font-size: 2em;
+  }
+  .FAQ .Q-and-A li p {
+    font-size: 1em;
+  }
+  .FAQ h3 {
+    font-size: 2em;
+  }
+}
+
+.sponsor {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  will-change: transform;
+}
+.sponsor h1 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+.sponsor h3 {
+  color: white;
+  width: 100%;
+  font-size: 1em;
+  font-weight: normal;
+}
+.sponsor h3 span {
+  color: #fbb03a;
+}
+.sponsor h4 {
+  font-size: 20px;
+  color: white;
+}
+.sponsor a {
+  color: #fbb03a;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.kings { /* mobile */
+  will-change: transform;        
+  width:220px;
+  height:250px;    
+  margin: 30px 5px 30px 5px;        
+}
+.allegiant { /* mobile */
+  will-change: transform;   
+  width:135px;
+  height:100px; 
+  margin: 30px 5px 30px 5px;     
+}
+.citris { /* mobile */
+  will-change: transform;      
+  width:300px;
+  height:68px; 
+  margin: 30px 5px 30px 5px;         
+}
+.cedar { /* mobile */
+  will-change: transform;      
+  width:292px;
+  height:68px; 
+  margin: 30px 5px 30px 5px;      
+}
+.ssc { /* mobile */
+  will-change: transform;      
+  width:310px;
+  height:60px; 
+  margin: 30px 5px 30px 5px;           
+}
+.ibm { /* mobile */
+  will-change: transform;      
+  width:170px;
+  height:68px; 
+  margin: 30px 5px 30px 5px;          
+}
+.coe { /* mobile */
+  will-change: transform;      
+  width:282px;
+  height:68px; 
+  margin: 30px 5px 30px 5px;         
+}
+.stickermule { /* mobile */
+  will-change: transform;       
+  width:270px;    
+  height:55px; 
+  margin: 30px 5px 30px 5px;     
+}
+.sketch { /* mobile */
+  will-change: transform;     
+  width:176px;
+  height:70px; 
+  margin: 30px 5px 30px 5px;           
+}
+.git { /* mobile */
+  will-change: transform;
+  width: 133px;
+  height: 50px; 
+  margin: 30px 5px 30px 5px;    
+}
+.bobos { /* mobile */
+  will-change: transform;      
+  width:120px;
+  height:40px; 
+  margin: 30px 5px 30px 5px;        
+}
+.yerba { /* mobile */
+  will-change: transform;      
+  width:110px;
+  height:60px; 
+  margin: 30px 5px 30px 5px;       
+}
+.zesttea { /* mobile */
+  will-change: transform;      
+  width:188px;
+  height:50px; 
+  margin: 30px 5px 30px 5px;     
+}
+.mlh { /* mobile */
+  will-change: transform;      
+  width:180px;
+  height:76px; 
+  margin: 30px 5px 30px 5px;      
+}
+.hackclub { /* mobile */
+  will-change: transform;      
+  width:239x;
+  height:70px; 
+  margin: 30px 5px 30px 5px;      
+}
+.hackerlab { /* mobile */
+  will-change: transform;      
+  width:108px;
+  height:80px; 
+  margin: 30px 5px 30px 5px;      
+}
+.freecodecamp{ /* mobile */
+  will-change: transform;      
+  width:107px;
+  height:80px; 
+  margin: 30px 5px 30px 5px;     
+}
+.sdc { /* mobile */
+  will-change: transform;      
+  width:73px;
+  height:50px; 
+  margin: 30px 5px 30px 5px;    
+}    
+.acm { /* mobile */
+  will-change: transform;      
+  width:65px;
+  height:50px; 
+  margin: 30px 5px 30px 5px;          
+}
+.wics { /* mobile */
+  will-change: transform;      
+  width:113px;
+  height:50px; 
+  margin: 30px 5px 30px 5px;    
+}  
+@media screen and (min-width: 1024px) { /* for iPad and bigger */
+  .sponsor h1 {
+    font-size: 3.5em;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+  .sponsor h3 {
+    font-size: 2em;
+    line-height: 25pt;
+  }
+  .sponsor h4 {
+    padding-bottom: 35px;
+  }
+  .sponsor .list-sponsor-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .sponsor .list-sponsor-row img {
+    margin: 40px;
+  }
+  .kings {
+    will-change: transform;       
+    width:325px;
+    height:370px 
+  }
+  .kings:hover {
+    opacity:0.9;       
+  }
+  .allegiant {
+    will-change: transform;       
+    width:203px;
+    height:150px      
+  }
+  .allegiant:hover {
+    opacity:0.9;       
+  }
+  .citris {
+    will-change: transform;        
+    width:510px;
+    height:130px       
+  }
+  .citris:hover {
+    opacity:0.9;       
+  }
+  .cedar {
+    will-change: transform;  
+    width:344px;
+    height:80px 
+  }
+  .cedar:hover {
+    opacity:0.9;       
+  }    
+  .ssc {
+    will-change: transform;       
+    width:370px;
+    height:70px  
+  }
+  .ssc:hover {
+    opacity:0.9;       
+  }    
+  .ibm {
+    will-change: transform;        
+    width:200px;
+    height:80px;   
+  }
+  .ibm:hover {
+    opacity:0.9;       
+  }
+  coe {
+    will-change: transform;        
+    width:320px;
+    height:80px;   
+  }
+  .coe:hover {
+    opacity:0.9;       
+  }  
+  .stickermule {
+    will-change: transform;       
+    width:270px;    
+    height:55px   
+  }
+  .stickermule:hover {
+    opacity:0.9;       
+  }  
+  .sketch {
+    will-change: transform;      
+    width:176px;    
+    height:70px     
+  }
+  .sketch:hover {
+    opacity:0.9;       
+  }
+ .git { 
+    will-change: transform;
+    width: 185px;
+    height: 70px
+  }
+  .git:hover { 
+    opacity:0.9; 
+  }
+  .bobos {
+    will-change: transform;       
+    width:150px;    
+    height:50px   
+  }
+  .bobos:hover {
+    opacity:0.9;       
+  }
+  .yerba {
+    will-change: transform;  
+    width:160px;
+    height:90px 
+  }
+  .yerba:hover {
+    opacity:0.9;       
+  }
+  .zesttea {
+    will-change: transform;  
+    width:244px;
+    height:65px 
+  }
+  .zesttea:hover {
+    opacity:0.9;       
+  }
+  .mlh {
+    will-change: transform;  
+    width:237px;    
+    height:100px;
+    opacity:1
+  } 
+  .mlh:hover {
+    opacity:0.9;       
+  }
+  .hackclub {
+    will-change: transform;   
+    width:342px;    
+    height:100px       
+  }
+  .hackclub:hover {
+    opacity:0.9;       
+  }
+  .hackerlab { 
+    will-change: transform;       
+    width:205px;
+    height:150px   
+  }
+  .hackerlab:hover {
+    opacity:0.9;       
+  }
+  .freecodecamp { 
+    will-change: transform;       
+    width:200px;
+    height:150px   
+  }
+  .freecodecamp:hover {
+    opacity:0.9;       
+  }
+   .sdc {
+    will-change: transform;     
+    width:160px;
+    height:120px 
+  }  
+  .sdc:hover {
+    opacity:0.9;       
+  }   
+  .acm {
+    will-change: transform;       
+    width:190px;    
+    height:135px  
+  }
+  .acm:hover {
+    opacity:0.9;       
+  }
+  .wics {
+    will-change: transform;      
+    width:200px;
+    height:88px 
+  } 
+  .wics:hover {
+    opacity:0.9;       
+  }    
+}
+.footer-bar {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white
+  /*background-color:#002561   */ 
+}
+.footer-bar .icon-bar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+.footer-bar .icon-bar li {
+  padding: 5px 5px 5px 5px;
+}
+.footer-bar .icon-bar li .svg-inline--fa {
+  width: 30px;
+  height: 30px;
+}
+.footer-bar a {
+  color: white;
+  text-decoration: none;
+}
+@media screen and (min-width: 1024px) {
+  .footer-bar {
+    flex-direction: row;
+  }
+  .footer-bar p {
+    font-size: 1em;
+  }
+  .footer-bar .icon-bar {
+    width: 50%;
+  }
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  /*overflow: scroll, hidden;*/
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Avenir-Regular', 'Avenir-Thin';
+  will-change: transform;      
+  background: linear-gradient(-10deg, #002561, black, #002561, #002561);
+  /*                                  bottm                       top    */
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+    z-index:-1;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+p {
+  letter-spacing: normal;
+}
+@media screen and (min-width: 1023px) {
+  p {
+    letter-spacing: 1.2pt;
+  }
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  position: relative;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*overflow: scroll;*/
+  clear:none;
+  will-change:transform    
+}
+@media screen and (min-width: 1023px) {
+  .wrapper {
+    height: 100%;
+  }
+}
+.wrapper .logo {
+  display: block;
+  max-width: 100px;
+  min-width: 60px;
+  position: fixed;
+  top: 0;
+  margin-top: 50px;
+  width: 8%;
+  z-index: 10000;
+}
+.wrapper .logo img {
+  padding: 0;
+  left: 50px;
+}
+@media screen and (min-width: 992px) {
+  .wrapper .logo {
+    right: 50px;
+  }
+  .wrapper .logo img {
+    padding-left: 30px;
+  }
+}
+
+.smaller-page {
+  min-height: 70vh;
+}
+
+.padding-top {
+  padding: 20px 20px 20px 20px;
+}
+@media screen and (min-width: 1023px) { /* for iPad Pro and bigger */
+  .padding-top {
+    padding: 75px 150px 75px 50px;
+  }
+}
+.homepage { /* there is 2 homepages */
+  padding-top: 75px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+   /* text-align will move SacHacks logo, venue, date, co-host to left on landing page */
+  padding-left: 7%;
+}
+@media screen and (min-width: 1024px) {
+  .homepage {
+    padding-bottom: 25px;
+  }
+}
+@media screen and (min-width: 1025px) { /* for iPad Pro and bigger */
+  .homepage {
+    padding-bottom: 25px;
+    padding-top: 50px;  
+  }
+}
+@media screen and (min-width: 1025px) { /* landing page rocket and planets appear in sizes bigger than iPad Pro */
+  .homepage {
+   /* background: url(../images/spaceship+2planets2.png) no-repeat center center scroll;*/
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;  
+    }
+}
+.btn {
+  color: white;
+  background-color: transparent;
+  font-size: 1.1em;
+  font-weight: 900;
+  font-weight: heavy;
+  padding: 5px 20px;
+  text-align: center;
+  border-radius: 7px;
+  margin: 20px 20px 0 20px;
+  margin-bottom: 20px;
+  border: 2px solid #72adc4;
+  transition: all 0.3s ease-in;
+  width: 300px;
+  height: 90px;
+  margin-bottom: 20px;
+  letter-spacing: 1.3pt;
+}
+@media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
+  .btn { 
+    width: 300px;
+    height: 90px;  
+    margin-left: 5%;
+      position: relative;
+
+    }
+}
+
+.btn:hover {
+  background-color: #fbb03a;
+  border: 2px solid #fbb03a;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn-home {
+  border: 1px solid white;
+}
+
+.btn-home:hover {
+  background-color: #72adc4;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.btn-active {
+  background-color: #fbb03a;
+  border: 2px solid #fbb03a;
+  cursor: pointer;
+}
+
+.btn-sponsor {
+  border: 2px solid #fbb03a;
+}
+.logo-container { /* sachacks logo default middle */
+  text-align: center;
+  display: block;
+  padding-top: 3%;
+}
+@media screen and (min-width: 1025px) { /* for above iPad Pro size */
+  .logo-container {
+    text-align: left; /* move sachacks logo on landing page to left */
+  }
+}
+
+.rocket-planets {
+    display: none;
+}
+
+@media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
+    .rocket-planets {
+      position: absolute;
+      display: initial;
+     /*z-index: -1;*/      
+    }
+}
+/*
+@keyframes ship_shimmy {
+  0% {
+transform: translate(0, 0);  
+  }
+  100% {
+    transform: translate(20px, 5px);
+  }
+}    
+*/
+
+/* Right diagonal to left blue big motion, right diagonal to left grey small motion*/
+@keyframes blue_shimmy {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(20px, 5px);
+  }
+}    
+
+
+@keyframes grey_shimmy {
+  0% {
+    transform: translate(0, 0);    
+  }
+  100% {
+    transform: translate(-10px, 5px);
+  }
+}   
+  
+.schedule {
+  text-align: left;
+  color: white;
+}
+.schedule h1 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+td.t-time {
+    color:#fbb03a; 
+}
+
+  .schedule .schedule-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px; 
+}
+    .schedule .schedule-header h1 { /* dates */
+      /*color: #002561;*/
+      font-size: 2em;
+      font-weight: 500;
+      margin-bottom: 10px; 
+      margin-top:20px;
+}
+    .schedule .schedule-header h3 {
+      /*color: white;*/
+      font-size: 2.0em; 
+}
+  .schedule .schedule-buttons {
+    display: flex;
+    flex-direction: row; 
+}
+  .schedule table {
+    border: none; 
+}
+  .schedule .btn-sched {
+    font-weight: 900;
+    /*color: white;*/
+    /*background-color: #fbb03a;*/
+    font-size: 1.0em;
+    width: 200px;
+    padding: 5px 20px;
+    text-align: center;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    transition: all 0.300s ease-in;
+    height: 75px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 7px; 
+}
+    .schedule .btn-sched:focus {
+      outline: 0; 
+}
+
+  .schedule .btn-inactive {
+    /*color: #fbb03a;*/
+    /*background: white;*/
+    cursor: pointer; 
+}
+  .schedule .tb-active {
+    height: 100px;
+    /*font-size: 1.2em;*/
+    width: 100%; 
+}
+
+    .schedule .tb-active tr:nth-child(even) {
+      /*background-color: #F8F8F8; */
+}
+    .schedule .tb-active td:nth-child(3) {
+      display: none; 
+}
+    .schedule .tb-active td:nth-child(1) {
+      width: 35%; 
+}
+    .schedule .tb-active td:nth-child(2) {
+      /*font-family: Avenir-Bold;*/
+      /*font-weight: bold; */
+}
+    .schedule .tb-active tr {
+      padding: 20px 20px 20px 20px; 
+}
+    .schedule .tb-active td {
+      padding: 20px;
+      text-align: left; 
+}
+  .schedule .tb-inactive { /* everything above this crashes */
+    display: none; 
+}
+
+  @media screen and (min-width: 1024px) {
+    .schedule .tb-active {
+      /*font-size: 1em; */
+      }
+      
+      .schedule .tb-active td:nth-child(3) {
+        display: block; 
+      }
+      .schedule .tb-active td:nth-child(1) {
+        width: 10%; 
+      }
+    .schedule .btn-sched {
+      width: 250px;
+      margin-bottom: 0px;
+      font-size: 1.5em; 
+      }
+    .schedule .schedule-header {
+      display: flex;
+      flex-direction: row; 
+      }
+      .schedule .schedule-header h1 {
+        font-size: 3.5em;
+        margin-bottom: 25px; 
+      } 
+}
+

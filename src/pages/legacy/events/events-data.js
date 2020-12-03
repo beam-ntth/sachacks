@@ -9,7 +9,7 @@ export const event1 = {
   air quality. Masks were distributed to ensure the safety of participants leading to a successful event with highlights like being 
   the first hackathon to have Teslas to hack from Smartcar.`,
   btn: "2018 SacHacks",
-  link: ""
+  link: "/prev-years/2018/index.html"
 };
 
 export const event2 = {
@@ -20,7 +20,7 @@ export const event2 = {
   date: "February 22, 2020 - February 23, 2020",
   des: `Hosted at Allegiant Innovation Center, the second ever SacHacks hosted 200+ hackers even as news broke of the first confirmed case of COVID-19 in Sacramento County.`,
   btn: "2020 SacHacks",
-  link: ""
+  link: "/prev-years/index.html"
 };
 
 export const event3 = {
