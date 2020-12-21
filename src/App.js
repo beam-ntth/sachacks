@@ -18,6 +18,8 @@ import LegacyMain from './pages/legacy/main/legacy-main';
 
 // This is for animation
 import Aos from 'aos';
+import Prev2020 from './pages/prev-years/2020/prev-2020';
+import Prev2018 from './pages/prev-years/2018/prev-2018';
 
 function App () {
 
@@ -36,6 +38,12 @@ function App () {
             return null;
           } } />
           {/* Switch to different pages here */}
+          <Route path="/2020">
+            <Prev2020 />
+          </Route>
+          <Route path='/2018'>
+            <Prev2018 />
+          </Route>
           <Route path="/legacy">
             <LegacyMain />
           </Route>

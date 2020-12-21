@@ -4,7 +4,8 @@
     justify-content: center;
     height: auto;
     width: 84%;
-    margin-left: 16%;
+    padding-left: 16%;
+    background-color: white;
 }
 
 .lg-event,
