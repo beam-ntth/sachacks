@@ -46,3 +46,7 @@ export const q10 = {
   q: "Have more questions?",
   a: "Feel free to email us at team@sachacks.io.",
 };
+export const q11 = {
+  q: "What is IBM Z?",
+  a: "Come and learn about IBM Z - the enterprise computing platform that runs the world's economy. Design your solution for health, social inequality, or data science and launch it on IBM Z to realize and leverage the power of IBM Z.",
+};

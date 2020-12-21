@@ -10,7 +10,9 @@ const LegacyNavBar = ( props ) => {
     return (
         <React.Fragment>
             <div className='sidebar'>
-                <img className='sidebar-logo' src='/legacy/navbar/sachacks-favicon-2021.png' alt='SacHacks Favicon' />
+                <div className='sidebar-logo'>
+                    <img src='/legacy/navbar/sachacks-favicon-2021.png' alt='SacHacks Favicon' />
+                </div>
                 <h4 className='sidebar-header'>SacHacks</h4>
                 <h5 className='sidebar-subheader'>Design. Code. Launch.</h5>
                 <div className={ props.curPage === 'main' ? 'lg-button lg-active' : 'lg-button' } onClick={ () => props.click( 'main' ) }>

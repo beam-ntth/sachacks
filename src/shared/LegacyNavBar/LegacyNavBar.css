@@ -11,7 +11,7 @@
     padding-left: 2%;
 }
 
-.sidebar-logo {
+.sidebar-logo img {
     height: auto;
     width: 50%;
     padding-top: 40%;
@@ -66,4 +66,52 @@
 
 .lg-active p {
     font-weight: 700;
+}
+
+@media (max-width: 541px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+/* Ipad size */
+@media (min-width: 542px) and (max-width: 1023px) {
+    .sidebar-header {
+        font-size: 20px;
+    }
+    .sidebar-subheader {
+        font-size: 15px;
+    }
+    .lg-button p {
+        font-size: 20px;
+    }
+    .lg-active {
+        padding: 0 10px;
+        transform: translateX(-10px);
+    }
+    .sidebar-img {
+        height: 30%;
+        width: auto;
+    }
+}
+
+/* Ipad pro size */
+@media (min-width: 1024px) and (max-width: 1350px) {
+    .sidebar-header {
+        font-size: 25px;
+    }
+    .sidebar-subheader {
+        font-size: 17px;
+    }
+    .lg-button p {
+        font-size: 25px;
+    }
+    .lg-active {
+        padding: 0 10px;
+        transform: translateX(-14px);
+    }
+    .sidebar-img {
+        height: 30%;
+        width: auto;
+    }
 }

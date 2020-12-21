@@ -24,6 +24,7 @@ import './legacy-main.css';
 
 // Import components here
 import LegacyNavBar from '../../../shared/LegacyNavBar/LegacyNavBar';
+import MobileLegacyNavBar from '../../../shared/MobileLegacyNavBar/MobileLegacyNavBar';
 
 // React router to link different pages
 import { Link } from 'react-router-dom';
@@ -64,7 +65,8 @@ const LegacyMain = props => {
     return (
         <div className='lg-container'>
             <LegacyNavBar curPage={ page } click={ setPageHandler } />
-            {displayContent }
+            <MobileLegacyNavBar curPage={ page } click={ setPageHandler } />
+            { displayContent }
         </div>
     );
 };

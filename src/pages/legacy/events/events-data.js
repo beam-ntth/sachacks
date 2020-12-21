@@ -3,7 +3,7 @@ export const event1 = {
   num: "1",
   img: "/legacy/events/sachacks-1.png",
   name: "2018 SACHACKS TEAM",
-  header: "SacHacks 1",
+  header: "SacHacks 2018",
   date: "November 17, 2018 - November 18, 2018",
   des: `Hosted at McClellan Conference Center, the first ever SacHacks hosted 300+ hackers even with Camp Fire causing unhealthy 
   air quality. Masks were distributed to ensure the safety of participants leading to a successful event with highlights like being 
@@ -30,7 +30,7 @@ export const event3 = {
   header: "HackDSC",
   date: "April 24, 2020 - April 26, 2020",
   des: `HackDSC is a virtual student-run hackathon designed to inspire student developers across North America to create solutions for local community problems. They aim to unlock and designers, regardless of background, to create meaningful impact in their local communities. SacHacks and Winhacks helped organize this event.`,
-  btn: "2020 SacHacks",
+  btn: "HackDSC",
   link: "https://hackdsc.com/"
 };
 

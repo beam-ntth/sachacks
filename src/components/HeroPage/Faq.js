@@ -90,6 +90,7 @@ const Faq = () => {
                             <div className="line"></div>
                         </div>
                         <Cards qa={Questions.q9} />
+                        <Cards qa={Questions.q11} />
                         <Cards qa={Questions.q10} />
                     </div>
                 </div>

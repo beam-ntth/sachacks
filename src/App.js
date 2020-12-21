@@ -30,13 +30,11 @@ function App () {
     <Router>
       <div className="App">
         <Switch>
-
           {/* Redirect the page from sachacks.io/team -> typeform link */}
           <Route path='/team' component={ () => {
             window.location.href = 'https://sachacks.typeform.com/to/r2sYTJ';
             return null;
           } } />
-
           {/* Switch to different pages here */}
           <Route path="/legacy">
             <LegacyMain />
@@ -50,7 +48,6 @@ function App () {
           <Route path='/'>
             <Hero />
           </Route>
-          
         </Switch>
       </div>
     </Router>

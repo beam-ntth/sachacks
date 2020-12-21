@@ -92,3 +92,14 @@
 .lg-teams-member-sublist {
     margin: 5% 0;
 }
+
+@media (max-width: 541px) {
+    .lg-teams {
+        margin: 0;
+        width: 100%;
+    }
+
+    .lg-teams-year-list {
+        display: none;
+    }
+}
