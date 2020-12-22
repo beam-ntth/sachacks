@@ -48,7 +48,7 @@ const MobileLegacyNavBar = ( props ) => {
           setOpen( true );
           return;
         } }
-        style={ open ? { transform: 'translateY(-100px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(220px)', transition: '0.5s ease-in-out', opacity: '1' } }
+        style={ open ? { transform: 'translateY(-100px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(200px)', transition: '0.5s ease-in-out', opacity: '1' } }
       >
         <img className='mobile-lg-img' src='/legacy/navbar/Teams-icon.png' alt='Teams Icon' />
         <p>Teams</p>
@@ -60,7 +60,7 @@ const MobileLegacyNavBar = ( props ) => {
           setOpen( true );
           return;
         } }
-        style={ open ? { transform: 'translateY(-100px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(320px)', transition: '0.5s ease-in-out', opacity: '1' } }
+        style={ open ? { transform: 'translateY(-100px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(280px)', transition: '0.5s ease-in-out', opacity: '1' } }
       >
         <img className='mobile-lg-img' src='/legacy/navbar/Event-icon.png' alt='Event Icon' />
         <p>Events</p>

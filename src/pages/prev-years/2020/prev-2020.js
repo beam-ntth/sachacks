@@ -815,12 +815,12 @@ const Prev2020 = () => {
               <h5 class="yellow">APPLY FOR SACHACKS 2021 TEAM!</h5>
               <div class="mainButtons-2020">
                 <a href="https://sachacks.typeform.com/to/r2sYTJ" target="_blank"
-                ><button class="btn btn-active">
+                ><button class="btn-2020 btn-active">
                     APPLY FOR TEAM
               </button>
                 </a>
                 <a href="https://sachacks-2020.devpost.com/" target="_blank">
-                  <button class="btn btn-home">SACHACKS 2020 WINNERS</button>
+                  <button class="btn-2020 btn-home">SACHACKS 2020 WINNERS</button>
                 </a>
               </div>
             </div>

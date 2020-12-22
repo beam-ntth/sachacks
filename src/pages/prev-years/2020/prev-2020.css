@@ -135,6 +135,7 @@
 }
 
 .navbar-toggler {
+  display: none;
   margin-right: 20px;
 }
 
@@ -341,7 +342,7 @@
     display: flex;
     flex-direction: row; 
   }
-  .homepage-2020 .detail-2020 .btn {
+  .homepage-2020 .detail-2020 .btn-2020 {
     margin-bottom: 0px;
   }
 }
@@ -1010,7 +1011,7 @@ h1 {
   display: block;
   max-width: 100px;
   min-width: 60px;
-  position: fixed;
+  position: absolute;
   top: 0;
   margin-top: 50px;
   width: 8%;
@@ -1022,7 +1023,8 @@ h1 {
 }
 @media screen and (min-width: 992px) {
   .wrapper-2020 .logo-2020 {
-    right: 50px;
+    left: 85vw;
+    width: 100px;
   }
   .wrapper-2020 .logo-2020 img {
     padding-left: 30px;
@@ -1069,7 +1071,7 @@ h1 {
     -o-background-size: cover;  
     }
 }
-.btn {
+.btn-2020 {
   color: white;
   background-color: transparent;
   font-size: 1.1em;
@@ -1082,13 +1084,13 @@ h1 {
   margin-bottom: 20px;
   border: 2px solid #72adc4;
   transition: all 0.3s ease-in;
-  width: 300px;
+  width: auto;
   height: 90px;
   margin-bottom: 20px;
   letter-spacing: 1.3pt;
 }
 @media screen and (min-width: 1025px) { /* screen size bigger than iPad Pro */
-  .btn { 
+  .btn-2020 { 
     width: 300px;
     height: 90px;  
     margin-left: 5%;
