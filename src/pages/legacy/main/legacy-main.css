@@ -62,9 +62,24 @@
     .lg-container {
         flex-direction: column;
     }
-
     .lg-main {
         margin: 0;
+        padding: 0;
         width: 100%;
+    }
+    .lg-main-header {
+        font-size: 42px;
+    }
+    .lg-main-subheader {
+        font-size: 15px;
+        margin: 5% 0;
+    }
+    .lg-main-btn {
+        height: 50px;
+        width: 180px;
+        font-size: 13px;
+    }
+    .lg-left, .lg-right {
+        transform: translateY(-50px);
     }
 }

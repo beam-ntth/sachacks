@@ -97,10 +97,22 @@
 @media (max-width: 541px) {
     .lg-teams {
         margin: 0;
+        padding: 0;
         width: 100%;
     }
-
+    .lg-teams-layout {
+        margin: 0;
+    }
+    .lg-teams-main-panel-container {
+        margin: 10px;
+    }
     .lg-teams-year-list {
         display: none;
+    }
+    .lg-teams-group-photo img {
+        width: 90%;
+    }
+    .lg-teams-member-list {
+        width: 90%;
     }
 }

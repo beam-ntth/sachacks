@@ -50,6 +50,7 @@
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(2px);
   position: absolute;
+  z-index: 5;
 }
 
 @media (min-width: 541px) {

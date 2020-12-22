@@ -67,3 +67,13 @@
     padding: 20px;
     cursor: pointer;
 }
+
+@media (max-width: 541px) {
+    .lg-event-card {
+        flex-direction: column;
+    }
+    .lg-event-card-left, .lg-event-card-right {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+}
