@@ -3,7 +3,7 @@ export const event1 = {
   num: "1",
   img: "/legacy/events/sachacks-1.png",
   name: "2018 SACHACKS TEAM",
-  header: "SacHacks 1",
+  header: "SacHacks I",
   date: "November 17, 2018 - November 18, 2018",
   des: `Hosted at McClellan Conference Center, the first ever SacHacks hosted 300+ hackers even with Camp Fire causing unhealthy 
   air quality. Masks were distributed to ensure the safety of participants leading to a successful event with highlights like being 
@@ -16,7 +16,7 @@ export const event2 = {
   num: "2",
   img: "/legacy/events/sachacks-2.jpg",
   name: "2020 SACHACKS TEAM",
-  header: "SacHacks 2",
+  header: "SacHacks II",
   date: "February 22, 2020 - February 23, 2020",
   des: `Hosted at Allegiant Innovation Center, the second ever SacHacks hosted 200+ hackers even as news broke of the first confirmed case of COVID-19 in Sacramento County.`,
   btn: "2020 SacHacks",
