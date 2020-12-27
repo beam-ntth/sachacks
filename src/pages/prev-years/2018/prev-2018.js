@@ -136,11 +136,11 @@ const Prev2018 = () => {
           {/* <!-- Schedule page --> */ }
           <div class="schedule-2018 padding-top" id="schedule">
             <div class="schedule-header">
-              <h1>Schedule</h1>
-              <div class="schedule-buttons">
+              <h1>Saturday 11/17/20</h1>
+              {/* <!-- <div class="schedule-buttons">
                 <button class="btn-sched btn-active btn-1">Sat, Nov 17th </button>
-                <button class="btn-sched btn-inactive btn-2">Sun, Nov 18th</button>
-              </div>
+                <button class="btn-sched btn-inactive btn-2">Sun, Nov 18th</button>-->
+            <!--</div>--> */}
             </div>
 
             <table class="tb-active tb-1">
@@ -226,18 +226,24 @@ const Prev2018 = () => {
               </tr>
             </table>
 
-            <table class="tb-inactive tb-2">
+            <div class="schedule-header">
+              <h1>Sunday 11/18/20</h1>
+              {/* <!-- <div class="schedule-buttons">
+              <button class="btn-sched btn-active btn-1">Sat, Nov 17th </button>
+              <!--<button class="btn-sched btn-inactive btn-2">Sun, Nov 18th</button>-->
+            <!--</div>--> */}
+            </div>
+            <table class="tb-active tb-2">
               <tr>
                 <td class="t-time"> 12 AM </td>
                 <td class="t-event"> Midnight snack </td>
                 <td class="t-desc"> Pizza from Domino's! Also snacks are stocked! </td>
+              </tr>     
+              <tr>
+                <td class="t-time"> 2 AM </td>
+                <td class="t-event"> Boba Break </td>
+                <td class="t-desc"> Take a break from hacking and have some Milk Tea.  </td>
               </tr>
-              {/* <!--
-          <tr>
-            <td class="t-time"> 2 AM </td>
-            <td class="t-event"> Boba Break </td>
-            <td class="t-desc"> Take a break from hacking and have some Milk Tea.  </td>
-          </tr> --> */}
               <tr>
                 <td class="t-time"> 8 AM </td>
                 <td class="t-event"> Breakfast </td>
