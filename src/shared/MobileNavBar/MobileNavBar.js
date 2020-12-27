@@ -54,7 +54,7 @@ const MobileNavBar = () => {
 
             {/* Apply Dropdowns */ }
             <div className='mobile-hacker' style={ open ? { transform: 'translateY(-100px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(100px)', transition: '0.5s ease-in-out', opacity: '1' } }>
-                <img src='/mobile/black-hacker-icon.png' alt='mobile hacker icon' /> <a href='https://sachacks.typeform.com/to/r2sYTJ' target='_blank' rel="noopener noreferrer">Team</a>
+                <img src='/mobile/black-hacker-icon.png' alt='mobile hacker icon' /> <a href='https://sachacks.typeform.com/to/b3iHwPuY' target='_blank' rel="noopener noreferrer">Hacker</a>
             </div>
             {/* <div className='mobile-mentor' style={ open ? { transform: 'translateY(-200px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(183px)', transition: '0.5s ease-in-out', opacity: '1' } }>
                 <img src='/mobile/black-mentor-icon.png' alt='mobile hacker icon' /> Mentor

@@ -37,6 +37,11 @@ function App () {
             window.location.href = 'https://sachacks.typeform.com/to/r2sYTJ';
             return null;
           } } />
+          {/* Redirect the page from sachacks.io/apply -> typeform application link */}
+          <Route path='/apply' component={ () => {
+            window.location.href = 'https://sachacks.typeform.com/to/b3iHwPuY';
+            return null;
+          } } />
           {/* Switch to different pages here */}
           <Route path="/2020">
             <Prev2020 />
