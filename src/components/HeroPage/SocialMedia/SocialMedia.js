@@ -6,7 +6,7 @@ import React from 'react';
 import './SocialMedia.css'
 
 // Add more icons here
-import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter, FaMedium } from 'react-icons/fa';
+import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter, FaMedium, FaYoutube } from 'react-icons/fa';
 
 const SocialMedia = () => {
     
@@ -30,6 +30,10 @@ const SocialMedia = () => {
         window.open('https://medium.com/sachacks')
     }
 
+    const openYoutube = () => {
+        window.open('https://www.youtube.com/channel/UC4IajrnBSC09eHxKVeDyk3Q?feature=applinks')
+    }
+
     return (
         <div className='social-media'>
             <div className='media-button' onClick={openFacebook}><FaFacebook fill='white' size='35px' /></div>
@@ -37,6 +41,7 @@ const SocialMedia = () => {
             <div className='media-button' onClick={openInsta}><FaInstagram fill='white' size='35px' /></div>
             <div className='media-button' onClick={openTwitter}><FaTwitter fill='white' size='35px' /></div>
             <div className='media-button' onClick={openMedium}><FaMedium fill='white' size='35px' /></div>
+            <div className='media-button' onClick={openYoutube}><FaYoutube fill='white' size='35px' /></div>
         </div>
     );
 };

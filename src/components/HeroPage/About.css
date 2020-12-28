@@ -67,6 +67,17 @@
     justify-content: center;
     color: #000000;
     cursor: pointer;
+    font-weight: bold;
+}
+
+/* .map-button img {
+    height: 50%;
+    width: auto;
+    padding-right: 5%;
+} */
+
+.map-button a {
+    color: black;
 }
 
 @media (max-width: 541px) {
@@ -81,10 +92,12 @@
 
     .sachacks {
         font-size: 55px;
+        margin: 10px 0 0 0;
     }
 
     .motto {
-        font-size: 30px;
+        font-size: 26px;
+        margin: 10px 0;
     }
 
     .date {
@@ -94,7 +107,14 @@
     .description {
         width: 80%;
         font-size: 18px;
-        line-height: 25px;
+        line-height: 24px;
+        margin: 10px 0 0 0;
+    }
+
+    .map-button {
+        height: 35px;
+        width: 120px;
+        font-size: 18px;
     }
 }
 

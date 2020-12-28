@@ -23,10 +23,10 @@ const About = () => {
                 untapped potential of those in Sac by launching their ideas into
                 action during a 36-hour hackathon.{" "}
             </p>
-            {/* <div className='map-buttons'>
-                <div className='map-button'>Google Maps</div>
-                <div className='map-button'>Apple Maps</div>
-            </div> */}
+            <div className='map-buttons'>
+                <div className='map-button'><a href='https://sachacks.typeform.com/to/b3iHwPuY' target='_blank' rel='noopener noreferrer'>Hacker</a></div>
+                <div className='map-button'><a href='mailto: team@sachacks.io' rel='noopener noreferrer'>Sponsor</a></div>
+            </div>
             <SocialMedia />
         </div>
     );

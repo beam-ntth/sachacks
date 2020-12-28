@@ -61,7 +61,7 @@ const MobileNavBar = () => {
             </div> */}
             {/* <div className='mobile-sponsor' style={ open ? { transform: 'translateY(-300px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(286px)', transition: '0.5s ease-in-out', opacity: '1' } }> */ }
             <div className='mobile-sponsor' style={ open ? { transform: 'translateY(-300px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(202px)', transition: '0.5s ease-in-out', opacity: '1' } }>
-                <img src='/mobile/black-sponsor-icon.png' alt='mobile hacker icon' /> Sponsor
+                <img src='/mobile/black-sponsor-icon.png' alt='mobile hacker icon' /><a href='mailto: team@sachacks.io' rel='noopener noreferrer'>Sponsor</a>
             </div>
 
             {/* Menu Dropdowns */ }

@@ -11,7 +11,7 @@ const Sponsors = () => {
     return (
         <div className='sponsors'>
             <h1 id='sponsor' >Sponsors</h1>
-            <div className='sp-row king'>
+            <div className='sp-row ibm-2021'>
                 <Sponsor img={ Info.sponsor1 } />
             </div>
             <div className='sp-row temp'>
