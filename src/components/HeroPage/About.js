@@ -21,11 +21,11 @@ const About = () => {
                 SacHacks is the first major intercollegiate hackathon in the
                 Sacramento, California area. Our passion is to cultivate the
                 untapped potential of those in Sac by launching their ideas into
-                action during a 36-hour hackathon.{" "}
+                action during a 36-hour hackathon.{ " " }
             </p>
             <div className='map-buttons'>
-                <div className='map-button'><a href='https://sachacks.typeform.com/to/b3iHwPuY' target='_blank' rel='noopener noreferrer'>Hacker</a></div>
-                <div className='map-button'><a href='mailto: team@sachacks.io' rel='noopener noreferrer'>Sponsor</a></div>
+                <a href='https://sachacks.typeform.com/to/b3iHwPuY' target='_blank' rel='noopener noreferrer'><div className='map-button'>Hacker</div></a>
+                <a href='mailto: team@sachacks.io' rel='noopener noreferrer'><div className='map-button'>Sponsor</div></a>
             </div>
             <SocialMedia />
         </div>
