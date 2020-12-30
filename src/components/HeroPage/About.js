@@ -16,6 +16,10 @@ const About = () => {
                 <span className="green">Code.</span>
                 <span className="blue">Launch.</span>
             </h2>
+            <div className='co-host'>
+                <h6>Co-hosted by</h6>
+                <img src='/images/IBM_LOGO-01.png' />
+            </div>
             <h5 className="date">VIRTUALLY FEBRUARY 19-21, 2021</h5>
             <p className="description">
                 SacHacks is the first major intercollegiate hackathon in the
