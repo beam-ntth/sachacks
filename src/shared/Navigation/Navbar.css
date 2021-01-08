@@ -13,7 +13,7 @@
 .nav-2021 {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-end;
     background-color: transparent;
     height: calc(100vw * 0.08814102564 + 0px);
