@@ -56,6 +56,12 @@ a {
     margin-right: calc(100vw * 0.065 + 0px);
 }
 
+.apply-filler {
+    width: 10%;
+    max-width: 130px;
+    height: 100%;
+}
+
 @media (max-width: 541px) {
     .apply-section {
         display: none;

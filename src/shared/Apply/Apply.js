@@ -42,6 +42,7 @@ const Apply = ( props ) => {
                     <img src='/navigation/Sponsor-Icon.png' alt='sponsor icon' />
                     <p className='icon-name'><a href='mailto: team@sachacks.io'>Sponsor</a></p>
                 </div>
+                <div className='apply-filler'></div>
             </div>
             { backdrop }
         </React.Fragment>
