@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+
+.Lace-Mission{
+    background: #FFEAFC;
+}
+
+.summary{
+    text-align: center;
+    background: #FFEAFC;
+    font-family: 'Palanquin';
+    padding: 10px 350px 20px;
+    font-size: 20px;
+}
+
+.meet{
+    text-align: center;
+    background: #FFFFFF;
+    margin: 0 530px;
+    border-top-left-radius: 50px 50px;
+    border-bottom-left-radius: 50px 50px;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+}
+
+.meet h1{
+    font-size: 46px;
+    font-family: 'Palanquin Dark';
+    font-weight: 100;
+}
+
+.rows{
+    background: #FFEAFC;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px 0px;
+    display: inline-block;
+}
+
+.square{
+    width: 210px;
+    height: 250px;
+    margin: 75px;
+    background: #C4C4C4;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+
+.FAQPage{
+	background: #FFFFFF;
+}
+
+.FAQPage .extension{
+	background: #FFEAFC;
+	padding: 30px; 
+}
+.FAQ{
+	text-align: center;
+	/*padding-top: 1px;*/
+	background: #FFFFFF;
+}
+
+.FAQ h1{
+	padding-top: 10px;
+	font-size: 46px;
+	font-family: 'Palanquin Dark';
+	font-weight: 100;
+}
+
+.extension_one{
+	background: #FFEAFC;
+	padding-bottom: 80px;
+	padding-left: 
+}
+
+
+.row_one{
+	padding-right: 10%;
+	padding-left: 15%;
+}
+
+.row_one p{
+	margin-bottom: 5%;
+	font-family: 'Palanquin Dark';
+	font-size: 30px;
+	border-bottom-style: solid;
+  	border-bottom-width: thin;
+}
+
+.row_two p{
+	margin-bottom: 5%;
+	font-family: 'Palanquin Dark';
+	font-size: 30px;
+	border-bottom-style: solid;
+  	border-bottom-width: thin;
+}
+
+.extension_two{
+	background: #FFEAFC;
+	padding: 85px;
+}

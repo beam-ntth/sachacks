@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
+
+
+
+.LogoPartners{
+	background-color: #FFEAFC;
+	display: flex;
+	position: relative;
+}
+
+.PartnerLogos{
+	padding-top: 10px;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.PartnerLogos p{
+	/*padding-left: 60px;*/
+	font-family: Righteous;
+	font-size: 30px;
+	align-items: center;
+	margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.PartnerLogos img{
+	padding-left: 75px;
+	width: 200px;
+}
+
+.ellipse{
+	background-color: #FFFFFF;
+	background: 'lovelace2021/logo.png';
+	width: 600px;
+	margin-left: auto;
+    margin-right: auto;
+	height: 500px;
+	border-radius: 50%;
+	/*left: 777px;
+	top: 148px;*/
+}
+
+.sideElements{
+	position: absolute;
+	right: 0px;
+	font-family: Righteous;
+	font-size: 35px;
+	text-align: center;
+	padding-right: 50px;
+	padding-top: 100px;
+
+}
+
+.button {
+	background-color: #000000;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 10px 7px;
+	cursor: pointer;
+}
+
+.Mentor{
+	padding: 15px 45px;
+}
+
+.AboutUs{
+	align-items: center;
+	text-align: center;
+	background: #FFFFFF;
+	/*border-top-left-radius: 50px;*/
+}
+
+.AboutUs h1{
+	/*padding-top: 20px;*/
+	font-family: 'Palanquin Dark';
+	font-size: 40px;
+}
+
+.AboutUs p{
+	font-family: 'Palanquin';
+	padding: 0 350px;
+	font-size: 20px;
+}
+
+.rectangle{
+	background: #C4C4C4;
+	width: 700px;
+	height: 300px;
+	margin-left: 370px;
+	margin-right: 370px;
+}
+
+.AboutUs a{
+	font-size: 25px;
+	color: #000000;
+	font-family: 'Palanquin';
+}
+
+.extension{
+	padding-bottom: 20px;
+}
+
+.Social{
+	align-items: center;
+	text-align: center;
+	background: #FFEAFC;
+	padding-top: 20px;
+}
+
+.Social a{
+	font-family: 'Ribeye Marrow';
+	font-size: 17px;
+	color: #000000;
+}
+
+.fa img{
+	padding: 3px 10px;
+	width: 60px;
+}
+
+.fa-twitter img{
+	border-radius: 30%;
+	width: 55px;
+}
+
+.fa-facebook img{
+	border-radius: 30%;
+	width: 55px;
+}
+
+.heartline{
+	display: inline;
+	font-family: 'Rhodium Libre';
+}
+
+.heart:before {
+  content: '\2665';
+  color: #DD2E44;
+}
