@@ -10,6 +10,10 @@
 	background-color: #FFEAFC;
 	display: flex;
 	position: relative;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
 }
 
 .PartnerLogos{
@@ -20,42 +24,45 @@
     margin-right: auto;
 }
 
-.PartnerLogos p{
+.PartnerLogos h5,h4,p{
 	/*padding-left: 60px;*/
 	font-family: Righteous;
-	font-size: 30px;
+	font-size: 2.1vw;
 	align-items: center;
-	margin-left: auto;
-    margin-right: auto;
+	margin: auto;
     justify-content: center;
     text-align: center;
+    font-weight: 100;
+}
+
+.PartnerLogos h5{
+	padding: 1.4vw 0px;
 }
 
 .PartnerLogos img{
-	padding-left: 75px;
-	width: 200px;
+	padding: 0% 3%;
+	padding-top: 1.9vw;
+	width: 14.5vw;
 }
 
 .ellipse{
 	background-color: #FFFFFF;
 	background: 'lovelace2021/logo.png';
-	width: 600px;
-	margin-left: auto;
-    margin-right: auto;
-	height: 500px;
 	border-radius: 50%;
-	/*left: 777px;
-	top: 148px;*/
+	width: 100%;
+	height: auto;
+	padding-top: 100%;
+	background: white;
 }
 
 .sideElements{
 	position: absolute;
 	right: 0px;
 	font-family: Righteous;
-	font-size: 35px;
+	font-size: 5vw;
 	text-align: center;
-	padding-right: 50px;
-	padding-top: 100px;
+	padding-right: 3vw;
+	padding-bottom: 20vh;
 
 }
 
@@ -63,17 +70,17 @@
 	background-color: #000000;
 	border: none;
 	color: white;
-	padding: 15px 32px;
+	padding: 1.2vw 2vw;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 20px;
-	margin: 10px 7px;
+	font-size: 1.3vw;
+	margin: 0px 7px;
 	cursor: pointer;
 }
 
 .Mentor{
-	padding: 15px 45px;
+	padding: 1.2vw 3vw;
 }
 
 .AboutUs{
@@ -86,25 +93,26 @@
 .AboutUs h1{
 	/*padding-top: 20px;*/
 	font-family: 'Palanquin Dark';
-	font-size: 40px;
+	font-size: 3vw;
+	font-weight: 100;
 }
 
-.AboutUs p{
+.AboutUs p,h4{
 	font-family: 'Palanquin';
-	padding: 0 350px;
-	font-size: 20px;
+	padding: 0 25vw;
+	font-size: 1.4vw;
 }
 
 .rectangle{
 	background: #C4C4C4;
-	width: 700px;
-	height: 300px;
-	margin-left: 370px;
-	margin-right: 370px;
+	width: 45%;
+	padding-bottom: 20%;
+	height: auto;
+	margin: auto;
 }
 
 .AboutUs a{
-	font-size: 25px;
+	font-size: 1.4vw;
 	color: #000000;
 	font-family: 'Palanquin';
 }
@@ -122,23 +130,27 @@
 
 .Social a{
 	font-family: 'Ribeye Marrow';
-	font-size: 17px;
+	font-size: 1.2vw;
 	color: #000000;
+}
+
+.Social p{
+	font-size: 2vw;
 }
 
 .fa img{
 	padding: 3px 10px;
-	width: 60px;
+	width: 4.5%;
 }
 
 .fa-twitter img{
 	border-radius: 30%;
-	width: 55px;
+	width: 4%;
 }
 
 .fa-facebook img{
 	border-radius: 30%;
-	width: 55px;
+	width: 4.2%;
 }
 
 .heartline{

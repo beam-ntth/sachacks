@@ -15,28 +15,38 @@
 }
 
 .FAQ h1{
-	padding-top: 10px;
-	font-size: 46px;
+	padding-top: 2vh;
+	font-size: 3vw;
 	font-family: 'Palanquin Dark';
 	font-weight: 100;
 }
 
 .extension_one{
 	background: #FFEAFC;
-	padding-bottom: 80px;
-	padding-left: 
+	padding-bottom: 10vh; 
+}
+
+.questions{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
 
 
 .row_one{
-	padding-right: 10%;
-	padding-left: 15%;
+	padding-right: 5%;
+	
+}
+
+.row_two{
+	padding-right: 3%;
+	
 }
 
 .row_one p{
 	margin-bottom: 5%;
 	font-family: 'Palanquin Dark';
-	font-size: 30px;
+	font-size: 2.5vw;
 	border-bottom-style: solid;
   	border-bottom-width: thin;
 }
@@ -44,12 +54,12 @@
 .row_two p{
 	margin-bottom: 5%;
 	font-family: 'Palanquin Dark';
-	font-size: 30px;
+	font-size: 2.5vw;
 	border-bottom-style: solid;
   	border-bottom-width: thin;
 }
 
 .extension_two{
 	background: #FFEAFC;
-	padding: 85px;
+	padding: 11vh;
 }

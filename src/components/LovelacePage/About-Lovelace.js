@@ -7,9 +7,9 @@ const About_Lovelace = () => {
             <div className = "LogoPartners">
                 <div className = "PartnerLogos">
                     <div className = "ellipse"></div>
-                    <p>
+                    <h5>
                         Presented by SacHacks and WiCS
-                    </p>
+                    </h5>
                     <img src='lovelace2021/sachacks.png' alt='SacHacks Logo'/>
                     <img src='partners/wics.png' alt='WiCS Logo'/>
                 </div>
@@ -37,9 +37,9 @@ const About_Lovelace = () => {
                 <h1>
                     About us
                 </h1>
-                <p>
+                <h4>
                     We're the first female co-led hackathon from UC Davis. WiCS & Sachacks are dedicated to fostering a culture of hacking for women and social good through the empowerment of technology.
-                </p>
+                </h4>
                 <div className = "rectangle"></div>
                 <a href=" " target = " " rel="noopener noreferrer">See More</a>
                 <div className = "extension"></div>

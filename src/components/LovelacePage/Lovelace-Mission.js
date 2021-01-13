@@ -12,9 +12,9 @@ const Lovelace_Mission = () => {
                     </h1>
                 </div>
                 <div className = "summary">
-                    <p>
+                    <h4>
                         Our mission is to help individuals through technological use. We provide opportunities for females and minorities through this hackathon. We  strive to create a secure community in which individuals can learn, grow, and interact.
-                    </p>
+                    </h4>
                 </div>
                 <div className = "meet">
                     <h1>

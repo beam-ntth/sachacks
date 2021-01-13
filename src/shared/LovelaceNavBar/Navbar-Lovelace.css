@@ -10,21 +10,21 @@
 .lace-nav-links{
     position: absolute;
     right: 0px;
-    padding-top: 35px;
+    padding-top: 2.7vw;
 }
 
 .lace-nav-links a{
     color: #0E0909;
     text-align: center;
-    padding: 20px;
-    font-size: 25px;
+    padding: 2vw;
+    font-size: 1.7vw;
     font-family: Righteous;
 }
  /*use 20px for the font size*/
 
 .lace-navbar img{
-    height: 100px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 20px;
+    height: 6vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1.2vw;
 }
