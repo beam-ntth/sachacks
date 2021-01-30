@@ -16,6 +16,7 @@
 .co-host {
     display: flex;
     align-items: flex-start;
+    margin-top: 6%;
 }
 
 .co-host h6 {
@@ -26,7 +27,7 @@
 .co-host img {
     height: calc(100vw * 0.026 + 0px);
     width: auto;
-    margin-left: 2%;
+    margin: 0 0 5% 6%;
 }
 
 .motto {
