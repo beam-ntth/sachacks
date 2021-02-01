@@ -50,3 +50,7 @@ export const q11 = {
   q: "What is IBM Z?",
   a: "Come and learn about IBM Z - the enterprise computing platform that runs the world's economy. Design your solution for health, social inequality, or data science and launch it on IBM Z to realize and leverage the power of IBM Z.",
 };
+export const q12 = {
+  q: "When is the applications deadline?",
+  a: "The applications are closed on Febuary 8, 2021!",
+};
