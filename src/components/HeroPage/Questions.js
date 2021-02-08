@@ -52,5 +52,5 @@ export const q11 = {
 };
 export const q12 = {
   q: "When is the applications deadline?",
-  a: "The applications are closed on Febuary 8, 2021!",
+  a: "The applications are closed on Febuary 13, 2021!",
 };

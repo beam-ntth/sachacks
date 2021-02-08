@@ -18,7 +18,7 @@ const Sponsors = () => {
                 <Sponsor img={ Info.sponsor3 } />
                 <Sponsor img={ Info.sponsor12 } />
                 <Sponsor img={ Info.sponsor4 } />
-                {/* <Sponsor img={ Info.sponsor13 } /> */}
+                <Sponsor img={ Info.sponsor13 } />
             </div>
             <div className='sp-row temp'>
                 <Sponsor img={ Info.sponsor2 } />
@@ -36,13 +36,17 @@ const Sponsors = () => {
                 <Sponsor img={ Info.sponsor6 } />
                 <Sponsor img={ Info.sponsor9 } />
                 <Sponsor img={ Info.sponsor18 } />
-                <Sponsor img={ Info.sponsor7 } />
+            </div>
+            <div className='sp-row xsmall-temp'>
+                <Sponsor img={ Info.sponsor20 } />
+                <Sponsor img={ Info.sponsor21 } />
+                <Sponsor img={ Info.sponsor8 } />
             </div>
             <div className='sp-row xsmall-temp'>
                 <Sponsor img={ Info.sponsor19 } />
-                <Sponsor img={ Info.sponsor20 } />
-                <Sponsor img={ Info.sponsor8 } />
-                <Sponsor img={ Info.sponsor21 } />
+                <Sponsor img={ Info.sponsor7 } />
+                <Sponsor img={ Info.sponsor22 } />
+                
             </div>
             <h1 id='partner' >Partners</h1>
             <div className='sp-row temp'>
@@ -52,6 +56,7 @@ const Sponsors = () => {
             <div className='sp-row temp'>
                 <Sponsor img={ Info.partner9 } />
                 <Sponsor img={ Info.partner3 } />
+                <Sponsor img={ Info.partner11 } />
                 <Sponsor img={ Info.partner4 } />
             </div>
             <div className='sp-row small-temp'>

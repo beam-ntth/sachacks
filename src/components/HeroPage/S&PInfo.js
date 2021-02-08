@@ -14,7 +14,7 @@ export const sponsor9 = { img: '/sponsors/balsamiq-logo.png', alt: 'Balsamiq', l
 export const sponsor10 = { img: '/sponsors/wolfram.png', alt: 'Wolfram', link: 'https://www.wolframalpha.com/' };
 export const sponsor11 = { img: '/sponsors/sketch.png', alt: 'Sketch', link: 'https://www.sketch.com/' };
 export const sponsor12 = { img: '/sponsors/Adobexd.png', alt: 'Adobe', link: 'https://adobe.ly/38EJb5H' };
-export const sponsor13 = { img: '/sponsors/HyperX.ai', alt: 'HyperX', link: 'https://www.hyperxgaming.com/unitedstates/us' };
+export const sponsor13 = { img: '/sponsors/HyperX.png', alt: 'HyperX', link: 'https://www.hyperxgaming.com/unitedstates/us' };
 export const sponsor14 = { img: '/sponsors/sublime-text.png', alt: 'Sublime Text', link: 'https://www.sublimetext.com/' };
 export const sponsor15 = { img: '/sponsors/1Password.png', alt: '1 Password', link: 'https://1password.com/' };
 export const sponsor16 = { img: '/sponsors/bobos.png', alt: 'Bobos', link: 'https://eatbobos.com/' };
@@ -23,6 +23,7 @@ export const sponsor18 = { img: '/sponsors/Figma.svg', alt: 'Figma', link: 'http
 export const sponsor19 = { img: '/sponsors/AoPS.png', alt: 'AoPS', link: 'https://artofproblemsolving.com/' };
 export const sponsor20 = { img: '/sponsors/centered.png', alt: 'Centered.app', link: 'https://www.centered.app/' };
 export const sponsor21 = { img: '/sponsors/jetbrains.png', alt: 'Jetbrains', link: 'https://www.jetbrains.com/' };
+export const sponsor22 = { img: '/sponsors/sticker-mule.svg', alt: 'Stickermule', link: 'https://www.stickermule.com/' };
 
 // Comment this one in after cleared by MLH ->
 export const partner1 = { img: '/partners/mlh-logo-color.svg', alt: 'MLH Logo', link: 'https://mlh.io/' };
@@ -35,3 +36,4 @@ export const partner7 = { img: '/partners/wics.png', alt: 'WICS Logo', link: 'ht
 export const partner8 = { img: '/partners/RT.png', alt: 'Region Technology', link: 'https://regionbusiness.org/region-technology/' };
 export const partner9 = { img: '/partners/design-buddies.png', alt: 'Design Buddies', link: 'https://designbuddies.community/' };
 export const partner10 = { img: '/partners/swe.png', alt: 'Society of Women Engineers', link: 'https://swe.org/' };
+export const partner11 = { img: '/partners/carlsen.png', alt: 'Carlsen Center', link: 'https://www.csus.edu/center/carlsen/' };
