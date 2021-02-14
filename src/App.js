@@ -15,6 +15,7 @@ import Hero from './pages/hero/hero';
 import Schedule from './pages/schedule/schedule';
 import Resources from './pages/resources/resources';
 import LegacyMain from './pages/legacy/main/legacy-main';
+import Lovelace from './pages/lovelace20201/lovelace';
 
 // This is for animation
 import Aos from 'aos';
@@ -48,6 +49,9 @@ function App () {
             return null;
           } } />
           {/* Switch to different pages here */}
+          <Route path="/lovelace">
+            <Lovelace />
+          </Route>
           <Route path="/2020">
             <Prev2020 />
           </Route>
@@ -66,6 +70,7 @@ function App () {
           <Route path='/'>
             <Hero />
           </Route>
+
         </Switch>
       </div>
     </Router>
