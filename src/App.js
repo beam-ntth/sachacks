@@ -38,10 +38,10 @@ function App () {
             return null;
           } } />
           {/* Redirect the page from sachacks.io/apply -> typeform hacker application link */}
-          <Route path='/apply' component={ () => {
+          {/* <Route path='/apply' component={ () => {
             window.location.href = 'https://sachacks.typeform.com/to/b3iHwPuY';
             return null;
-          } } />
+          } } /> */}
           {/* Redirect the page from sachacks.io/mentor -> typeform mentor application link */}
           <Route path='/mentor' component={ () => {
             window.location.href = 'https://sachacks.typeform.com/to/SXaHQrRC';
