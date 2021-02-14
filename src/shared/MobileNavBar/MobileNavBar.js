@@ -41,7 +41,7 @@ const MobileNavBar = () => {
                 </div>
 
                 {/* Apply button - top-right of the screen */ }
-                <div className='mobile-apply'
+                {/* <div className='mobile-apply'
                     onClick={ () => {
                         setOpen( !open );
                         setClicked( true );
@@ -49,19 +49,20 @@ const MobileNavBar = () => {
                     } }
                     style={ !open ? { color: '#7BDDDE', transition: '0.5s' } : { color: '#fff', transition: '0.5s' } }>
                     Apply <GoTriangleDown fill={ !open ? '#7BDDDE' : 'white' } size='20px' style={ !open ? { marginLeft: '5px', transform: 'rotate(180deg)', transition: '0.5s' } : { marginLeft: '5px', transition: '0.5s' } } />
-                </div>
+                </div> */}
+                <a id="mlh-trust-badge" style={ { display: 'flex', justifyContent: 'flex-end', position: 'relative', right: '0px', top: 0, width: '33.3%', zIndex: 10000 } } href="https://mlh.io/seasons/2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-gray.svg" alt="Major League Hacking 2021 Hackathon Season" style={ { height: '150px', marginRight: '20px' } } /></a>
             </div>
 
             {/* Apply Dropdowns */ }
             <div className='mobile-hacker' style={ open ? { transform: 'translateY(-100px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(100px)', transition: '0.5s ease-in-out', opacity: '1' } }>
-                <img src='/mobile/black-hacker-icon.png' alt='mobile hacker icon' /> <a href='https://sachacks.typeform.com/to/r2sYTJ' target='_blank' rel="noopener noreferrer">Team</a>
+                <img src='/mobile/black-hacker-icon.png' alt='mobile hacker icon' /> <a href='https://sachacks.typeform.com/to/b3iHwPuY' target='_blank' rel="noopener noreferrer">Hacker</a>
             </div>
             {/* <div className='mobile-mentor' style={ open ? { transform: 'translateY(-200px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(183px)', transition: '0.5s ease-in-out', opacity: '1' } }>
                 <img src='/mobile/black-mentor-icon.png' alt='mobile hacker icon' /> Mentor
             </div> */}
             {/* <div className='mobile-sponsor' style={ open ? { transform: 'translateY(-300px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(286px)', transition: '0.5s ease-in-out', opacity: '1' } }> */ }
             <div className='mobile-sponsor' style={ open ? { transform: 'translateY(-300px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(202px)', transition: '0.5s ease-in-out', opacity: '1' } }>
-                <img src='/mobile/black-sponsor-icon.png' alt='mobile hacker icon' /> Sponsor
+                <img src='/mobile/black-sponsor-icon.png' alt='mobile hacker icon' /><a href='mailto: team@sachacks.io' rel='noopener noreferrer'>Sponsor</a>
             </div>
 
             {/* Menu Dropdowns */ }

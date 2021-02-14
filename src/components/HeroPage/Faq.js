@@ -30,6 +30,7 @@ const Faq = () => {
                         <Cards qa={Questions.q2} />
                         <Cards qa={Questions.q3} />
                         <Cards qa={Questions.q4} />
+                        <Cards qa={Questions.q12} />
                     </div>
                     <div className="right-side">
                         <div className="question">

@@ -27,13 +27,26 @@
     margin: 0px 0px 50px 0px;
 }
 
-.king {
+.ibm-2021 {
     justify-content: center;
 }
 
 .temp .sp-elem {
     justify-content: center;
-    margin: 0 10%;
+    margin: 0 0;
+    height: 20%;
+}
+
+.small-temp .sp-elem {
+    justify-content: center;
+    margin: 0 6.5%;
+    height: 20%;
+}
+
+.xsmall-temp .sp-elem {
+    justify-content: center;
+    margin: 0 12%;
+    height: 20%;
 }
 
 .sp-space {
@@ -44,6 +57,12 @@
 @media (max-width: 541px) {
     .sponsors h1 {
         font-size: 30px;
+        margin: 50px 0 80px 50px;
+    }
+
+    .temp .sp-elem, .small-temp .sp-elem, .xsmall-temp .sp-elem {
+        justify-content: center;
+        margin: 20px 8%;
     }
 
     .sp-row {

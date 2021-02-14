@@ -13,6 +13,23 @@
     margin: 20px 0px;
 }
 
+.co-host {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 6%;
+}
+
+.co-host h6 {
+    font-size: calc(100vw * 0.01140939597 + 1pt);
+    margin: 0;
+}
+
+.co-host img {
+    height: calc(100vw * 0.026 + 0px);
+    width: auto;
+    margin: 0 0 5% 6%;
+}
+
 .motto {
     font-size: calc(100vw * 0.02013422818 + 5pt);
     font-weight: 600;
@@ -67,13 +84,18 @@
     justify-content: center;
     color: #000000;
     cursor: pointer;
+    font-weight: bold;
+}
+
+.map-button a {
+    color: black;
 }
 
 @media (max-width: 541px) {
     .about {
         position: relative;
         width: 83%;
-        top: 25vh;
+        top: 20vh;
         left: 0;
         background-color: rgba(0, 0, 0, 0.5);
         padding: 10px 0px 20px 10px;
@@ -81,10 +103,21 @@
 
     .sachacks {
         font-size: 55px;
+        margin: 10px 0 0 0;
+    }
+
+    .co-host h6 {
+        font-size: 16px;
+    }
+
+    .co-host img {
+        height: 25px;
+        width: auto;
     }
 
     .motto {
-        font-size: 30px;
+        font-size: 26px;
+        margin: 10px 0;
     }
 
     .date {
@@ -94,7 +127,14 @@
     .description {
         width: 80%;
         font-size: 18px;
-        line-height: 25px;
+        line-height: 24px;
+        margin: 10px 0 0 0;
+    }
+
+    .map-button {
+        height: 35px;
+        width: 120px;
+        font-size: 18px;
     }
 }
 
@@ -103,6 +143,7 @@
     .about {
         margin-left: 0px;
         width: 100%;
-        top: 100px;
+        top: 90px;
+        padding: 0px 0px 14px 10px;
     }
 }

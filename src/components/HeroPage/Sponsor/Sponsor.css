@@ -13,10 +13,14 @@
     width: 100%;
 }
 
-.Kings img {
+.Ocean {
+    width: 180px;
+}
+
+.IBM img {
     height: auto;
-    width: 270px;
-    margin-bottom: 40%;
+    width: 30vw;
+    margin-bottom: 20%;
 }
 
 @media (max-width: 541px) {
@@ -26,7 +30,8 @@
         margin-bottom: 30px;
     }
 
-    .Kings img {
+    .IBM img {
+        width: 280px;
         margin-bottom: 0;
     }
 }

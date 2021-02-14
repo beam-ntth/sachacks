@@ -36,6 +36,7 @@ const Navbar = () => {
                 <div className='apply' onClick={ () => setOpen( !open ) } style={ !open ? { color: '#7BDDDE', transition: '0.5s' } : { color: '#fff', transition: '0.5s' } }>
                     Apply <GoTriangleDown fill={ !open ? '#7BDDDE' : 'white' } size='20px' style={ !open ? { marginLeft: '5px', transform: 'rotate(180deg)', transition: '0.5s' } : { marginLeft: '5px', transition: '0.5s' } } />
                 </div>
+                <a id="mlh-trust-badge" style={ { display: 'flex', maxWidth: '130px', minWidth: '60px', position: 'relative', margin: 0, width: '10%', zIndex: 10000 } } href="https://mlh.io/seasons/2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-gray.svg" alt="Major League Hacking 2021 Hackathon Season" style={ { width: '100%' } } /></a>
                 <div className='space'></div>
             </div>
             <Apply show={ !open } toggle={ backdropToggler } />

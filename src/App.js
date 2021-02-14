@@ -33,11 +33,24 @@ function App () {
     <Router>
       <div className="App">
         <Switch>
-          {/* Redirect the page from sachacks.io/team -> typeform link */}
+          {/* Redirect the page from sachacks.io/team -> typeform team application link */}
           <Route path='/team' component={ () => {
             window.location.href = 'https://sachacks.typeform.com/to/r2sYTJ';
             return null;
           } } />
+          
+          {/* Redirect the page from sachacks.io/apply -> typeform hacker application link */}
+          {/* <Route path='/apply' component={ () => {
+            window.location.href = 'https://sachacks.typeform.com/to/b3iHwPuY';
+            return null;
+          } } /> */}
+          
+          {/* Redirect the page from sachacks.io/mentor -> typeform mentor application link */}
+          <Route path='/mentor' component={ () => {
+            window.location.href = 'https://sachacks.typeform.com/to/SXaHQrRC';
+            return null;
+          } } />
+
           {/* Switch to different pages here */}
           <Route path="/lovelace">
             <Lovelace />
