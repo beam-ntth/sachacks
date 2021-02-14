@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.lace-navbar{
+    background: #FFFFFF; 
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.lace-nav-links{
+    position: absolute;
+    right: 0px;
+    padding-top: 2.7vw;
+}
+
+.lace-nav-links a{
+    color: #0E0909;
+    text-align: center;
+    padding: 2vw;
+    font-size: 1.7vw;
+    font-family: Righteous;
+}
+ /*use 20px for the font size*/
+
+.lace-navbar img{
+    height: 6vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1.2vw;
+}

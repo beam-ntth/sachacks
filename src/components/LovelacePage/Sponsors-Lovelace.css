@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+
+.Lace-Sponsors{
+	background: #FFFFFF;
+}
+
+.Lace-Sponsors .extension{
+	background: #FFEAFC;
+	padding: 4vh; 
+}
+
+.Title{
+	text-align: center;
+	/*padding-top: 1px;*/
+	background: #FFFFFF;
+}
+
+.Title h1{
+	padding-top: 10px;
+	font-size: 46px;
+	font-family: 'Palanquin Dark';
+	font-weight: 100;
+}
+
+.row{
+	background: #FFEAFC;
+	align-items: center;
+	text-align: center;
+	padding: 10px 0px 0px;
+}
+
+.row img{
+	padding-left: 70px;
+	padding-right: 70px;
+	width: 15%;
+}
+
+.extension_two{
+	background: #FFEAFC;
+	/*padding-bottom: 20vh;*/
+}
+
