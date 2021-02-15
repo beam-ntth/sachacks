@@ -28,7 +28,7 @@ const About = () => {
                 action during a 36-hour hackathon.{ " " }
             </p>
             <div className='map-buttons'>
-                {/* <a href='https://sachacks.typeform.com/to/b3iHwPuY' target='_blank' rel='noopener noreferrer'><div className='map-button'>Apply Now</div></a> */}
+                <a href='https://sachacks.typeform.com/to/zGQawsSI' target='_blank' rel='noopener noreferrer'><div className='map-button'>Apply Now</div></a>
                 <a href='https://sachacks.typeform.com/to/SXaHQrRC' target='_blank' rel='noopener noreferrer'><div className='map-button'>Mentor</div></a>
             </div>
             <SocialMedia />
