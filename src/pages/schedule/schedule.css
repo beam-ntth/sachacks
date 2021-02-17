@@ -173,6 +173,11 @@
   padding: 2.5% 12% 0% 12%;
 }
 
+.event .detail a {
+  color: black;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 541px) {
   .schedule-page {
     background-image: none;

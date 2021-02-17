@@ -107,7 +107,7 @@ const Schedule = () => {
             <li className='event'>
                 <span className='time'>12:00 AM</span>
                 <span className='todo'>(Workshop) Intro to Data Science</span>
-                <span className='detail'>Come learn how to get started with Data Science!</span>
+                <span className='detail'>Come learn how to get started with Data Science from Henrry Gunawan! He is a TA for UC Davis Data Science & AI Systems Senior Design. Check out his LinkedIn <a href="https://www.google.com/url?q=http://linkedin.com/in/henrry-gunawan&sa=D&source=editors&ust=1613594053102000&usg=AOvVaw0KuxmnyzMD1jdsv_xXqS2k" target="_blank">here</a>.</span>
             </li>
             <li className='event'>
                 <span className='time'>1:00 AM</span>
@@ -166,7 +166,12 @@ const Schedule = () => {
         <ul className='event-ul'>
             <li className='event'>
                 <span className='time'>7:00 AM</span>
-                <span className='todo'>Submission Deadline + Hacking Ends</span>
+                <span className='todo'>Submission Deadline</span>
+                <span className='detail'>Submit your projects. Don't worry, you can still work on it as long as you've submitted it!!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>7:00 AM</span>
+                <span className='todo'>Hacking Ends</span>
                 <span className='detail'>Congratulations! You made it to the end of hacking, be sure to submit your project to Devpost!</span>
             </li>
             <li className='event'>
@@ -235,13 +240,13 @@ const Schedule = () => {
                         <h1>Schedule</h1>
                         <div className='sche-date'>
                             <div className='fri-day' onClick={ () => changeDayHandler(1) }>
-                                <div className={classDay1}>Fri. Feb, 21</div>
+                                <div className={classDay1}>Fri. Feb, 19</div>
                             </div>
                             <div className='first-day' onClick={ () => changeDayHandler(2) }>
-                                <div className={classDay2}>Sat. Feb, 22</div>
+                                <div className={classDay2}>Sat. Feb, 20</div>
                             </div>
                             <div className='second-day' onClick={ () => changeDayHandler(3) }>
-                                <div className={classDay3}>Sun. Feb, 23</div>
+                                <div className={classDay3}>Sun. Feb, 21</div>
                             </div>
                         </div>
                         <div className='events'>
