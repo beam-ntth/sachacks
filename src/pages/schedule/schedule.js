@@ -71,7 +71,7 @@ const Schedule = () => {
             </li>
             <li className='event'>
                 <span className='time'>6:15 PM</span>
-                <span className='todo'>(Workshop) IBM Keynote Workshop</span>
+                <span className='todo'>IBM Keynote Workshop</span>
                 <span className='detail'>Come learn more about the amazing applications and possibilities with ML on IBM Z. This hands-on workshop will help you get started with making a project scalable for any category or idea you have in mind.</span>
             </li>
             <li className='event'>
@@ -81,22 +81,22 @@ const Schedule = () => {
             </li>
             <li className='event'>
                 <span className='time'>7:30 PM</span>
-                <span className='todo'>(Workshop) Datathon for Social Good: ML on Z</span>
+                <span className='todo'> Datathon for Social Good: ML on Z</span>
                 <span className='detail'>Learn about machine learning on Z from IBM engineers and last year’s IBM Z winners!</span>
             </li>
             <li className='event'>
                 <span className='time'>9:10 PM</span>
-                <span className='todo'>(Workshop) Intro to UI/UX</span>
+                <span className='todo'> Intro to UI/UX</span>
                 <span className='detail'>Want to make your project stand out? Learn more about UI/UX Design in this interactive workshop hosted by Grace from Design Buddies!</span>
             </li>
             <li className='event'>
                 <span className='time'>10:10 PM</span>
-                <span className='todo'>(Workshop) Exploding Designer's Block</span>
+                <span className='todo'> Exploding Designer's Block</span>
                 <span className='detail'>Come learn more about game design in our Exploding Designer’s Block workshop, hosted by Dan, Lead Designer at EA!</span>
             </li>
             <li className='event'>
                 <span className='time'>11:30 PM</span>
-                <span className='todo'>(Workshop) Intro to Hardware Hacking with Arduino</span>
+                <span className='todo'> Intro to Hardware Hacking with Arduino</span>
                 <span className='detail'>No experience with creating a hardware project? Come learn how to start one, no hardware required!</span>
             </li>
         </ul>
@@ -106,37 +106,37 @@ const Schedule = () => {
         <ul className='event-ul'>
             <li className='event'>
                 <span className='time'>12:00 AM</span>
-                <span className='todo'>(Workshop) Intro to Data Science</span>
+                <span className='todo'>Intro to Data Science</span>
                 <span className='detail'>Come learn how to get started with Data Science from Henrry Gunawan! He is a TA for UC Davis Data Science & AI Systems Senior Design. Check out his LinkedIn <a href="https://www.google.com/url?q=http://linkedin.com/in/henrry-gunawan&sa=D&source=editors&ust=1613594053102000&usg=AOvVaw0KuxmnyzMD1jdsv_xXqS2k" target="_blank">here</a>.</span>
             </li>
             <li className='event'>
                 <span className='time'>1:00 AM</span>
-                <span className='todo'>(Workshop) Designing Startups for Social Good</span>
+                <span className='todo'>Designing Startups for Social Good</span>
                 <span className='detail'>Learn more about Designing Startups for Social good with the Ethicli team! Discussion includes what to consider when designing your startup and projects for social good. Topics include business models, who to work with, and ethical considerations.</span>
             </li>
             <li className='event'>
                 <span className='time'>8:00 AM</span>
-                <span className='todo'>(Workshop) Intro to Web Development</span>
+                <span className='todo'>Intro to Web Development</span>
                 <span className='detail'>Learn the basics of Web Development in our beginner workshop!</span>
             </li>
             <li className='event'>
                 <span className='time'>9:00 AM</span>
-                <span className='todo'>(Workshop) Adobe XD Workshop</span>
+                <span className='todo'>Adobe XD Workshop</span>
                 <span className='detail'>Learn how to create a website prototype in a matter of minutes with Adobe XD, hosted by Elizé!</span>
             </li>
             <li className='event'>
                 <span className='time'>10:15 AM</span>
-                <span className='todo'>(Workshop) Design Systems</span>
+                <span className='todo'>Design Systems</span>
                 <span className='detail'>Learn more about design systems in this workshop hosted by Grace from Design Buddies!</span>
             </li>
             <li className='event'>
                 <span className='time'>11:00 AM</span>
-                <span className='todo'>(Talk) Fireside Chat with Genesia Ting, Product Designer</span>
+                <span className='todo'>Fireside Chat with Genesia Ting, Product Designer</span>
                 <span className='detail'>Want to learn more about Product Design? Check out our Fireside Chat with Genesia Ting!</span>
             </li>
             <li className='event'>
                 <span className='time'>12:00 PM</span>
-                <span className='todo'>(Talk) Fireside Chat with Erica Lee, Experience Designer</span>
+                <span className='todo'>Fireside Chat with Erica Lee, Experience Designer</span>
                 <span className='detail'>Interested in FinTech? Check out our Fireside Chat with Erica Lee, Experience Designer at Bank of America! </span>
             </li>
             <li className='event'>
@@ -146,12 +146,12 @@ const Schedule = () => {
             </li>
             <li className='event'>
                 <span className='time'>2:00 PM</span>
-                <span className='todo'>Workshop #8 - Intro to JS (1 hour)</span>
+                <span className='todo'>Intro to JS</span>
                 <span className='detail'>What to learn more about frontend development? Make sure to drop by our Intro to JavaScript workshop, tag-teamed by Franklin and Corbin!</span>
             </li>
             <li className='event'>
                 <span className='time'>7:00 PM</span>
-                <span className='todo'>(Talk) Alumni AMA Panel</span>
+                <span className='todo'>Alumni AMA Panel</span>
                 <span className='detail'>Ever wanted to learn how to organize your own hackathon? What life is like as a software engineer? Come ask the alumni of SacHacks anything!</span>
             </li>
             <li className='event'>
@@ -172,11 +172,11 @@ const Schedule = () => {
             <li className='event'>
                 <span className='time'>7:00 AM</span>
                 <span className='todo'>Hacking Ends</span>
-                <span className='detail'>Congratulations! You made it to the end of hacking, be sure to submit your project to Devpost!</span>
+                <span className='detail'>Congratulations! You made it to the end of hacking!!</span>
             </li>
             <li className='event'>
                 <span className='time'>3:00 PM</span>
-                <span className='todo'>(Talk) Sacramento Tech Talk</span>
+                <span className='todo'>Sacramento Tech Talk</span>
                 <span className='detail'>Learn more about technology’s role with the future of Sacramento!</span>
             </li>
             <li className='event'>

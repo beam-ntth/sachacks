@@ -23,6 +23,14 @@
     margin-bottom: 20%;
 }
 
+.Bobos img, .Cake img {
+    width: 70%;
+}
+
+.Figma img {
+    width: 60%;
+}
+
 @media (max-width: 541px) {
     .sp-elem {
         height: auto;

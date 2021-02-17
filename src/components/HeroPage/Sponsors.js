@@ -37,16 +37,15 @@ const Sponsors = () => {
                 <Sponsor img={ Info.sponsor9 } />
                 <Sponsor img={ Info.sponsor18 } />
             </div>
-            <div className='sp-row xsmall-temp'>
-                <Sponsor img={ Info.sponsor20 } />
+            {/* <div className='sp-row xsmall-temp'> */}
+                {/* <Sponsor img={ Info.sponsor20 } /> */}
+            {/* </div> */}
+            <div className='sp-row xxsmall-temp'>
                 <Sponsor img={ Info.sponsor21 } />
                 <Sponsor img={ Info.sponsor8 } />
-            </div>
-            <div className='sp-row xsmall-temp'>
                 <Sponsor img={ Info.sponsor19 } />
                 <Sponsor img={ Info.sponsor7 } />
                 <Sponsor img={ Info.sponsor22 } />
-                
             </div>
             <h1 id='partner' >Partners</h1>
             <div className='sp-row temp'>
