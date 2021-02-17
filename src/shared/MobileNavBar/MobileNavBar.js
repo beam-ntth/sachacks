@@ -66,14 +66,14 @@ const MobileNavBar = () => {
             </div>
 
             {/* Menu Dropdowns */ }
-            {/* <div className='mobile-schedule' style={ clicked ? { transform: 'translateY(-100px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(80px)', transition: '0.5s ease-in-out', opacity: '1' } }>
+           <div className='mobile-schedule' style={ clicked ? { transform: 'translateY(-100px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(100px)', transition: '0.5s ease-in-out', opacity: '1' } }>
                 <Link to='/schedule'>Schedule</Link>
             </div>
-            <div className='mobile-resources' style={ clicked ? { transform: 'translateY(-200px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(183px)', transition: '0.5s ease-in-out', opacity: '1' } }>
+             {/* <div className='mobile-resources' style={ clicked ? { transform: 'translateY(-200px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(183px)', transition: '0.5s ease-in-out', opacity: '1' } }>
                 <Link to='/resources'>Resources</Link>
             </div> */}
             {/* <div className='mobile-contact' style={ clicked ? { transform: 'translateY(-300px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(286px)', transition: '0.5s ease-in-out', opacity: '1' } }> */ }
-            <div className='mobile-contact' style={ clicked ? { transform: 'translateY(-300px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(100px)', transition: '0.5s ease-in-out', opacity: '1' } }>
+            <div className='mobile-contact' style={ clicked ? { transform: 'translateY(-300px)', transition: '0.5s ease-in-out', opacity: '0' } : { transform: 'translateY(203px)', transition: '0.5s ease-in-out', opacity: '1' } }>
                 <a href='mailto: team@sachacks.io'>Contact</a>
             </div>
         </React.Fragment>
