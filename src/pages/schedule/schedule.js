@@ -59,7 +59,7 @@ const Schedule = () => {
 
     const day1 = (
         <ul className='event-ul'>
-            <li className='event event-active'>
+            <li className='event'>
                 <span className='time'>4:00 PM</span>
                 <span className='todo'>Check-In Start</span>
                 <span className='detail'>Be sure to check your email and fill out the hacker check-in form, then hop onto our Hopin and Discord!</span>
@@ -184,17 +184,26 @@ const Schedule = () => {
 
     const changeDayHandler = (day) => {
         setDay(day)
-
         return
     }
 
     let showday = day1;
+    let classDay1 = 'day active', classDay2 = 'day', classDay3 = 'day';
     if ( day === 1 ) {
         showday = day1;
+        classDay1 = 'day active'
+        classDay2 = 'day'
+        classDay3 = 'day'
     } else if ( day === 2 ) {
         showday = day2;
+        classDay1 = 'day'
+        classDay2 = 'day active'
+        classDay3 = 'day'
     } else if ( day === 3 ) {
         showday = day3;
+        classDay1 = 'day'
+        classDay2 = 'day'
+        classDay3 = 'day active'
     }
 
     return (
@@ -207,14 +216,14 @@ const Schedule = () => {
                         <h1>Timer</h1>
                     </div>
                     <div className='timer-second-row'>
-                        <div className='next-event'>
+                        {/* <div className='next-event'>
                             <h3>New Event</h3> 
                             <h2>Check-In</h2> 
                          </div>
                         <div className='start-time'>
                             <h3>Start Time</h3>
                             <h2>4:00PM</h2>
-                        </div>
+                        </div> */}
                         <div className='countdown'>
                             <h3>Countdown</h3>
                             <h2>{timerComponents.length ? timerComponents : <span>Time's up!</span>}</h2>
@@ -226,13 +235,13 @@ const Schedule = () => {
                         <h1>Schedule</h1>
                         <div className='sche-date'>
                             <div className='fri-day' onClick={ () => changeDayHandler(1) }>
-                                <div className={day === 1 ? 'day active' : 'day'}>Fri. Feb, 21</div>
+                                <div className={classDay1}>Fri. Feb, 21</div>
                             </div>
                             <div className='first-day' onClick={ () => changeDayHandler(2) }>
-                                <div className={day === 2 ? 'day active' : 'day'}>Sat. Feb, 22</div>
+                                <div className={classDay2}>Sat. Feb, 22</div>
                             </div>
                             <div className='second-day' onClick={ () => changeDayHandler(3) }>
-                                <div className={day === 3 ? 'day active' : 'day'}>Sun. Feb, 23</div>
+                                <div className={classDay3}>Sun. Feb, 23</div>
                             </div>
                         </div>
                         <div className='events'>
