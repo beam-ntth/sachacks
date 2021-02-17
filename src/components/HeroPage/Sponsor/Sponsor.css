@@ -31,6 +31,10 @@
     width: 60%;
 }
 
+.Figma a, .Bobos a, .Cake a {
+    text-align: center;
+}
+
 @media (max-width: 541px) {
     .sp-elem {
         height: auto;

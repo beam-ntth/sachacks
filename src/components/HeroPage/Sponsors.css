@@ -66,11 +66,11 @@
         margin: 50px 0 80px 50px;
     }
 
-    .temp .sp-elem, .small-temp .sp-elem, .xsmall-temp .sp-elem {
+    .temp .sp-elem, .small-temp .sp-elem, .xsmall-temp .sp-elem, .xxsmall-temp .sp-elem {
         justify-content: center;
         margin: 20px 8%;
     }
-
+    
     .sp-row {
         flex-direction: column;
         justify-content: center;

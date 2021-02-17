@@ -146,7 +146,7 @@
   left    : 0;
   bottom  : 0;
   height  : 1px;
-  width   : 50%;  /* or 100px */
+  width   : 100%;  /* or 100px */
   border-bottom: 10px solid #2f009b;
 }
 
