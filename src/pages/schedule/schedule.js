@@ -9,48 +9,235 @@
  * - Currently we still haven't fill out any info because we still do not know the schedule
  */
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './schedule.css';
 
 import Navbar from '../../shared/Navigation/Navbar';
 import Copyright from '../../shared/Copyright/Copyright';
 import MobileNavBar from '../../shared/MobileNavBar/MobileNavBar';
 
-const schedule = () => {
+
+const Schedule = () => {
+    const calculateTimeLeft = () => {
+        let year = new Date().getFullYear();
+        const difference = +new Date(`${year}-02-21`) - +new Date();
+        let timeLeft = {};
+
+        if (difference > 0) {
+            timeLeft = {
+                days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+                hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+                minutes: Math.floor((difference / 1000 / 60) % 60),
+                seconds: Math.floor((difference / 1000) % 60),
+            };
+        }
+        return timeLeft;
+    };
+    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+    const [year] = useState(new Date().getFullYear());
+
+    useEffect(() => {
+        setTimeout(() => {
+            setTimeLeft(calculateTimeLeft());
+        }, 1000);
+    });
+
+    const timerComponents = [];
+
+    Object.keys(timeLeft).forEach((interval) => {
+        if (!timeLeft[interval]) {
+            return;
+        }
+        timerComponents.push(
+            <span>{timeLeft[interval]}{interval === 'seconds' ? '' : ' : '}</span>
+        );
+    });
+
+    const [ day, setDay ] = useState( { day: 1 } );
+
+    const start = Date.now()
+
+    const day1 = (
+        <ul className='event-ul'>
+            <li className='event event-active'>
+                <span className='time'>4:00 PM</span>
+                <span className='todo'>Check-In Start</span>
+                <span className='detail'>Be sure to check your email and fill out the hacker check-in form, then hop onto our Hopin and Discord!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>6:00 PM</span>
+                <span className='todo'>Opening Ceremony</span>
+                <span className='detail'>Come join the opening ceremony for SacHacks 2021 to hear from our amazing sponsors and learn more about our hackathon!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>6:15 PM</span>
+                <span className='todo'>(Workshop) IBM Keynote Workshop</span>
+                <span className='detail'>Come learn more about the amazing applications and possibilities with ML on IBM Z. This hands-on workshop will help you get started with making a project scalable for any category or idea you have in mind.</span>
+            </li>
+            <li className='event'>
+                <span className='time'>7:00 PM</span>
+                <span className='todo'>Hacking Starts + Team Mixer</span>
+                <span className='detail'>Don’t have a team? No worries! Meet and team up with other hackers to launch your ideas at SacHacks 2021!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>7:30 PM</span>
+                <span className='todo'>(Workshop) Datathon for Social Good: ML on Z</span>
+                <span className='detail'>Learn about machine learning on Z from IBM engineers and last year’s IBM Z winners!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>9:10 PM</span>
+                <span className='todo'>(Workshop) Intro to UI/UX</span>
+                <span className='detail'>Want to make your project stand out? Learn more about UI/UX Design in this interactive workshop hosted by Grace from Design Buddies!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>10:10 PM</span>
+                <span className='todo'>(Workshop) Exploding Designer's Block</span>
+                <span className='detail'>Come learn more about game design in our Exploding Designer’s Block workshop, hosted by Dan, Lead Designer at EA!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>11:30 PM</span>
+                <span className='todo'>(Workshop) Intro to Hardware Hacking with Arduino</span>
+                <span className='detail'>No experience with creating a hardware project? Come learn how to start one, no hardware required!</span>
+            </li>
+        </ul>
+    );
+
+    const day2 = (
+        <ul className='event-ul'>
+            <li className='event'>
+                <span className='time'>12:00 AM</span>
+                <span className='todo'>(Workshop) Intro to Data Science</span>
+                <span className='detail'>Come learn how to get started with Data Science!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>1:00 AM</span>
+                <span className='todo'>(Workshop) Designing Startups for Social Good</span>
+                <span className='detail'>Learn more about Designing Startups for Social good with the Ethicli team! Discussion includes what to consider when designing your startup and projects for social good. Topics include business models, who to work with, and ethical considerations.</span>
+            </li>
+            <li className='event'>
+                <span className='time'>8:00 AM</span>
+                <span className='todo'>(Workshop) Intro to Web Development</span>
+                <span className='detail'>Learn the basics of Web Development in our beginner workshop!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>9:00 AM</span>
+                <span className='todo'>(Workshop) Adobe XD Workshop</span>
+                <span className='detail'>Learn how to create a website prototype in a matter of minutes with Adobe XD, hosted by Elizé!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>10:15 AM</span>
+                <span className='todo'>(Workshop) Design Systems</span>
+                <span className='detail'>Learn more about design systems in this workshop hosted by Grace from Design Buddies!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>11:00 AM</span>
+                <span className='todo'>(Talk) Fireside Chat with Genesia Ting, Product Designer</span>
+                <span className='detail'>Want to learn more about Product Design? Check out our Fireside Chat with Genesia Ting!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>12:00 PM</span>
+                <span className='todo'>(Talk) Fireside Chat with Erica Lee, Experience Designer</span>
+                <span className='detail'>Interested in FinTech? Check out our Fireside Chat with Erica Lee, Experience Designer at Bank of America! </span>
+            </li>
+            <li className='event'>
+                <span className='time'>1:00 PM</span>
+                <span className='todo'>MLH USAF Cybersecurity Challenge</span>
+                <span className='detail'>The U.S. Air Force is the world’s preeminent force in air, space and cyberspace. Come check out and learn more about cybersecurity during this challenge!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>2:00 PM</span>
+                <span className='todo'>Workshop #8 - Intro to JS (1 hour)</span>
+                <span className='detail'>What to learn more about frontend development? Make sure to drop by our Intro to JavaScript workshop, tag-teamed by Franklin and Corbin!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>7:00 PM</span>
+                <span className='todo'>(Talk) Alumni AMA Panel</span>
+                <span className='detail'>Ever wanted to learn how to organize your own hackathon? What life is like as a software engineer? Come ask the alumni of SacHacks anything!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>7:30 PM</span>
+                <span className='todo'>MLH Mini Event: Slideshow Karaoke</span>
+                <span className='detail'>Slideshow Karaoke is an awesome activity where you give the improv presentation of your life!</span>
+            </li>
+        </ul>
+    );
+
+    const day3 = (
+        <ul className='event-ul'>
+            <li className='event'>
+                <span className='time'>7:00 AM</span>
+                <span className='todo'>Submission Deadline + Hacking Ends</span>
+                <span className='detail'>Congratulations! You made it to the end of hacking, be sure to submit your project to Devpost!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>3:00 PM</span>
+                <span className='todo'>(Talk) Sacramento Tech Talk</span>
+                <span className='detail'>Learn more about technology’s role with the future of Sacramento!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>6:00-7:00 PM</span>
+                <span className='todo'>Closing ceremony</span>
+                <span className='detail'>Thank you so much for attending SacHacks 2021! Come join us at the closing ceremony for the reveal of this year’s winners and more!</span>
+            </li>
+        </ul>
+    );
+
+    const changeDayHandler = (day) => {
+        setDay(day)
+
+        return
+    }
+
+    let showday = day1;
+    if ( day === 1 ) {
+        showday = day1;
+    } else if ( day === 2 ) {
+        showday = day2;
+    } else if ( day === 3 ) {
+        showday = day3;
+    }
+
     return (
         <React.Fragment>
             <div className='schedule-page'>
                 <Navbar />
                 <MobileNavBar />
+                <div className='timer'>
+                    <div className='timer-header'>
+                        <h1>Timer</h1>
+                    </div>
+                    <div className='timer-second-row'>
+                        <div className='next-event'>
+                            <h3>New Event</h3> 
+                            <h2>Check-In</h2> 
+                         </div>
+                        <div className='start-time'>
+                            <h3>Start Time</h3>
+                            <h2>4:00PM</h2>
+                        </div>
+                        <div className='countdown'>
+                            <h3>Countdown</h3>
+                            <h2>{timerComponents.length ? timerComponents : <span>Time's up!</span>}</h2>
+                        </div>
+                    </div>
+                </div>
                 <div className='schedule-map'>
                     <div className='sche-side'>
                         <h1>Schedule</h1>
                         <div className='sche-date'>
-                            <div className='first-day'>
-                                <div className='day active'>Sat. Feb, 22</div>
+                            <div className='fri-day' onClick={ () => changeDayHandler(1) }>
+                                <div className={day === 1 ? 'day active' : 'day'}>Fri. Feb, 21</div>
                             </div>
-                            <div className='second-day'>
-                            <div className='day'>Sun. Feb, 23</div>
+                            <div className='first-day' onClick={ () => changeDayHandler(2) }>
+                                <div className={day === 2 ? 'day active' : 'day'}>Sat. Feb, 22</div>
+                            </div>
+                            <div className='second-day' onClick={ () => changeDayHandler(3) }>
+                                <div className={day === 3 ? 'day active' : 'day'}>Sun. Feb, 23</div>
                             </div>
                         </div>
                         <div className='events'>
-                            <ul className='event-ul'>
-                                <li className='event event-active'>
-                                    <span className='time'>8:00AM</span>
-                                    <span className='todo'>Check-In</span>
-                                    <span className='detail'>Sign-In at the main entrance of the something center</span>
-                                </li>
-                                <li className='event'>
-                                    <span className='time'>9:00AM</span>
-                                    <span className='todo'>Opening Ceremony</span>
-                                    <span className='detail'>Do whatever you want</span>
-                                </li>
-                            </ul>
+                            { showday }
                         </div>
-                    </div>
-                    <div className='map-side'>
-                        <h1>Map</h1>
-                        <div className='map-container'>Something here</div>
                     </div>
                 </div>
             </div>
@@ -59,4 +246,4 @@ const schedule = () => {
     );
 };
 
-export default schedule;
+export default Schedule;
