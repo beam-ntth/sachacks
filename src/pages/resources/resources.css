@@ -57,7 +57,7 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 541px) {
   .resources-page {
     min-height: 100vh;
     height: auto;
@@ -85,6 +85,10 @@
 
   .horz-content {
     display: block;
+  }
+
+  .horz-content a {
+    color: white;
   }
 
   .vert-content {

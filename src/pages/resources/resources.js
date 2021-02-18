@@ -27,139 +27,80 @@ const resources = () => {
         topic: "Hardware & API",
         list: [
             <span>
-                <a href="https://try.github.io" target="_blank">
-                    Git
-                </a>
-            </span>,
-            <span>
-                <a
+                <a href="https://try.github.io" target="_blank"> Git </a>, <a
                     href="https://training.github.com/downloads/github-git-cheat-sheet.pdf"
                     target="_blank"
                 >
                     Github Git Cheatsheet
-                </a>
-            </span>,
-            <span>
-                <a href="https://firstaidgit.io/#/" target="_blank">
+                </a>, <a href="https://firstaidgit.io/#/" target="_blank">
                     First Aid Git
-                </a>
-            </span>,
-            <span>
-                <a href="https://ngrok.com/" target="_blank">
+                </a>, <a href="https://ngrok.com/" target="_blank">
                     Ngrok
-                </a>
-            </span>,
-            <span>
-                <a href="https://repl.it/" target="_blank">
+                </a>, <a href="https://repl.it/" target="_blank">
                     Replit
-                </a>
-            </span>,
-            <span>
-                <a href="https://codepen.io/" target="_blank">
+                </a>, <a href="https://codepen.io/" target="_blank">
                     CodePen
                 </a>
             </span>,
             <span>
                 <a href="https://reactjs.org/" target="_blank">
                     React
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://github.com/react-boilerplate/react-boilerplate"
                     target="_blank"
                 >
                     React Boilerplate
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://github.com/ReactTraining/react-router"
                     target="_blank"
                 >
                     React Router
-                </a>
-            </span>,
-            <span>
-                <a href="https://redux.js.org/" target="_blank">
+                </a>, <a href="https://redux.js.org/" target="_blank">
                     Redux
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://github.com/h5bp/html5-boilerplate"
                     target="_blank"
                 >
                     HTML5 Boilerplate
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://github.com/electron-react-boilerplate/electron-react-boilerplate"
                     target="_blank"
                 >
                     Electron React Boilerplate
-                </a>
-            </span>,
-            <span>
-                <a href="https://getbootstrap.com/" target="_blank">
+                </a>, <a href="https://getbootstrap.com/" target="_blank">
                     Bootstrap
-                </a>
-            </span>,
-            <span>
-                <a href="https://startbootstrap.com/" target="_blank">
+                </a>, <a href="https://startbootstrap.com/" target="_blank">
                     Bootstrap Themes, Templates, Tools
                 </a>
-            </span>,
+            </span>, 
             <span>
                 <a
                     href="https://github.com/MLH/mlh-hackathon-flask-starter"
                     target="_blank"
                 >
                     MLH Flask Starter
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://github.com/MLH/mlh-hackathon-nodejs-starter"
                     target="_blank"
                 >
                     MLH Node.js Starter
-                </a>
-            </span>,
-            <span>
-                <a href="https://www.djangoproject.com/" target="_blank">
+                </a>, <a href="https://www.djangoproject.com/" target="_blank">
                     Django
-                </a>
-            </span>,
-            <span>
-                <a href="https://expressjs.com/" target="_blank">
+                </a>, <a href="https://expressjs.com/" target="_blank">
                     Express.js
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://flask.palletsprojects.com/en/1.1.x/"
                     target="_blank"
                 >
                     Flask
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://guides.rubyonrails.org/getting_started.html"
                     target="_blank"
                 >
                     Rails
-                </a>
-            </span>,
-            <span>
-                <a href="https://www.mongodb.com/" target="_blank">
+                </a>, <a href="https://www.mongodb.com/" target="_blank">
                     MongoDB
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://www.khanacademy.org/computing/computer-programming/sql"
                     target="_blank"
                 >
@@ -169,49 +110,28 @@ const resources = () => {
             <span>
                 <a href="https://www.postman.com/" target="_blank">
                     Postman
-                </a>
-            </span>,
-            <span>
-                <a href="https://insomnia.rest/" target="_blank">
+                </a>, <a href="https://insomnia.rest/" target="_blank">
                     Insomnia REST
-                </a>
-            </span>,
-            <span>
-                <a href="https://any-api.com/" target="_blank">
+                </a>, <a href="https://any-api.com/" target="_blank">
                     Any API (Documentation and Test Consoles for Over 1400
                     Public APIs)
-                </a>
-            </span>,
-            <span>
-                <a href="https://apilist.fun/" target="_blank">
+                </a>, <a href="https://apilist.fun/" target="_blank">
                     API List (Public List of free APIs)
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://github.com/public-apis/public-apis"
                     target="_blank"
                 >
                     Public APIs
-                </a>
-            </span>,
-            <span>
-                <a href="https://fastapi.tiangolo.com/" target="_blank">
+                </a>, <a href="https://fastapi.tiangolo.com/" target="_blank">
                     FastAPI
                 </a>
             </span>,
             <span>
                 <a href="https://www.ibm.com/cloud" target="_blank">
                     IBM Cloud
-                </a>
-            </span>,
-            <span>
-                <a href="https://azure.microsoft.com/en-ca/" target="_blank">
+                </a>, <a href="https://azure.microsoft.com/en-ca/" target="_blank">
                     Microsoft Azure
-                </a>
-            </span>,
-            <span>
-                <a href="https://cloud.google.com/" target="_blank">
+                </a>, <a href="https://cloud.google.com/" target="_blank">
                     Google Cloud
                 </a>
             </span>,
@@ -221,41 +141,23 @@ const resources = () => {
                     target="_blank"
                 >
                     Flutter
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://reactnative.dev/docs/getting-started"
                     target="_blank"
                 >
                     React Native
-                </a>
-            </span>,
-            <span>
-                <a href="https://ionicframework.com/" target="_blank">
+                </a>, <a href="https://ionicframework.com/" target="_blank">
                     Ionic
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://developer.apple.com/swift/resources/"
                     target="_blank"
                 >
                     Swift
-                </a>
-            </span>,
-            <span>
-                <a href="https://developer.android.com/" target="_blank">
+                </a>, <a href="https://developer.android.com/" target="_blank">
                     Android
-                </a>
-            </span>,
-            <span>
-                <a href="https://developer.android.com/studio" target="_blank">
+                </a>, <a href="https://developer.android.com/studio" target="_blank">
                     Android Studio
-                </a>
-            </span>,
-            <span>
-                <a href="https://firebase.google.com/docs" target="_blank">
+                </a>, <a href="https://firebase.google.com/docs" target="_blank">
                     Firebase
                 </a>
             </span>,
@@ -265,81 +167,39 @@ const resources = () => {
                     target="_blank"
                 >
                     Python Data Science Handbook
-                </a>
-            </span>,
-            <span>
-                <a href="https://course.fast.ai/" target="_blank">
+                </a>, <a href="https://course.fast.ai/" target="_blank">
                     Practical Deep Learning for Coders
-                </a>
-            </span>,
-            <span>
-                <a href="https://www.python.org/downloads/" target="_blank">
+                </a>, <a href="https://www.python.org/downloads/" target="_blank">
                     Python
-                </a>
-            </span>,
-            <span>
-                <a href="https://jupyter.org/" target="_blank">
+                </a>, <a href="https://jupyter.org/" target="_blank">
                     Jupyter
-                </a>
-            </span>,
-            <span>
-                <a href="https://www.r-project.org/" target="_blank">
+                </a>, <a href="https://www.r-project.org/" target="_blank">
                     R
-                </a>
-            </span>,
-            <span>
-                <a href="https://www.scipy.org/" target="_blank">
+                </a>, <a href="https://www.scipy.org/" target="_blank">
                     SciPy
-                </a>
-            </span>,
-            <span>
-                <a href="https://pandas.pydata.org/" target="_blank">
+                </a>, <a href="https://pandas.pydata.org/" target="_blank">
                     Pandas
-                </a>
-            </span>,
-            <span>
-                <a href="https://www.tensorflow.org/" target="_blank">
+                </a>, <a href="https://www.tensorflow.org/" target="_blank">
                     TensorFlow
-                </a>
-            </span>,
-            <span>
-                <a href="https://scikit-learn.org/stable/" target="_blank">
+                </a>, <a href="https://scikit-learn.org/stable/" target="_blank">
                     SciKit Learn
-                </a>
-            </span>,
-            <span>
-                <a href="https://keras.io/" target="_blank">
+                </a>, <a href="https://keras.io/" target="_blank">
                     Keras
-                </a>
-            </span>,
-            <span>
-                <a href="https://pytorch.org/">PyTorch</a>
-            </span>,
-            <span>
-                <a href="https://colab.research.google.com/" target="_blank">
+                </a>, <a href="https://pytorch.org/" target="_blank">PyTorch</a>, <a href="https://colab.research.google.com/" target="_blank">
                     Google Colab
                 </a>
             </span>,
             <span>
                 <a href="https://www.kaggle.com/datasets" target="_blank">
                     Kaggle Datasets
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://github.com/awesomedata/awesome-public-datasets"
                     target="_blank"
                 >
                     Awesome Public Datasets
-                </a>
-            </span>,
-            <span>
-                <a href="https://www.data.gov/" target="_blank">
+                </a>, <a href="https://www.data.gov/" target="_blank">
                     U.S. Government's Open Data
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://datasetsearch.research.google.com/"
                     target="_blank"
                 >
@@ -350,20 +210,18 @@ const resources = () => {
                 <span>
                     Check out this awesome list of resources such as Engines,
                     Tools, and Add-ons from{" "}
-                </span>
-                <a href="https://itch.io/jam/sdc-retro-jam" target="_blank">
+                </span> <a href="https://itch.io/jam/sdc-retro-jam" target="_blank" style={{textDecoration: 'underline'}}>
                     SDC's Retro Jam
-                </a>
-            </span>,
-            <span>
-                Also check out{" "}
+                </a>. Also check out{" "}
                 <a
                     href="https://www.youtube.com/channel/UCZnRLfV_gFG5hvO88T_v5Ug"
                     target="_blank"
+                    style={{textDecoration: 'underline'}}
                 >
                     Sacramento Developer Collective's YouTube Page
                 </a>{" "}
                 for more information!
+                
             </span>,
             <span>
                 <a
@@ -371,20 +229,11 @@ const resources = () => {
                     target="_blank"
                 >
                     Invision Design UI Kits
-                </a>
-            </span>,
-            <span>
-                <a href="http://sketchappsources.com/" target="_blank">
+                </a>, <a href="http://sketchappsources.com/" target="_blank">
                     Sketchapp Source UI Kits
-                </a>
-            </span>,
-            <span>
-                <a href="https://www.figma.com/community/" target="_blank">
+                </a>, <a href="https://www.figma.com/community/" target="_blank">
                     Figma Community
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://www.uxlibrary.org/more/free-resources/ui-kits"
                     target="_blank"
                 >
@@ -394,28 +243,16 @@ const resources = () => {
             <span>
                 <a href="https://www.drawkit.io/" target="_blank">
                     Drawkit
-                </a>
-            </span>,
-            <span>
-                <a href="http://undraw.co/" target="_blank">
+                </a>, <a href="http://undraw.co/" target="_blank">
                     Undraw
-                </a>
-            </span>,
-            <span>
-                <a href="https://blush.design/" target="_blank">
+                </a>, <a href="https://blush.design/" target="_blank">
                     Blush
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://www.uxlibrary.org/more/free-resources/illustrations"
                     target="_blank"
                 >
                     See More Illustrations here
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://www.uxlibrary.org/more/free-resources"
                     target="_blank"
                 >
@@ -425,10 +262,7 @@ const resources = () => {
             <span>
                 <a href="https://fontpair.co/" target="_blank">
                     FontPair
-                </a>
-            </span>,
-            <span>
-                <a
+                </a>, <a
                     href="https://fonts.google.com/?preview.text=&preview.text_type=custom"
                     target="_blank"
                 >
@@ -441,15 +275,9 @@ const resources = () => {
                     target="_blank"
                 >
                     Color Blind (Adobe)
-                </a>
-            </span>,
-            <span>
-                <a href="https://coolors.co/" target="_blank">
+                </a>, <a href="https://coolors.co/" target="_blank">
                     Colors Generator
-                </a>
-            </span>,
-            <span>
-                <a href="https://colorhunt.co/" target="_blank">
+                </a>, <a href="https://colorhunt.co/" target="_blank">
                     Color Hunt
                 </a>
             </span>,
