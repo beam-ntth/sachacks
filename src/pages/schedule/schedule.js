@@ -20,7 +20,7 @@ import MobileNavBar from '../../shared/MobileNavBar/MobileNavBar';
 const Schedule = () => {
     const calculateTimeLeft = () => {
         let year = new Date().getFullYear();
-        const difference = +new Date(`${year}-02-21`) - +new Date();
+        const difference = +new Date(`Feb 21, 2021 11:00:00`).getTime() - +new Date().getTime();
         let timeLeft = {};
 
         if (difference > 0) {
@@ -31,10 +31,11 @@ const Schedule = () => {
                 seconds: Math.floor((difference / 1000) % 60),
             };
         }
+        console.log(timeLeft);
         return timeLeft;
     };
     const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-    const [year] = useState(new Date().getFullYear());
+    // const [year] = useState(new Date().getFullYear());
 
     useEffect(() => {
         setTimeout(() => {
@@ -45,11 +46,11 @@ const Schedule = () => {
     const timerComponents = [];
 
     Object.keys(timeLeft).forEach((interval) => {
-        if (!timeLeft[interval]) {
+        if (timeLeft[interval] == null) {
             return;
         }
         timerComponents.push(
-            <span>{timeLeft[interval]}{interval === 'seconds' ? '' : ' : '}</span>
+            <span>{timeLeft[interval] == 0 ? '0' : timeLeft[interval]}{interval === 'days' ? ' d' : ''}{interval === 'hours' ? ' h' : ''}{interval === 'minutes' ? ' m' : ''}{interval === 'seconds' ? ' s' : ' : '}</span>
         );
     });
 
@@ -95,7 +96,7 @@ const Schedule = () => {
                 <span className='detail'>Come learn more about game design in our Exploding Designer’s Block workshop, hosted by Dan, Lead Designer at EA!</span>
             </li>
             <li className='event'>
-                <span className='time'>11:30 PM PST</span>
+                <span className='time'>11:10 PM PST</span>
                 <span className='todo'> Intro to Hardware Hacking with Arduino</span>
                 <span className='detail'>No experience with creating a hardware project? Come learn how to start one, no hardware required!</span>
             </li>
@@ -108,11 +109,6 @@ const Schedule = () => {
                 <span className='time'>12:00 AM PST</span>
                 <span className='todo'>Intro to Data Science</span>
                 <span className='detail'>Come learn how to get started with Data Science from Henrry Gunawan! He is a TA for UC Davis Data Science & AI Systems Senior Design. Check out his LinkedIn <a href="https://www.google.com/url?q=http://linkedin.com/in/henrry-gunawan&sa=D&source=editors&ust=1613594053102000&usg=AOvVaw0KuxmnyzMD1jdsv_xXqS2k" target="_blank">here</a>.</span>
-            </li>
-            <li className='event'>
-                <span className='time'>1:00 AM PST</span>
-                <span className='todo'>Designing Startups for Social Good</span>
-                <span className='detail'>Learn more about Designing Startups for Social good with the Ethicli team! Discussion includes what to consider when designing your startup and projects for social good. Topics include business models, who to work with, and ethical considerations.</span>
             </li>
             <li className='event'>
                 <span className='time'>8:00 AM PST</span>
@@ -158,6 +154,11 @@ const Schedule = () => {
                 <span className='time'>7:30 PM PST</span>
                 <span className='todo'>MLH Mini Event: Slideshow Karaoke</span>
                 <span className='detail'>Slideshow Karaoke is an awesome activity where you give the improv presentation of your life!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>9:00 PM PST</span>
+                <span className='todo'>Designing Startups for Social Good</span>
+                <span className='detail'>Learn more about Designing Startups for Social good with the Ethicli team! Discussion includes what to consider when designing your startup and projects for social good. Topics include business models, who to work with, and ethical considerations.</span>
             </li>
         </ul>
     );
@@ -230,7 +231,7 @@ const Schedule = () => {
                             <h2>4:00PM</h2>
                         </div> */}
                         <div className='countdown'>
-                            <h3>Countdown</h3>
+                            <h3>Countdown until hacking ends</h3>
                             <h2>{timerComponents.length ? timerComponents : <span>Time's up!</span>}</h2>
                         </div>
                     </div>
