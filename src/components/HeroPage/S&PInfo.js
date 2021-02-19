@@ -23,7 +23,7 @@ export const sponsor18 = { img: '/sponsors/Figma.svg', alt: 'Figma', link: 'http
 export const sponsor19 = { img: '/sponsors/AoPS.png', alt: 'AoPS', link: 'https://artofproblemsolving.com/' };
 export const sponsor20 = { img: '/sponsors/centered.png', alt: 'Centered.app', link: 'https://www.centered.app/' };
 export const sponsor21 = { img: '/sponsors/jetbrains.png', alt: 'Jetbrains', link: 'https://www.jetbrains.com/' };
-export const sponsor22 = { img: '/sponsors/sticker-mule.svg', alt: 'Stickermule', link: 'https://www.stickermule.com/' };
+export const sponsor22 = { img: '/sponsors/sticker-mule.svg', alt: 'Stickermule', link: 'http://hackp.ac/mlh-stickermule-hackathons' };
 
 // Comment this one in after cleared by MLH ->
 export const partner1 = { img: '/partners/mlh-logo-color.svg', alt: 'MLH Logo', link: 'https://mlh.io/' };
