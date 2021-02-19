@@ -23,7 +23,7 @@
     margin-bottom: 20%;
 }
 
-.Bobos img, .Cake img {
+.Bobos img, .Cake img, .Citris img {
     width: 70%;
 }
 
@@ -31,9 +31,11 @@
     width: 60%;
 }
 
-.Figma a, .Bobos a, .Cake a {
+.Figma a, .Bobos a, .Cake a, .Citris a {
     text-align: center;
 }
+
+
 
 @media (max-width: 541px) {
     .sp-elem {
