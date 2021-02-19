@@ -27,7 +27,8 @@ const resources = () => {
         topic: "Hardware & API",
         list: [
             <span>
-                <a href="https://try.github.io" target="_blank"> Git </a>, <a
+                <b>Tools: </b>
+                <a href="https://try.github.io" target="_blank"> Git</a>, <a
                     href="https://training.github.com/downloads/github-git-cheat-sheet.pdf"
                     target="_blank"
                 >
@@ -43,6 +44,7 @@ const resources = () => {
                 </a>
             </span>,
             <span>
+                <b>Frontend: </b>
                 <a href="https://reactjs.org/" target="_blank">
                     React
                 </a>, <a
@@ -74,6 +76,7 @@ const resources = () => {
                 </a>
             </span>, 
             <span>
+                <b>Backend: </b>
                 <a
                     href="https://github.com/MLH/mlh-hackathon-flask-starter"
                     target="_blank"
@@ -108,6 +111,7 @@ const resources = () => {
                 </a>
             </span>,
             <span>
+                <b>APIs: </b>
                 <a href="https://www.postman.com/" target="_blank">
                     Postman
                 </a>, <a href="https://insomnia.rest/" target="_blank">
@@ -127,6 +131,7 @@ const resources = () => {
                 </a>
             </span>,
             <span>
+                <b>Cloud Services: </b>
                 <a href="https://www.ibm.com/cloud" target="_blank">
                     IBM Cloud
                 </a>, <a href="https://azure.microsoft.com/en-ca/" target="_blank">
@@ -136,6 +141,7 @@ const resources = () => {
                 </a>
             </span>,
             <span>
+                <b>App & Mobile Development: </b>
                 <a
                     href="https://flutter.dev/docs/get-started/install"
                     target="_blank"
@@ -162,6 +168,7 @@ const resources = () => {
                 </a>
             </span>,
             <span>
+                <b>Data Science: </b>
                 <a
                     href="https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb"
                     target="_blank"
@@ -190,6 +197,7 @@ const resources = () => {
                 </a>
             </span>,
             <span>
+                <b>Data Sets: </b>
                 <a href="https://www.kaggle.com/datasets" target="_blank">
                     Kaggle Datasets
                 </a>, <a
@@ -207,6 +215,7 @@ const resources = () => {
                 </a>
             </span>,
             <span>
+                <b>Game Development: </b>
                 <span>
                     Check out this awesome list of resources such as Engines,
                     Tools, and Add-ons from{" "}
@@ -224,6 +233,13 @@ const resources = () => {
                 
             </span>,
             <span>
+                <b>Hardware: </b>
+                <a href="https://create.arduino.cc/editor" target="_blank">Arduino Web Editor</a>
+                <a href="https://www.digikey.com/schemeit/project/" target="_blank">Digikey Scheme-it</a>
+                <a href="https://learn.adafruit.com/" target="_blank">Adafruit Learn</a>
+            </span>,
+            <span>
+                <b>Design: </b>
                 <a
                     href="https://www.invisionapp.com/inside-design/design-resources/"
                     target="_blank"
@@ -241,6 +257,7 @@ const resources = () => {
                 </a>
             </span>,
             <span>
+                <b>Free Illustrations: </b>
                 <a href="https://www.drawkit.io/" target="_blank">
                     Drawkit
                 </a>, <a href="http://undraw.co/" target="_blank">
@@ -260,6 +277,7 @@ const resources = () => {
                 </a>
             </span>,
             <span>
+                <b>Free Typography Inspirations: </b>
                 <a href="https://fontpair.co/" target="_blank">
                     FontPair
                 </a>, <a
@@ -270,6 +288,7 @@ const resources = () => {
                 </a>
             </span>,
             <span>
+                <b>Free Color Palette Inspirations: </b>
                 <a
                     href="https://color.adobe.com/create/color-accessibility"
                     target="_blank"
