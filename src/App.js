@@ -50,6 +50,12 @@ function App () {
             window.location.href = 'https://sachacks.typeform.com/to/SXaHQrRC';
             return null;
           } } />
+          
+          {/* Redirect the page from sachacks.io/guide -> Guide for Hackers page */}
+          <Route path='/guide' component={ () => {
+            window.location.href = 'https://www.notion.so/SacHacks-2021-Hacker-Guide-3f88879a709f4aa89f658e07490309ac';
+            return null;
+          } } />
 
           {/* Switch to different pages here */}
           <Route path="/lovelace">
