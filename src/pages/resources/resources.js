@@ -22,9 +22,9 @@ import Copyright from "../../shared/Copyright/Copyright";
 import ResourcesCard from "../../components/ResourcesPage/ResourcesCard";
 import MobileNavBar from "../../shared/MobileNavBar/MobileNavBar";
 
-const resources = () => {
+const Resources = () => {
     const content1 = {
-        topic: "Hardware & API",
+        topic: "Starter Packs",
         list: [
             <span>
                 <b>Tools: </b>
@@ -382,4 +382,4 @@ const resources = () => {
     );
 };
 
-export default resources;
+export default Resources;

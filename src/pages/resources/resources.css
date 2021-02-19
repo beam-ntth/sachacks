@@ -10,7 +10,7 @@
 .shadow-cover {
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .shadow-cover h1 {
@@ -53,11 +53,12 @@
 }
 
 .vert-content b {
-  font-size: calc(100vw * 0.013 + 2px);
+  font-size: calc(100vw * 0.011 + 2px);
+  color: rgb(123, 221, 222)
 }
 
 .vert-content li {
-  font-size: calc(100vw * 0.011 + 2px);
+  font-size: calc(100vw * 0.010 + 2px);
 }
 
 /* Mobile */
