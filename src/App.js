@@ -67,7 +67,7 @@ function App () {
           <Route path="/schedule">
             <Schedule />
           </Route>
-          <Route path="/lol">
+          <Route path="/resources">
             <Resources />
           </Route>
           <Route path='/'>
