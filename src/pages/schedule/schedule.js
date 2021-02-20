@@ -73,7 +73,7 @@ const Schedule = () => {
             <li className='event'>
                 <span className='time'>6:15 PM PST</span>
                 <span className='todo'>IBM Keynote Workshop</span>
-                <span className='detail'>Come learn more about the amazing applications and possibilities with ML on IBM Z. This hands-on workshop will help you get started with making a project scalable for any category or idea you have in mind.</span>
+                <span className='detail'>Join us for an introduction to Enterprise Computing with Sudharsana Srinivasan! The keynote will cover the open source nature of the platform by Javier Perez and get a sneak peek into AI and ML on Z fun projects with Tanmay Bakshi.</span>
             </li>
             <li className='event'>
                 <span className='time'>7:00 PM PST</span>
@@ -83,7 +83,7 @@ const Schedule = () => {
             <li className='event'>
                 <span className='time'>7:30 PM PST</span>
                 <span className='todo'> Datathon for Social Good: ML on Z</span>
-                <span className='detail'>Learn about machine learning on Z from IBM engineers, IBM ML experts and last year’s IBM Z winners!</span>
+                <span className='detail'>During this hands on workshop hear from IBM's ML on Z experts Joe Joe Bostian and Alex Osadchyy. You will also get to hear from the IBM Z track winners of SacHacks 2020. You don't want to miss this amazing learning opportunity!</span>
             </li>
             <li className='event'>
                 <span className='time'>9:10 PM PST</span>
