@@ -20,43 +20,43 @@ import MobileNavBar from '../../shared/MobileNavBar/MobileNavBar';
 const Schedule = () => {
     const calculateTimeLeft = () => {
         let year = new Date().getFullYear();
-        const difference = +new Date(`Feb 21, 2021 11:00:00`).getTime() - +new Date().getTime();
+        const difference = +new Date( `Feb 21, 2021 11:00:00` ).getTime() - +new Date().getTime();
         let timeLeft = {};
 
-        if (difference > 0) {
+        if ( difference > 0 ) {
             timeLeft = {
-                days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-                hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-                minutes: Math.floor((difference / 1000 / 60) % 60),
-                seconds: Math.floor((difference / 1000) % 60),
+                days: Math.floor( difference / ( 1000 * 60 * 60 * 24 ) ),
+                hours: Math.floor( ( difference / ( 1000 * 60 * 60 ) ) % 24 ),
+                minutes: Math.floor( ( difference / 1000 / 60 ) % 60 ),
+                seconds: Math.floor( ( difference / 1000 ) % 60 ),
             };
         }
-        console.log(timeLeft);
+        console.log( timeLeft );
         return timeLeft;
     };
-    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+    const [ timeLeft, setTimeLeft ] = useState( calculateTimeLeft() );
     // const [year] = useState(new Date().getFullYear());
 
-    useEffect(() => {
-        setTimeout(() => {
-            setTimeLeft(calculateTimeLeft());
-        }, 1000);
-    });
+    useEffect( () => {
+        setTimeout( () => {
+            setTimeLeft( calculateTimeLeft() );
+        }, 1000 );
+    } );
 
     const timerComponents = [];
 
-    Object.keys(timeLeft).forEach((interval) => {
-        if (timeLeft[interval] == null) {
+    Object.keys( timeLeft ).forEach( ( interval ) => {
+        if ( timeLeft[ interval ] == null ) {
             return;
         }
         timerComponents.push(
-            <span>{timeLeft[interval] == 0 ? '0' : timeLeft[interval]}{interval === 'days' ? ' d' : ''}{interval === 'hours' ? ' h' : ''}{interval === 'minutes' ? ' m' : ''}{interval === 'seconds' ? ' s' : ' : '}</span>
+            <span>{ timeLeft[ interval ] == 0 ? '0' : timeLeft[ interval ] }{ interval === 'days' ? ' d' : '' }{ interval === 'hours' ? ' h' : '' }{ interval === 'minutes' ? ' m' : '' }{ interval === 'seconds' ? ' s' : ' : ' }</span>
         );
-    });
+    } );
 
-    const [ day, setDay ] = useState( { day: 1 } );
+    const [ day, setDay ] = useState( 3 );
 
-    const start = Date.now()
+    // const start = Date.now();
 
     const day1 = (
         <ul className='event-ul'>
@@ -111,11 +111,6 @@ const Schedule = () => {
                 <span className='detail'>Come learn how to get started with Data Science from Henrry Gunawan! He is a TA for UC Davis Data Science & AI Systems Senior Design. Check out his LinkedIn <a href="https://www.google.com/url?q=http://linkedin.com/in/henrry-gunawan&sa=D&source=editors&ust=1613594053102000&usg=AOvVaw0KuxmnyzMD1jdsv_xXqS2k" target="_blank">here</a>.</span>
             </li>
             <li className='event'>
-                <span className='time'>8:00 AM PST</span>
-                <span className='todo'>Intro to Web Development</span>
-                <span className='detail'>Learn the basics of Web Development in our beginner workshop!</span>
-            </li>
-            <li className='event'>
                 <span className='time'>9:00 AM PST</span>
                 <span className='todo'>Adobe XD Workshop</span>
                 <span className='detail'>Learn how to create a website prototype in a matter of minutes with Adobe XD, hosted by Elizé!</span>
@@ -137,13 +132,33 @@ const Schedule = () => {
             </li>
             <li className='event'>
                 <span className='time'>1:00 PM PST</span>
-                <span className='todo'>MLH USAF Cybersecurity Challenge</span>
-                <span className='detail'>The U.S. Air Force is the world’s preeminent force in air, space and cyberspace. Come check out and learn more about cybersecurity during this challenge!</span>
+                <span className='todo'>Intro to Web Development</span>
+                <span className='detail'>Learn how to make a website and learn more about Web Development with Developer Student Club at UC Davis!</span>
             </li>
             <li className='event'>
                 <span className='time'>2:00 PM PST</span>
                 <span className='todo'>Intro to JS</span>
                 <span className='detail'>What to learn more about frontend development? Make sure to drop by our Intro to JavaScript workshop, tag-teamed by Franklin and Corbin!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>3:10 PM PST</span>
+                <span className='todo'>MLH USAF Cybersecurity Challenge</span>
+                <span className='detail'>The U.S. Air Force is the world’s preeminent force in air, space and cyberspace. Come check out and learn more about cybersecurity during this challenge!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>4:00 PM PST</span>
+                <span className='todo'>Intro to Web Scraping</span>
+                <span className='detail'>Come learn more about Web Scraping with Developer Student Club at UC Davis!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>4:45 PM PST</span>
+                <span className='todo'>Product Buds Talk</span>
+                <span className='detail'>Come learn more about Product Management and the Product Buds community!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>6:00 PM PST</span>
+                <span className='todo'>Design Buddies X SacHacks Logo Design (Social Event)</span>
+                <span className='detail'>Want to take a break from hacking? Come join Grace from Design Buddies and design the best logo on a Figma collaborative event.</span>
             </li>
             <li className='event'>
                 <span className='time'>7:00 PM PST</span>
@@ -159,6 +174,16 @@ const Schedule = () => {
                 <span className='time'>9:00 PM PST</span>
                 <span className='todo'>Designing Startups for Social Good</span>
                 <span className='detail'>Learn more about Designing Startups for Social good with the Ethicli team! Discussion includes what to consider when designing your startup and projects for social good. Topics include business models, who to work with, and ethical considerations.</span>
+            </li>
+            <li className='event'>
+                <span className='time'>10:00 PM PST</span>
+                <span className='todo'>MLH Mini-Event: MS Paint Bob Ross</span>
+                <span className='detail'>Relax, take a break from hacking, and enjoy a round of MS Paint Bob Ross with our MLH Rep!</span>
+            </li>
+            <li className='event'>
+                <span className='time'>11:00 PM PST</span>
+                <span className='todo'>Among Us Gaming Session</span>
+                <span className='detail'>Red is sus! Come join our Among Us gaming session from 11:00PM PST Saturday night to 2:30AM PST Sunday!</span>
             </li>
         </ul>
     );
@@ -176,9 +201,19 @@ const Schedule = () => {
                 <span className='detail'>Congratulations! You made it to the end of hacking!!</span>
             </li>
             <li className='event'>
+                <span className='time'>Extended!</span>
+                <span className='todo'>IBM Z Raffle</span>
+                <span className='detail'>The IBM Z Raffle has been extended to give more students a chance at this exclusive opportunity!!! This final prize winning opportunity will be awarded to 3 random winners drawn by raffle with each awarded 3 months of mentorship of up to 3 hours of with IBM Z industry experts.<br/><br/> Please fill out the following link: <a href="http://ibm.biz/ibm-z-sachacks-survey" target="_blank" style={{color: '000'}}>http://ibm.biz/ibm-z-sachacks-survey</a></span>
+            </li>
+            <li className='event'>
+                <span className='time'>2:00 PM PST</span>
+                <span className='todo'>Design Careers</span>
+                <span className='detail'>Learn how to land an internship and other awesome design career advice from Grace!</span>
+            </li>
+            <li className='event'>
                 <span className='time'>3:00 PM PST</span>
-                <span className='todo'>Sacramento Tech Talk</span>
-                <span className='detail'>Learn more about technology’s role with the future of Sacramento!</span>
+                <span className='todo'>Sacramento Tech Forum</span>
+                <span className='detail'>Wanted to learn about the future of technology in Sacramento with CEOs? Now's your chance!</span>
             </li>
             <li className='event'>
                 <span className='time'>6:00-7:00 PM PST</span>
@@ -188,28 +223,29 @@ const Schedule = () => {
         </ul>
     );
 
-    const changeDayHandler = (day) => {
-        setDay(day)
-        return
-    }
+    const changeDayHandler = ( day ) => {
+        setDay( day );
+        return;
+    };
 
     let showday = day1;
     let classDay1 = 'day active', classDay2 = 'day', classDay3 = 'day';
+    console.log(day)
     if ( day === 1 ) {
         showday = day1;
-        classDay1 = 'day active'
-        classDay2 = 'day'
-        classDay3 = 'day'
+        classDay1 = 'day active';
+        classDay2 = 'day';
+        classDay3 = 'day';
     } else if ( day === 2 ) {
         showday = day2;
-        classDay1 = 'day'
-        classDay2 = 'day active'
-        classDay3 = 'day'
+        classDay1 = 'day';
+        classDay2 = 'day active';
+        classDay3 = 'day';
     } else if ( day === 3 ) {
         showday = day3;
-        classDay1 = 'day'
-        classDay2 = 'day'
-        classDay3 = 'day active'
+        classDay1 = 'day';
+        classDay2 = 'day';
+        classDay3 = 'day active';
     }
 
     return (
@@ -232,7 +268,7 @@ const Schedule = () => {
                         </div> */}
                         <div className='countdown'>
                             <h3>Countdown until hacking ends</h3>
-                            <h2>{timerComponents.length ? timerComponents : <span>Time's up!</span>}</h2>
+                            <h2>{ timerComponents.length ? timerComponents : <span>Time's up!</span> }</h2>
                         </div>
                     </div>
                 </div>
@@ -240,14 +276,14 @@ const Schedule = () => {
                     <div className='sche-side'>
                         <h1>Schedule</h1>
                         <div className='sche-date'>
-                            <div className='fri-day' onClick={ () => changeDayHandler(1) }>
-                                <div className={classDay1}>Fri. Feb, 19</div>
+                            <div className='fri-day' onClick={ () => changeDayHandler( 1 ) }>
+                                <div className={ classDay1 }>Fri. Feb, 19</div>
                             </div>
-                            <div className='first-day' onClick={ () => changeDayHandler(2) }>
-                                <div className={classDay2}>Sat. Feb, 20</div>
+                            <div className='first-day' onClick={ () => changeDayHandler( 2 ) }>
+                                <div className={ classDay2 }>Sat. Feb, 20</div>
                             </div>
-                            <div className='second-day' onClick={ () => changeDayHandler(3) }>
-                                <div className={classDay3}>Sun. Feb, 21</div>
+                            <div className='second-day' onClick={ () => changeDayHandler( 3 ) }>
+                                <div className={ classDay3 }>Sun. Feb, 21</div>
                             </div>
                         </div>
                         <div className='events'>

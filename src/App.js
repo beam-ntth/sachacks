@@ -57,6 +57,12 @@ function App () {
             return null;
           } } />
 
+          {/* Redirect the page from sachacks.io/guide -> Guide for Hackers page */}
+          <Route path='/submission' component={ () => {
+            window.location.href = 'https://www.instagram.com/tv/CLiP9pkD6sa/?utm_source=ig_web_copy_link';
+            return null;
+          } } />
+
           {/* Switch to different pages here */}
           <Route path="/lovelace">
             <Lovelace />
