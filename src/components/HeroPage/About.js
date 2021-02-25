@@ -27,10 +27,10 @@ const About = () => {
                 untapped potential of those in Sac by launching their ideas into
                 action during a 36-hour hackathon.{ " " }
             </p>
-            {/* <div className='map-buttons'>
-                <a href='https://sachacks.typeform.com/to/zGQawsSI' target='_blank' rel='noopener noreferrer'><div className='map-button'>Apply Now</div></a>
-                <a href='https://sachacks.typeform.com/to/SXaHQrRC' target='_blank' rel='noopener noreferrer'><div className='map-button'>Mentor</div></a>
-            </div> */}
+            <div className='map-buttons'>
+                <a href='https://form.typeform.com/to/r2sYTJ' target='_blank' rel='noopener noreferrer'><div className='map-button'>Join Team!</div></a>
+                {/* <a href='https://sachacks.typeform.com/to/SXaHQrRC' target='_blank' rel='noopener noreferrer'><div className='map-button'>Mentor</div></a> */}
+            </div>
             <SocialMedia />
         </div>
     );
