@@ -48,7 +48,7 @@ const LegacyMain = props => {
             <div className='lg-right'>
                 <h2 className='lg-main-header'>SacHacks</h2>
                 <p className='lg-main-subheader'>Sacramento's Intercollegiate Hackathon</p>
-                <Link to='/'><div className='lg-main-btn'>Enter SacHacks III Site</div></Link>
+                <Link to='/2021'><div className='lg-main-btn'>Enter SacHacks III Site</div></Link>
             </div>
         </div>
     );

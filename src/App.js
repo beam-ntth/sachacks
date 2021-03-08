@@ -67,14 +67,14 @@ function App () {
           <Route path="/lovelace">
             <Lovelace />
           </Route>
+          <Route path='/2021'>
+            <Hero />
+          </Route>
           <Route path="/2020">
             <Prev2020 />
           </Route>
           <Route path='/2018'>
             <Prev2018 />
-          </Route>
-          <Route path="/legacy">
-            <LegacyMain />
           </Route>
           <Route path="/schedule">
             <Schedule />
@@ -82,8 +82,8 @@ function App () {
           <Route path="/resources">
             <Resources />
           </Route>
-          <Route path='/'>
-            <Hero />
+          <Route path="/">
+            <LegacyMain />
           </Route>
 
         </Switch>
