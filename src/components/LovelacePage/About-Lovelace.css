@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
@@ -25,7 +25,6 @@
 }
 
 .PartnerLogos h5,h4,p{
-	/*padding-left: 60px;*/
 	font-family: Righteous;
 	font-size: 2.1vw;
 	align-items: center;
@@ -87,11 +86,9 @@
 	align-items: center;
 	text-align: center;
 	background: #FFFFFF;
-	/*border-top-left-radius: 50px;*/
 }
 
 .AboutUs h1{
-	/*padding-top: 20px;*/
 	font-family: 'Palanquin Dark';
 	font-size: 3vw;
 	font-weight: 100;
@@ -161,4 +158,4 @@
 .heart:before {
   content: '\2665';
   color: #DD2E44;
-}
+} */

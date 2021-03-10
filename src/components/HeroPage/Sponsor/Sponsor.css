@@ -23,6 +23,20 @@
     margin-bottom: 20%;
 }
 
+.Bobos img, .Cake img, .Citris img {
+    width: 70%;
+}
+
+.Figma img {
+    width: 60%;
+}
+
+.Figma a, .Bobos a, .Cake a, .Citris a {
+    text-align: center;
+}
+
+
+
 @media (max-width: 541px) {
     .sp-elem {
         height: auto;

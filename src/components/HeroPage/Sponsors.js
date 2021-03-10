@@ -16,37 +16,37 @@ const Sponsors = () => {
             </div>
             <div className='sp-row temp'>
                 <Sponsor img={ Info.sponsor3 } />
+                <Sponsor img={ Info.sponsor23 } />
                 <Sponsor img={ Info.sponsor12 } />
-                <Sponsor img={ Info.sponsor4 } />
                 <Sponsor img={ Info.sponsor13 } />
             </div>
             <div className='sp-row temp'>
                 <Sponsor img={ Info.sponsor2 } />
+                <Sponsor img={ Info.sponsor4 } />
                 <Sponsor img={ Info.sponsor11 } />
                 <Sponsor img={ Info.sponsor14 } />
-                <Sponsor img={ Info.sponsor10 } />
             </div>
             <div className='sp-row small-temp'>
                 <Sponsor img={ Info.sponsor15 } />
                 <Sponsor img={ Info.sponsor16 } />
                 <Sponsor img={ Info.sponsor5 } />
-                <Sponsor img={ Info.sponsor17 } />
+                <Sponsor img={ Info.sponsor10 } />
             </div>
             <div className='sp-row xsmall-temp'>
                 <Sponsor img={ Info.sponsor6 } />
                 <Sponsor img={ Info.sponsor9 } />
                 <Sponsor img={ Info.sponsor18 } />
+                <Sponsor img={ Info.sponsor17 } />
             </div>
-            <div className='sp-row xsmall-temp'>
-                <Sponsor img={ Info.sponsor20 } />
+            {/* <div className='sp-row xsmall-temp'> */}
+                {/* <Sponsor img={ Info.sponsor20 } /> */}
+            {/* </div> */}
+            <div className='sp-row xxsmall-temp'>
                 <Sponsor img={ Info.sponsor21 } />
                 <Sponsor img={ Info.sponsor8 } />
-            </div>
-            <div className='sp-row xsmall-temp'>
                 <Sponsor img={ Info.sponsor19 } />
                 <Sponsor img={ Info.sponsor7 } />
                 <Sponsor img={ Info.sponsor22 } />
-                
             </div>
             <h1 id='partner' >Partners</h1>
             <div className='sp-row temp'>

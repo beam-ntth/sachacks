@@ -30,10 +30,10 @@ const Apply = ( props ) => {
     return (
         <React.Fragment>
             <div className={ name }>
-                {/* <div className='icon' id='hacker'>
+                <div className='icon' id='hacker'>
                     <img src='/navigation/Hacker-Icon.png' alt='hacker icon' />
-                    <p className='icon-name'><a href='https://sachacks.typeform.com/to/b3iHwPuY' target='_blank' rel="noopener noreferrer">Hacker</a></p>
-                </div> */}
+                    <p className='icon-name'><a href='https://form.typeform.com/to/r2sYTJ' target='_blank' rel="noopener noreferrer">Team</a></p>
+                </div>
                 {/* <div className='icon' id='mentor'>
                     <img src='/navigation/Mentor-Icon.png' alt='mentor icon' />
                     <p className='icon-name'>Mentor</p>

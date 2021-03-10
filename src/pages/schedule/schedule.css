@@ -2,11 +2,15 @@
   width: 100vw;
   background-image: url("/schedule.png");
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: contain;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: "Puritan", sans-serif;
+}
+
+.schedule-map {
+  margin-bottom: 4%;
 }
 
 .sche-side{
@@ -133,6 +137,7 @@
   border-radius: 10px;
   z-index : 1;
   padding-bottom: 1%;
+  transform: translateY(10%);
 }
 
 .timer:before{
@@ -141,7 +146,7 @@
   left    : 0;
   bottom  : 0;
   height  : 1px;
-  width   : 50%;  /* or 100px */
+  width   : 100%;  /* or 100px */
   border-bottom: 10px solid #2f009b;
 }
 
@@ -164,11 +169,16 @@
   text-align: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   padding: 2.5% 12% 0% 12%;
 }
 
-@media screen and (max-width: 568px) {
+.event .detail a {
+  color: black;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 541px) {
   .schedule-page {
     background-image: none;
     background: linear-gradient(179.63deg, #0b0122 0.33%, #001241 92.84%);
@@ -177,8 +187,42 @@
   .sche-side {
     width: 100%;
     margin-left: 0%;
+    padding: 0 0 30px 0;
   }
+
+  .sche-side h1 {
+    font-size: 30px;
+  }
+
+  .sche-date {
+    height: 40px;
+    width: 95%;
+    margin: 0 0 20px 0;
+  }
+
+  .day {
+    font-size: 14px;
+  }
+
   .timer{
     margin-top: 100px; 
+    width: 100%;
+  }
+
+  .event {
+    width: 100%;
+    font-size: 13px;
+  }
+  
+  .timer h1 {
+    font-size: 30px;
+  }
+
+  .countdown h3 {
+    font-size: 20px;
+  }
+
+  .countdown h2 {
+    font-size: 20px;
   }
 }

@@ -40,14 +40,26 @@ function App () {
           } } />
           
           {/* Redirect the page from sachacks.io/apply -> typeform hacker application link */}
-          {/* <Route path='/apply' component={ () => {
-            window.location.href = 'https://sachacks.typeform.com/to/b3iHwPuY';
+          <Route path='/apply' component={ () => {
+            window.location.href = 'https://sachacks.typeform.com/to/zGQawsSI';
             return null;
-          } } /> */}
+          } } />
           
           {/* Redirect the page from sachacks.io/mentor -> typeform mentor application link */}
           <Route path='/mentor' component={ () => {
             window.location.href = 'https://sachacks.typeform.com/to/SXaHQrRC';
+            return null;
+          } } />
+          
+          {/* Redirect the page from sachacks.io/guide -> Guide for Hackers page */}
+          <Route path='/guide' component={ () => {
+            window.location.href = 'https://www.notion.so/SacHacks-2021-Hacker-Guide-3f88879a709f4aa89f658e07490309ac';
+            return null;
+          } } />
+
+          {/* Redirect the page from sachacks.io/guide -> Guide for Hackers page */}
+          <Route path='/submission' component={ () => {
+            window.location.href = 'https://www.instagram.com/tv/CLiP9pkD6sa/?utm_source=ig_web_copy_link';
             return null;
           } } />
 
@@ -55,14 +67,14 @@ function App () {
           <Route path="/lovelace">
             <Lovelace />
           </Route>
+          <Route path='/2021'>
+            <Hero />
+          </Route>
           <Route path="/2020">
             <Prev2020 />
           </Route>
           <Route path='/2018'>
             <Prev2018 />
-          </Route>
-          <Route path="/legacy">
-            <LegacyMain />
           </Route>
           <Route path="/schedule">
             <Schedule />
@@ -70,8 +82,8 @@ function App () {
           <Route path="/resources">
             <Resources />
           </Route>
-          <Route path='/'>
-            <Hero />
+          <Route path="/">
+            <LegacyMain />
           </Route>
 
         </Switch>

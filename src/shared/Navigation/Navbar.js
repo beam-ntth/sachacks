@@ -30,8 +30,8 @@ const Navbar = () => {
             <div className='nav-2021' style={ !open ? { backgroundColor: '#000' } : null }>
                 <Link className='logo' to='/'><img src='sachacks-logo/rocket.png' alt='SacHacks Main Logo' /></Link>
                 <div className='space-between'></div>
-                {/* <Link className='schedule' to='/schedule'>Schedule</Link>
-                <Link to='/resources'>Resources</Link> */}
+                <Link className='schedule' to='/schedule'>Schedule</Link>
+                <Link to='/resources'>Resources</Link>
                 <a className='nav-btn' href='mailto: team@sachacks.io'>Contact</a>
                 <div className='apply' onClick={ () => setOpen( !open ) } style={ !open ? { color: '#7BDDDE', transition: '0.5s' } : { color: '#fff', transition: '0.5s' } }>
                     Apply <GoTriangleDown fill={ !open ? '#7BDDDE' : 'white' } size='20px' style={ !open ? { marginLeft: '5px', transform: 'rotate(180deg)', transition: '0.5s' } : { marginLeft: '5px', transition: '0.5s' } } />
