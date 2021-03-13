@@ -426,6 +426,8 @@ export const taylor = {
   twitterLink: ''
 };
 
+// 2020 Members
+
 export const derek2020 = {
   num: "",
   img: "/legacy/teams/members/derek.jpg",
@@ -789,4 +791,116 @@ export const tina = {
   twitterLink: ''
 };
 
-
+// 2021 Members
+// 2021 Executives
+export const akshey2021 = {
+  num: "",
+  img: "/legacy/teams/members/akshey.jpg",
+  name: "Akshey Nama",
+  title: "President",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/aksheynama/',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+export const derek2021 = {
+  num: "",
+  img: "/legacy/teams/members/derek.jpg",
+  name: "Derek Lee",
+  title: "Executive Director",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/derek-lee-tech/',
+  github: true,
+  githubLink: 'https://github.com/DerLee4',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+// 2021 Leads
+export const ashley2021 = {
+  num: "",
+  img: "/legacy/teams/members/ashley.jpg",
+  name: "Ashley Nguyen",
+  title: "Design Lead",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/ashleylnguyen/',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: true,
+  instaLink: 'https://www.instagram.com/_ahhshley/',
+  twitter: false,
+  twitterLink: ''
+};
+export const beam2021 = {
+  num: "",
+  img: "/legacy/teams/members/beam.jpg",
+  name: "Beam Teacharuangchit",
+  title: "Lead Web Developer",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/natheethorn-teacharuangchit/',
+  github: true,
+  githubLink: 'https://github.com/beam-ntth',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: true,
+  instaLink: 'https://www.instagram.com/beam_ntth/?hl=en',
+  twitter: false,
+  twitterLink: ''
+};
+export const briana2021 = {
+  num: "",
+  img: "/legacy/teams/members/bri.JPG",
+  name: "Briana Omori",
+  title: "UI and Visual Design Lead",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/briana-omori-0a9a50153/',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+export const christopher2021 = {
+  num: "",
+  img: "/legacy/teams/members/christopher2021.JPG",
+  name: "Christopher Keokot",
+  title: "Director of Operations",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/christopher-keokot/',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+// TODO
+// 2021 Associates
