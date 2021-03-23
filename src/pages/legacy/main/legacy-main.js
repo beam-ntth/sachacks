@@ -48,9 +48,9 @@ const LegacyMain = props => {
             <div className='lg-right'>
                 <h2 className='lg-main-header'>SacHacks</h2>
                 <p className='lg-main-subheader'>Sacramento's Intercollegiate Hackathon</p>
-                <div style={{display: 'flex'}}>
-                <Link to='/2021' style={{marginRight: '2rem'}}><div className='lg-main-btn'>Enter SacHacks III Site</div></Link>
-                <a href='https://form.typeform.com/to/r2sYTJ' target='_blank' rel='noopener noreferrer'><div className='lg-main-btn'>Join Our Team!</div></a>
+                <div className='lg-buttons' style={ { display: 'flex' } }>
+                    <Link to='/2021' style={ { marginRight: '2rem' } }><div className='lg-main-btn'>Enter SacHacks III Site</div></Link>
+                    <a href='https://form.typeform.com/to/r2sYTJ' target='_blank' rel='noopener noreferrer'><div className='lg-main-btn'>Join Our Team!</div></a>
                 </div>
             </div>
         </div>

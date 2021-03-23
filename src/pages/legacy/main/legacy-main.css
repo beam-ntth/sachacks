@@ -78,7 +78,14 @@
         height: 50px;
         width: 180px;
         font-size: 13px;
+        margin-bottom: 20px;
     }
+
+    .lg-buttons {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
     .lg-left, .lg-right {
         transform: translateY(-50px);
     }
