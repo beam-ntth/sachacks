@@ -8,28 +8,23 @@
     width: 84%;
     padding-left: 16%;
     background-color: white;
-}
-
-.lg-left {
-    display: flex;
-    height: 100vh;
-    width: 30%;
     align-items: center;
     justify-content: center;
+}
+
+.lg-center {
+    display: flex;
+    height: 30rem;
+    width: 65rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8995FF;
 }
 
 .lg-main-logo {
     width: 60%;
     height: auto;
-}
-
-.lg-right {
-    display: flex;
-    height: 100vh;
-    width: 70%;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
 }
 
 .lg-main-header {
@@ -43,6 +38,7 @@
     font-size: 20px;
     font-family: Graphik, serif;
     margin: 3% 0;
+    color: white;
 }
 
 .lg-main-btn {
@@ -53,9 +49,15 @@
     height: 80px;
     width: 300px;
     background-color: #F4F7FA;
-    box-shadow: 3px 6px 13px 0px lightgray ;
+    box-shadow: 2px 3px 13px 0px grey ;
+    border-radius: 10px;
     font-family: Graphik, serif;
     font-size: 20px;
+}
+
+#legacy-main-logo {
+    width: 50rem;
+    height: auto;
 }
 
 @media (max-width: 541px) {
@@ -75,18 +77,26 @@
         margin: 5% 0;
     }
     .lg-main-btn {
-        height: 50px;
-        width: 180px;
-        font-size: 13px;
-        margin-bottom: 20px;
+        height: 7rem;
+        width: 16rem;
+        font-size: 1.2rem;
+        margin: 0 0 20px 0 !important;
+    }
+
+    .lg-center {
+        height: 80vh;
+        width: 95%;
     }
 
     .lg-buttons {
         flex-direction: column;
         margin-top: 20px;
+        align-items: center;
+        justify-content: center;
     }
 
-    .lg-left, .lg-right {
-        transform: translateY(-50px);
+    #legacy-main-logo {
+        width: 90%;
+        height: auto;
     }
 }

@@ -770,6 +770,7 @@ export const sarah = {
   twitter: true,
   twitterLink: 'https://twitter.com/iimsarra'
 };
+
 export const tina = {
   num: "",
   img: "/legacy/teams/members/tina.jpg",
@@ -789,4 +790,437 @@ export const tina = {
   twitterLink: ''
 };
 
+export const chriskeokot = {
+  num: "",
+  img: "/legacy/teams/members/christopher2021.jpeg",
+  name: "Christopher Keokot",
+  title: "Director of Operations",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/christopher-keokot',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
 
+export const evachung = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Eva Chung",
+  title: "Director of Finance",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/eva-chung',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const nickdo = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Nick Do",
+  title: "Operations Lead",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/nicholas-do',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: true,
+  fbLink: 'https://www.facebook.com/swaggnick',
+  insta: true,
+  instaLink: 'https://www.instagram.com/justnickdoit',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const kristenchan = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Kristen Chan",
+  title: "Marketing Lead",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/kristenchan16',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const aivytran = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Aivy Tran",
+  title: "Finance and Marketing Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/aivy-tran-business',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: true,
+  fbLink: 'https://www.facebook.com/aivy.tran.19',
+  insta: true,
+  instaLink: 'https://www.instagram.com/aivytrain',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const allisonSch = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Allison Schiffmaier",
+  title: "Operations Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/allison-schiffmaier-237b781b4',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const anthonyngy = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Anthony Nguyen",
+  title: "Marketing Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/anthony-nguyenz',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const christianLui = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Christian Lui",
+  title: "Finance Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/christian-lui-0b71a8177',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: true,
+  fbLink: 'https://www.facebook.com/christian.lui11/',
+  insta: true,
+  instaLink: 'https://www.instagram.com/christian.lui11',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const divyaNair = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Divya Nair",
+  title: "Operations Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/divya-nair-csdesign',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const hodaE = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Hoda Eldifrawy",
+  title: "Operations Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/hoda-eldifrawy-97463b123',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const jamieChou = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Jamie Chou",
+  title: "Designer",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/jamie-chou-951aba17a',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const jasmineCheng = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Jasmine Cheng",
+  title: "Finance Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/jasminemcheng',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: true,
+  fbLink: 'https://www.facebook.com/profile.php?id=100006318516167',
+  insta: true,
+  instaLink: 'https://www.instagram.com/jazcheng',
+  twitter: false,
+  twitterLink: ''
+};
+export const jeanPagaduan = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Jean Pagaduan",
+  title: "Finance and Operations Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/jean-pagaduan-0298421aa',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const jenJeon = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Jen Jeon",
+  title: "Designer",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/jenniferjeonn',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+export const jessicaLi = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Jessica Li",
+  title: "Marketing Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/jess-i-cali',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const juliaAlberto = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Julia Alberto",
+  title: "Operations Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/julia-alberto-0804',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const nishthaAhir = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Nishtha Ahir",
+  title: "Operations Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/nishtha-ahir-214669199',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: true,
+  fbLink: 'https://www.facebook.com/nishtha.ahir.5',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const raunAnad = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Ruanak Anand",
+  title: "Web Developer",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/raunak-anand',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const shirleyDo = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Shirley Do",
+  title: "Design and Marketing Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/shirley-do',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: true,
+  fbLink: 'https://www.facebook.com/xshirleeey',
+  insta: true,
+  instaLink: 'https://www.instagram.com/xshirleyyy/',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const sutingTan = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Su-Ting Tan",
+  title: "Finance Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/su-tingtan',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const toniSch = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Toni Schiffmaier",
+  title: "Operations Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/toni-s-70a987122',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const travisChan = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Travis Chan",
+  title: "Web Developer",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/travis-chan-39423516b',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};
+
+export const nancyMa = {
+  num: "",
+  img: "/legacy/teams/members/",
+  name: "Nancy Ma",
+  title: "Operations Associate",
+  linkedin: true,
+  linkedinLink: 'https://www.linkedin.com/in/nancy-ma-89890b2',
+  github: false,
+  githubLink: '',
+  mail: false,
+  mailLink: '',
+  fb: false,
+  fbLink: '',
+  insta: false,
+  instaLink: '',
+  twitter: false,
+  twitterLink: ''
+};

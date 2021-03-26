@@ -42,14 +42,11 @@ const LegacyMain = props => {
     const mainContent = (
         <div className='lg-main'>
             {/* Left side of the page, contains logo */ }
-            <div className='lg-left'>
-                <img className='lg-main-logo' src='/legacy/navbar/sachacks-favicon-2021.png' alt='SacHacks Favicon' />
-            </div>
-            <div className='lg-right'>
-                <h2 className='lg-main-header'>SacHacks</h2>
+            <div className='lg-center'>
+                <img id="legacy-main-logo" src="/legacy/sachack-main-logo.png" alt='legacy main logo' />
                 <p className='lg-main-subheader'>Sacramento's Intercollegiate Hackathon</p>
                 <div className='lg-buttons' style={ { display: 'flex' } }>
-                    <Link to='/2021' style={ { marginRight: '2rem' } }><div className='lg-main-btn'>Enter SacHacks III Site</div></Link>
+                    <Link to='/2021'><div className='lg-main-btn' style={ { marginRight: '2rem' } }>Enter SacHacks III Site</div></Link>
                     <a href='https://form.typeform.com/to/r2sYTJ' target='_blank' rel='noopener noreferrer'><div className='lg-main-btn'>Join Our Team!</div></a>
                 </div>
             </div>

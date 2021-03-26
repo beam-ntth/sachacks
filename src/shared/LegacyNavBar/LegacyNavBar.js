@@ -11,7 +11,7 @@ const LegacyNavBar = ( props ) => {
         <React.Fragment>
             <div className='sidebar'>
                 <div className='sidebar-logo'>
-                    <img src='/legacy/navbar/sachacks-favicon-2021.png' alt='SacHacks Favicon' />
+                    <img src='/sachacks-logo/rocket-horz.png' alt='SacHacks Favicon' />
                 </div>
                 <h4 className='sidebar-header'>SacHacks</h4>
                 <h5 className='sidebar-subheader'>Design. Code. Launch.</h5>
