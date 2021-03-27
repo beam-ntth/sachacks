@@ -1,48 +1,51 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
 
-.FAQPage{
-	background: #FFFFFF;
+.lace-FAQPage{
+	background: #03113A;
+	padding-left: 10%;
 }
 
-.FAQPage .extension{
-	background: #FFEAFC;
+.lace-FAQPage .lace-extension{
+	background: #03113A;
 	padding: 30px; 
 }
-.FAQ{
-	text-align: center;
-	background: #FFFFFF;
+.lace-FAQ{
+	text-align: left;
+	background: #03113A;
+	color: white;
 }
 
-.FAQ h1{
+.lace-FAQ h1{
 	padding-top: 2vh;
 	font-size: 3vw;
 	font-family: 'Palanquin Dark';
 	font-weight: 100;
 }
 
-.extension_one{
-	background: #FFEAFC;
-	padding-bottom: 10vh; 
+.lace-extension_one{
+	background: #03113A;
+	padding-bottom: 5vh; 
 }
 
-.questions{
+.lace-questions{
+	display: flex;
 	text-align: center;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 }
 
 
-.row_one{
+.lace-row_one{
 	padding-right: 5%;
-	
+	width: 100%;
 }
 
-.row_two{
+.lace-row_two{
 	padding-right: 3%;
-	
+	width: 100%;
 }
 
-.row_one p{
+.lace-row_one p{
 	margin-bottom: 5%;
 	font-family: 'Palanquin Dark';
 	font-size: 2.5vw;
@@ -50,7 +53,7 @@
   	border-bottom-width: thin;
 }
 
-.row_two p{
+.lace-row_two p{
 	margin-bottom: 5%;
 	font-family: 'Palanquin Dark';
 	font-size: 2.5vw;
@@ -58,7 +61,7 @@
   	border-bottom-width: thin;
 }
 
-.extension_two{
-	background: #FFEAFC;
+.lace-extension_two{
+	background: #03113A;
 	padding: 11vh;
-} */
+}

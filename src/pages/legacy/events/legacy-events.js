@@ -39,6 +39,16 @@ const LegacyEvents = ( props ) => {
                     <NewsCards content={ EventData.news3 } />
                     {/* Add more news here */ }
                 </div>
+                <div className="lg-news-list">
+                    <NewsCards content={ EventData.news4 } />
+                    <NewsCards content={ EventData.news5 } />
+                    <NewsCards content={ EventData.news6 } />
+                    {/* Add more news here */ }
+                </div>
+                <div className="lg-news-list">
+                    <NewsCards content={ EventData.news7 } />
+                    {/* Add more news here */ }
+                </div>
             </div>
             <div className="lg-medium">
                 <h2 className="lg-events-header">Medium Articles</h2>

@@ -56,6 +56,35 @@ export const news3 = {
   summary: "On February 22-23, undergraduate, graduate and industry professionals will gather at Allegiant Innovation Center for the Second Annual SacHacks – Sacramento’s major intercollegiate, 24-hour coding and competitive hackathon.",
   link: "https://www.nba.com/kings/news/sacramento-kings-sachacks-and-major-league-hacking-host-second-annual-hackathon-local-college"
 };
+export const news4 = {
+  num: "4",
+  img: "/legacy/events/davis-vanguard1.png",
+  header: "SacHacks, the First Major Intercollegiate Hackathon, Begins",
+  summary: "SacHacks is the first major intercollegiate hackathon in Sacramento open to all college students with the goal of cultivating the untapped potential of those in the Northern Californian region. During this event, participants launch their ideas into action during a 36-hour hackathon, where passionate people gather together to create, build and bring their ideas to fruition.",
+  link: "https://www.davisvanguard.org/2021/02/sachacks-the-first-major-intercollegiate-hackathon-begins/"
+};
+export const news5 = {
+  num: "5",
+  img: "/legacy/events/davis-vanguard2.jpeg",
+  header: "Student Opinion: SacHacks 2021 – Can Computers Be Creative?",
+  summary: "Over the weekend, I attended SacHacks 2021, which describes itself as “the first major intercollegiate hackathon in the Sacramento, California area.” It consisted of a series of presentations by computer science experts while students worked in groups to complete programming projects.",
+  link: "https://www.davisvanguard.org/2021/02/student-opinion-sachacks-2021-can-computers-be-creative/"
+};
+export const news6 = {
+  num: "6",
+  img: "/legacy/events/davis-vanguard2.jpeg",
+  header: "2021 SacHacks Announces Project Winners During Closing Ceremony",
+  summary: "After a weekend of coding, the winners of this year’s SacHacks virtual hackathon were announced during Sunday’s closing ceremony.",
+  link: "https://www.davisvanguard.org/2021/02/2021-sachacks-announces-project-winners-during-closing-ceremony/"
+};
+export const news7 = {
+  num: "7",
+  img: "/legacy/events/davis-vanguard2.jpeg",
+  header: "Student Opinion: In Local Hackathon, A Reminder of the Power of Community",
+  summary: "In the era of COVID-19, countless things have had to make a move to online interaction. However, among all the different meetings, conventions and activities that have gone digital, one has found a way to maintain its activities and flourish amidst the pandemic––the SacHacks Hackathon.",
+  link: "https://www.davisvanguard.org/2021/02/student-opinion-in-local-hackathon-a-reminder-of-the-power-of-community/"
+};
+
 
 // Boilerplate for Medium articles components
 export const medium1 = {
