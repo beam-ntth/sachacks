@@ -24,22 +24,32 @@ import * as member from "./legacy-team-member";
 const LegacyTeams = ( props ) => {
 
     // Keep the reference of where the elements are for animation
+    const ref2021 = useRef();
     const ref2020 = useRef();
     const ref2018 = useRef();
-    const [ yearActive2020, setYearActive2020 ] = useState( true );
-    const [ yearActive2018, setYearActive2018 ] = useState( false );
+    const [ yearActive2021, setYearActive2021 ] = useState( false );
+    const [ yearActive2020, setYearActive2020 ] = useState( false );
+    const [ yearActive2018, setYearActive2018 ] = useState( true );
 
     const scroll = ( ref ) => {
         ref.current.scrollIntoView( { behavior: 'smooth' } );
     };
 
     const sidebarYearToggleBtn = ( year ) => {
-        if ( year === 2020 && !yearActive2020 ) {
+        if ( year === 2021 ) {
+            setYearActive2021( true );
+            setYearActive2020( false );
+            setYearActive2018( false );
+            return;
+        }
+        if ( year === 2020 ) {
+            setYearActive2021( false );
             setYearActive2020( true );
             setYearActive2018( false );
             return;
         }
-        if ( year === 2018 && !yearActive2018 ) {
+        if ( year === 2018 ) {
+            setYearActive2021( false );
             setYearActive2018( true );
             setYearActive2020( false );
             return;
@@ -66,21 +76,32 @@ const LegacyTeams = ( props ) => {
             <div className="lg-teams-layout">
                 <div className="lg-teams-year-list">
                     <div
-                        href='#2020'
-                        className={ yearActive2020 ? "lg-teams-year year-active" : "lg-teams-year" }
-                        onClick={ () => {
-                            scroll( ref2020 );
-                            sidebarYearToggleBtn( 2020 );
-                            return;
-                        } }>2020</div>
-                    <div
                         href='#2018'
                         className={ yearActive2018 ? "lg-teams-year year-active" : "lg-teams-year" }
                         onClick={ () => {
                             scroll( ref2018 );
                             sidebarYearToggleBtn( 2018 );
                             return;
-                        } }>2018</div>
+                        } }
+                        style={ { marginTop: '200px' } }>2018</div>
+                    <div
+                        href='#2020'
+                        className={ yearActive2020 ? "lg-teams-year year-active" : "lg-teams-year" }
+                        onClick={ () => {
+                            scroll( ref2020 );
+                            sidebarYearToggleBtn( 2020 );
+                            return;
+                        } }
+                        >2020</div>
+                    <div
+                        href='#2021'
+                        className={ yearActive2021 ? "lg-teams-year year-active" : "lg-teams-year" }
+                        onClick={ () => {
+                            scroll( ref2021 );
+                            sidebarYearToggleBtn( 2021 );
+                            return;
+                        } }
+                        >2021</div>
                 </div>
                 <div className="lg-teams-main-panel-container">
                     {/* 2020 Team */ }
@@ -98,7 +119,7 @@ const LegacyTeams = ( props ) => {
                                 <MemberCard content={ member.derek2020 } />
                                 <MemberCard content={ member.khizer } />
                                 <MemberCard content={ member.yong2020 } />
-                            </div> 
+                            </div>
                             <div className="lg-teams-member-sublist">
                                 <p className="lg-teams-role-header">Leads</p>
                                 {/* Add more leads below */ }
@@ -166,6 +187,58 @@ const LegacyTeams = ( props ) => {
                                 <MemberCard content={ member.ravishdeep2018 } />
                                 <MemberCard content={ member.rokaya } />
                                 <MemberCard content={ member.taylor } />
+                            </div>
+                        </div>
+                    </div>
+                    {/* 2021 Team */ }
+                    <div ref={ ref2021 } className="lg-teams-main-panel" id='2021'>
+                        <h2 className="lg-teams-header">2020 Team</h2>
+                        <div className="lg-teams-group-photo">
+                            <img src="/legacy/" alt="SacHacks event in 2021" />
+                        </div>
+                        <div className="lg-teams-member-list">
+                            <div className="lg-teams-member-sublist">
+                                <p className="lg-teams-role-header">Executives</p>
+
+                                {/* Add more executives below */ }
+                                <MemberCard content={ member.akshey } />
+                                <MemberCard content={ member.derek2020 } />
+                            </div>
+                            <div className="lg-teams-member-sublist">
+                                <p className="lg-teams-role-header">Leads</p>
+                                {/* Add more leads below */ }
+                                <MemberCard content={ member.ashley } />
+                                <MemberCard content={ member.beam } />
+                                <MemberCard content={ member.briana } />
+                                <MemberCard content={ member.chriskeokot } />
+                                <MemberCard content={ member.evachung } />
+                                <MemberCard content={ member.nickdo } />
+                                <MemberCard content={ member.kristenchan } />
+                            </div>
+                            <div className="lg-teams-member-sublist">
+                                <p className="lg-teams-role-header">Associates</p>
+                                {/* Add more associates below */ }
+                                <MemberCard content={ member.aivytran } />
+                                <MemberCard content={ member.allisonSch } />
+                                <MemberCard content={ member.anthonyngy } />
+                                <MemberCard content={ member.christianLui } />
+                                <MemberCard content={ member.divyaNair } />
+                                <MemberCard content={ member.hodaE } />
+                                <MemberCard content={ member.jamieChou } />
+                                <MemberCard content={ member.jasmineCheng } />
+                                <MemberCard content={ member.jenJeon } />
+                                <MemberCard content={ member.jenny2020 } />
+                                <MemberCard content={ member.jessicaLi } />
+                                <MemberCard content={ member.juliaAlberto } />
+                                <MemberCard content={ member.malav2020 } />
+                                <MemberCard content={ member.nancyMa } />
+                                <MemberCard content={ member.nishthaAhir } />
+                                <MemberCard content={ member.raunAnad } />
+                                <MemberCard content={ member.shirleyDo } />
+                                <MemberCard content={ member.sutingTan } />
+                                <MemberCard content={ member.tina } />
+                                <MemberCard content={ member.toniSch } />
+                                <MemberCard content={ member.travisChan } />
                             </div>
                         </div>
                     </div>

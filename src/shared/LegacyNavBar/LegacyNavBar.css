@@ -2,7 +2,7 @@
     height: 100vh;
     width: 14%;
     max-width: 230px;
-    background-color: #024CF3;
+    background-color: #2F009B;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@
 }
 
 .lg-active {
-    background-color: #013DC5;
+    background-color: #8995FF;
     border-radius: 20px;
 }
 
