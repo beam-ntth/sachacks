@@ -14,14 +14,10 @@ const Lovelace = () => {
           <div className="lovelace-page">
             <Nav_Lovelace />
             <About_Lovelace />
-          </div>
-          {/* <div className='lace-nav'>
-                <Nav_Lovelace /> */}
-          {/*</div>
+            <Lovelace_Mission />
             <FAQPage />
             <Sponsors_Lovelace />
-            <Lovelace_Mission />
-          */}
+          </div>
         </React.Fragment>
     );
 };

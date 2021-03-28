@@ -1,171 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
-
-
-
-.LogoPartners{
-	background-color: #FFEAFC;
-	display: flex;
-	position: relative;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-	text-align: center;
-}
-
-.PartnerLogos{
-	padding-top: 10px;
-	justify-content: center;
-	align-items: center;
-	margin-left: auto;
-    margin-right: auto;
-}
-
-.PartnerLogos h5,h4,p{
-	font-family: Righteous;
-	font-size: 2.1vw;
-	align-items: center;
-	margin: auto;
-    justify-content: center;
-    text-align: center;
-    font-weight: 100;
-}
-
-.PartnerLogos h5{
-	padding: 1.4vw 0px;
-}
-
-.PartnerLogos img{
-	padding: 0% 3%;
-	padding-top: 1.9vw;
-	width: 14.5vw;
-}
-
-.ellipse{
-	background-color: #FFFFFF;
-	background: 'lovelace2021/logo.png';
-	border-radius: 50%;
-	width: 100%;
-	height: auto;
-	padding-top: 100%;
-	background: white;
-}
-
-.sideElements{
-	position: absolute;
-	right: 0px;
-	font-family: Righteous;
-	font-size: 5vw;
-	text-align: center;
-	padding-right: 3vw;
-	padding-bottom: 20vh;
-
-}
-
-.button {
-	background-color: #000000;
-	border: none;
-	color: white;
-	padding: 1.2vw 2vw;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 1.3vw;
-	margin: 0px 7px;
-	cursor: pointer;
-}
-
-.Mentor{
-	padding: 1.2vw 3vw;
-}
-
-.AboutUs{
-	align-items: center;
-	text-align: center;
-	background: #FFFFFF;
-}
-
-.AboutUs h1{
-	font-family: 'Palanquin Dark';
-	font-size: 3vw;
-	font-weight: 100;
-}
-
-.AboutUs p,h4{
-	font-family: 'Palanquin';
-	padding: 0 25vw;
-	font-size: 1.4vw;
-}
-
-.rectangle{
-	background: #C4C4C4;
-	width: 45%;
-	padding-bottom: 20%;
-	height: auto;
-	margin: auto;
-}
-
-.AboutUs a{
-	font-size: 1.4vw;
-	color: #000000;
-	font-family: 'Palanquin';
-}
-
-.extension{
-	padding-bottom: 20px;
-}
-
-.Social{
-	align-items: center;
-	text-align: center;
-	background: #FFEAFC;
-	padding-top: 20px;
-}
-
-.Social a{
-	font-family: 'Ribeye Marrow';
-	font-size: 1.2vw;
-	color: #000000;
-}
-
-.Social p{
-	font-size: 2vw;
-}
-
-.fa img{
-	padding: 3px 10px;
-	width: 4.5%;
-}
-
-.fa-twitter img{
-	border-radius: 30%;
-	width: 4%;
-}
-
-.fa-facebook img{
-	border-radius: 30%;
-	width: 4.2%;
-}
-
-.heartline{
-	display: inline;
-	font-family: 'Rhodium Libre';
-}
-
-.heart:before {
-  content: '\2665';
-  color: #DD2E44;
-} */
-
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:bold');
 @import url('https://fonts.googleapis.com/css?family=DM+Sans:regular,bold');
 @import url('https://fonts.googleapis.com/css?family=Lato:regular');
 
 /* Lovelace Hacks Graphic Standard */
 .event-title {
+    color: white;
     font-size: 85px;
     font-family: "Crimson Text", bold, serif;
 }
@@ -229,9 +68,10 @@
 
 /* Grid size */
 .grid-container {
+    padding-bottom: 27.8vw;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
     gap: 0px 0px;
     grid-template-areas:
     "about-grid about-grid ada-lovelace-window-grid ada-lovelace-window-grid"
@@ -351,6 +191,7 @@
     color: black;
 }
 
+
 @media (max-width: 900px) {
     .ada-lovelace-window-image {
         display: none;
@@ -404,6 +245,7 @@
     }
 }
 
+
 /* Iphone SE  */
 @media (max-width: 325px) {
     .about {
@@ -413,4 +255,3 @@
         padding: 0px 0px 14px 10px;
     }
 }
-

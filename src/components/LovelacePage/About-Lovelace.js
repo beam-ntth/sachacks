@@ -13,7 +13,7 @@ const AboutLovelace = () => {
     return (
       <div className="grid-container" data-aos="fade-up">
           <div className="about-grid">
-              <div className="about">
+              <div className="about-lace">
                   <h1 className="event-title">Lovelace<br />Hacks</h1>
                   <h5 className="event-date yellow-text">VIRTUAL @ APRIL 23 - 25, 2021</h5>
                   <p className="body-text purple-text letter-spacing-3">
@@ -30,8 +30,8 @@ const AboutLovelace = () => {
                   </p>
                   <img src="/lovelace2021/launched-by/sachacks-logo-white.png" alt="SacHacks" className="sachacks-logo-size"/>
                   <img src="/lovelace2021/launched-by/WiCS-logo.png" alt="UC Davis Women in Computer Science" className="wics-logo-size"/>
-                  {/* <SocialMedia /> */}
-              </div></div>
+              </div>
+          </div>
           <div className="ada-lovelace-window-grid">
               <img src="/lovelace2021/ada-lovelace-window/ada-lovelace-window.svg" alt="" className="ada-lovelace-window-image"/>
           </div>
