@@ -12,12 +12,13 @@ const Nav_Lovelace = () => {
     return (
         <React.Fragment>
             <div className='lace-navbar'>
+                <a id="home"></a>
                 <img src='lovelace2021/lovelace-logo.svg' alt='Lovelace Hacks' />
                 <div className='lace-nav-links'>
-                    <a className='lace-nav-btn' href=''>HOME</a>
-                    <a className='lace-nav-btn' href=''>ABOUT</a>
-                    <a className='lace-nav-btn' href=''>FAQ</a>
-                    <a className='lace-nav-btn' href=''>SPONSORS</a>
+                    <a className='lace-nav-btn' href='#home'>HOME</a>
+                    <a className='lace-nav-btn' href='#about'>ABOUT</a>
+                    <a className='lace-nav-btn' href='#faq'>FAQ</a>
+                    <a className='lace-nav-btn' href='#sponsors'>SPONSORS</a>
                 </div>
             </div>
         </React.Fragment>

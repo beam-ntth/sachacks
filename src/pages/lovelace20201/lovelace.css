@@ -5,3 +5,7 @@
     background-size: cover;
     width: 100vw;
 }
+
+html {
+    scroll-behavior: smooth;
+}

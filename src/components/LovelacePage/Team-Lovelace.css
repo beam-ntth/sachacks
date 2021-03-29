@@ -1,0 +1,54 @@
+
+.lovelace-team{
+    margin-left: 7%;
+    margin-top: 100px;
+}
+
+.lovelace-team h2{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: "DM Sans", regular, sans-serif;
+}
+
+.lovelace-team h1{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "DM Sans", regular, sans-serif;
+}
+
+.lovelace-team h3{
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "DM Sans", regular, sans-serif;
+}
+
+
+.rows{
+    align-items: center;
+    text-align: center;
+    padding: 1vw 0px 0px;
+    display: inline-block;
+}
+
+.row-1{
+    margin-left: 8%;
+}
+
+.person{
+    margin: 3vw;
+}
+
+.square{
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    background-image: url("/lovelace2021/team-profilepics.svg");
+    background-color: #C4C4C4;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.extension-lace{
+    /* padding-bottom: 70vw; */
+}
