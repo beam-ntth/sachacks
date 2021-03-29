@@ -34,3 +34,7 @@
     border-bottom: 2px solid #FBD59C;
     padding-bottom: 12px;
 }
+
+html {
+    scroll-behavior: smooth;
+}

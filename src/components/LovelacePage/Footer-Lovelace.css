@@ -1,17 +1,17 @@
 
 .Lace-Sponsors-Title h1{
-	color: #FFFFFF;
+    color: #FFFFFF;
     font-size: 50px;
     font-family: "DM Sans", bold, sans-serif;
-    margin-left: 7%; 
+    margin-left: 7%;
 }
 
 .footer-lovelace{
-	background-color: #342B67;
+    background-color: #342B67;
 }
 
 .col{
-	margin-left: 7%;
+    margin-left: 7%;
     padding: 1vw 0px 0px;
     display: inline-block;
 }
@@ -24,44 +24,40 @@
 }
 
 .col-2 h1{
-	color: #FFFFFF;
-	padding-bottom: 10px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
     font-size: 12px;
     font-family: "DM Sans", regular, sans-serif;
 }
 
 .col-3 h1{
-	color: #FFFFFF;
-	padding-bottom: 10px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
     font-size: 12px;
     font-family: "DM Sans", regular, sans-serif;
 }
 
 .col-3 h2{
-	color: #D5BDEA;
-	font-size: 12px;
+    color: #D5BDEA;
+    font-size: 12px;
 }
 
 .lace-social-media img{
-	width:25px;
+    width:25px;
 }
 
 .Lovelace-Hacks-Instagram{
-	padding-left: 25px;
-	padding-right: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .col-4{
-	margin-left: 8%;
+    margin-left: 8%;
 }
 
 .col-4 h1{
-	color: #FFFFFF;
-	padding-bottom: 10px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
     font-size: 12px;
     font-family: "DM Sans", regular, sans-serif;
-}
-
-.extension-lace{
-	padding-bottom: 10vw;
 }
