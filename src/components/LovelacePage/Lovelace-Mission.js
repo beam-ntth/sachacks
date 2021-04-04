@@ -72,12 +72,12 @@ class Lovelace_Mission extends React.Component {
                       </h1>
                       <p>
                           Inspired by the discussions from University of California, Davis’s Ethics in an Age of Technology course, Lovelace Hacks exists to<br />
-                          provide those who identify as female and gender minorities the <span className="yellow-text">awareness and opportunity to explore technology, regardless of skill<br />
+                          provide those who identify as women and gender minorities the <span className="yellow-text">awareness and opportunity to explore technology, regardless of skill<br />
                         level and background.</span>
                       </p>
                       <p>
                           By fostering the importance of women in Computer Science and STEM, we hope to get more individuals to try computer science,<br />
-                          demonstrate that females and gender minorities can thrive in this male dominated field, and bring awareness to all the women that<br />
+                          demonstrate that women and gender minorities can thrive in this male dominated field, and bring awareness to all the women that<br />
                           built the tech industry.
                       </p>
                   </div>

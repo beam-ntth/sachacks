@@ -17,7 +17,7 @@ const AboutLovelace = () => {
                   <h1 className="event-title">Lovelace<br />Hacks</h1>
                   <h5 className="event-date yellow-text">VIRTUAL @ APRIL 23 - 25, 2021</h5>
                   <p className="body-text purple-text letter-spacing-3">
-                      We're the <span className="yellow-text">first female co-led hackathon</span> from UC Davis.<br />
+                      We're the <span className="yellow-text">first women co-led hackathon</span> from UC Davis.<br />
                       WiCS & SacHacks are dedicated to fostering<br />
                       a culture of hacking for women and social good<br />
                       through the empowerment of technology.{ " " }
