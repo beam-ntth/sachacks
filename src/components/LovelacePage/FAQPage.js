@@ -19,7 +19,7 @@ const FAQPage = () => {
                 <div className="lace-questions">
                     <div className="lace-row_one">
                         <LaceCards qa={ { q: 'What is a hackathon?', a: 'A hackathon is a event where students of different backgrounds come together to create a project from the ground up. You will work with others in up to teams of 4 people to bring your ideas to life, all while attending workshops, learning from speakers, networking with our sponsors, and meeting like-minded people!' } } />
-                        <LaceCards qa={ { q: 'Who can participate?', a: 'Any undergraduate student or graduate student over the age of 18 that identifies as female or non-binary are welcome to participate and hack! We encourage allies to participate as mentors and volunteers!' } } />
+                        <LaceCards qa={ { q: 'Who can participate?', a: 'Any undergraduate student or graduate student over the age of 18 that identifies as women or non-binary are welcome to participate and hack! We encourage allies to participate as mentors and volunteers!' } } />
                         <LaceCards qa={ { q: 'How much does it cost to attend?', a: 'Everything is provided by our team and sponsors. The event is free to attend!' } } />
                         <LaceCards qa={ { q: 'When is the hacker application deadline?', a: 'The hacker applications are closed at 11:59pm Pacific Time on April 20, 2021!' } } />
                         <LaceCards qa={ { q: 'Can I attend if I have no coding experience?', a: 'Yes, our event is beginner friendly and open to all majors. You can learn to code through our beginner friendly workshops. There will also be mentors throughout the event providing live drop-in assistance!' } } />
