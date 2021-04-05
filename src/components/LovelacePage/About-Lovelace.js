@@ -23,7 +23,8 @@ const AboutLovelace = () => {
                       through the empowerment of technology.{ " " }
                   </p>
                   <div className="map-buttons">
-                      <a href='https://form.typeform.com/to/MvryfMWF' target='_blank' rel='noopener noreferrer'><div className='map-button button-text letter-spacing-7'>REGISTER NOW</div></a>
+                      <a href='https://form.typeform.com/to/MvryfMWF' target='_blank' rel='noopener noreferrer'><div className='map-button button-text letter-spacing-7'>Apply as Hacker</div></a>
+                      <a href='https://forms.gle/WQSrZwNL9Jv6kFUN6' target='_blank' rel='noopener noreferrer'><div className='map-button button-text letter-spacing-7'>Apply as Mentor</div></a>
                   </div>
                   <p className="body-text purple-text letter-spacing-5">
                       Launched by <span className="yellow-text">SacHacks</span> and <span className="yellow-text">WiCS</span>
