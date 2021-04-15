@@ -16,7 +16,7 @@ const Lovelace = () => {
             <Nav_Lovelace />
             <About_Lovelace />
             <Lovelace_Mission />
-            {/* <Team_Lovelace /> Comment Team component out for now until we add everyone */}
+            <Team_Lovelace />
             <FAQPage />
             <Sponsors_Lovelace />
             <Footer_Lovelace />

@@ -81,6 +81,24 @@ class Lovelace_Mission extends React.Component {
                           built the tech industry.
                       </p>
                   </div>
+                  <div className="lovelace-quotes">
+                      <aside>
+                          <p>
+                              "We are still a long way before we reach gender equality in Computer Science<br /> 
+                              and Information Technology. Initiatives that provide a safe, fun, supportive, and<br /> 
+                              inspiring environment for young women to discover what coding means and<br /> 
+                              the opportunities it provides are definitely important steps along this road.<br />
+                              The Lovelace Hacks initiative is definitely one such step and its organizers<br /> 
+                              should be highly praised for putting it together!“
+                          </p>
+                          <p className="lace-whoseQuote">
+                              <span className="yellow-text">Professor Patrice Koehl</span><br />
+                              University of California, Davis Ethics in an Age of Technology Professor<br />
+                              University of California, Davis Data Science Initiative Founding Director<br />
+                          </p>
+                      </aside>
+                      <img src="/lovelace2021/koehl.jpeg" className="koehl-lovelace"/>
+                  </div>
                   <div className = "extension-lace"></div>
               </div>
           </React.Fragment>

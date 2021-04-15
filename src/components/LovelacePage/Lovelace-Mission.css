@@ -3,8 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:regular');
 
 .ada-bio{
-    margin-bottom: 400px;
-    margin-top: 400px;
+    margin-bottom: 200px;
 }
 
 .ada-bio aside{
@@ -114,19 +113,70 @@
     font-family: "DM Sans", regular, sans-serif;
 }
 
+.value-flips{
+    padding-left: 5.6%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.lovelace-quotes{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.lovelace-quotes aside{
+    width: 65%;
+    color: #FFFFFF;
+    padding-left: 40px;
+    padding-top: 35px;
+    float: right;
+}
+
+.lovelace-quotes p{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: "DM Sans", regular, sans-serif;
+}
+
+.lovelace-quotes h1{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: "DM Sans", bold, sans-serif;
+}
+
+.lovelace-quotes img{
+  /*  padding-top: 65px;*/
+    width: 20%;
+    margin-left: 7%;
+}
+
+.lace-whoseQuote{
+    padding-left: 5%;
+}
+
+.koehl-lovelace{
+    border-radius: 50%;
+}
 
 
 /*---------------------------------------------------------------------------------------------------*/
+.lace-team{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
 
 .rows{
     align-items: center;
     text-align: center;
     padding: 1vw 0px 0px;
-    display: inline-block;
-}
-
-.row-1{
-    margin-left: 8%;
+    display: flex;
+    flex-direction: row;
 }
 
 .person{
@@ -138,11 +188,11 @@
     height: 12vw;
     border-radius: 50%;
     background-image: url("/lovelace2021/team-profilepics.svg");
-    background-color: #C4C4C4;
+    /*background-color: #C4C4C4;*/
     background-repeat: no-repeat;
     background-size: cover;
 } 
 
 .extension-lace{
-    /* padding-bottom: 70vw; */
+     padding-bottom: 70vw; 
 }
