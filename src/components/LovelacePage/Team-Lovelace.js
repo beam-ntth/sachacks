@@ -85,6 +85,7 @@ const Team_Lovelace = () => {
 							<h3>Marketing</h3>
 						</div>
 						<div className = "person person-11">
+							<a href="https://www.linkedin.com/in/ariellee0310/">
 								<img src="/lovelace2021/Team/ariellee.jpeg" className="square square-11"/>
 							</a>
 							<h2>Ariel Lee</h2>
