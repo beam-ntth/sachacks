@@ -43,7 +43,7 @@
 }
 
 .person{
-    margin: 3vw;
+    margin: 10vw;
 }
 
 .square{
@@ -55,10 +55,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 } 
-
-.extension-lace{
-     padding-bottom: 70vw; 
-}
 
 /*---------------------------------------------------------------------------------------------------*/
 

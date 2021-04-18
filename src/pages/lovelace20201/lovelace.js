@@ -15,6 +15,7 @@ const Lovelace = () => {
           <div className="lovelace-page">
             <Nav_Lovelace />
             <About_Lovelace />
+            /*<div className="lovelace-extension"></div>*/
             <Lovelace_Mission />
             <Team_Lovelace />
             <FAQPage />

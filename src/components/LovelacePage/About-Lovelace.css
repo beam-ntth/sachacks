@@ -1,37 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text:bold');
-@import url('https://fonts.googleapis.com/css?family=DM+Sans:regular,bold');
-@import url('https://fonts.googleapis.com/css?family=Lato:regular');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    line-height: 1;
+}
 
 /* Lovelace Hacks Graphic Standard */
+.grid-container{
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    flex-direction: row;
+    align-items: center;
+    /*margin-bottom: -120vw;*/
+}
 .event-title {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     color: white;
-    font-size: 85px;
-    font-family: "Crimson Text", bold, serif;
+    font-size: 6.8vw;
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
 }
 
-.nav-bar {
-    font-size: 18px;
-    font-family: "DM Sans", regular, sans-serif;
+.ada-lovelace-window-grid {
+    margin-left: auto;
 }
 
-.headline {
-    font-size: 50px;
-    font-family: "DM Sans", bold, sans-serif;
-}
-
-.event-date {
-    font-size: 18px;
-    font-family: "DM Sans", bold, sans-serif;
-}
-
-.button-text {
-    font-size: 13px;
-    font-family: "Lato", regular, sans-serif;
-}
-
-.body-text {
-    font-size: 16px;
-    font-family: "DM Sans", regular, sans-serif;
+.ada-lovelace-window-image{
+    width: 30vw;
 }
 
 .purple-text {
@@ -40,6 +39,30 @@
 
 .yellow-text {
     color: #F8E589;
+}
+
+.event-date {
+    font-size: 1.3vw;
+    font-family: "DM Sans", bold, sans-serif;
+}
+
+.button-text {
+    padding: 1vw;
+    border-radius: 50px;
+    border-color: #6C51F5;
+    color: white;
+    font-size: 1.3vw;
+    font-family: "Lato", sans-serif;
+    background-color: #6C51F5;
+}
+
+.lace-mentor{
+    margin-left: 10px;
+}
+
+.body-text {
+    font-size: 1.3vw;
+    font-family: "DM Sans", regular, sans-serif;
 }
 
 .letter-spacing-7 {
@@ -53,205 +76,29 @@
 .letter-spacing-3 {
     letter-spacing: 0.03em;
 }
-
+.lace-sponsor-logos{
+    display: flex;
+    align-items: center;
+}
 .sachacks-logo-size {
-    margin-bottom: 5px;
-    width: 144px;
-    height: 23px;
+    width: 12vw;
+    height: auto;
 }
 
 .wics-logo-size {
     margin-left: 50px;
-    width: 81.47px;
-    height: 33px;
-}
-
-/* Grid size */
-.grid-container {
-    padding-bottom: 27.8vw;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    gap: 0px 0px;
-    grid-template-areas:
-    "about-grid about-grid ada-lovelace-window-grid ada-lovelace-window-grid"
-    ". . . ."
-    ". . . .";
-}
-
-.about-grid {
-    grid-area: about-grid;
-    display: inline-block;
-    margin: auto;
-}
-
-.ada-lovelace-window-grid {
-    grid-area: ada-lovelace-window-grid;
-    display: block;
-    margin: auto;
-}
-
-.ada-lovelace-window-image {
-    width: 30vw;
+    width: 10vw;
     height: auto;
 }
 
-
-
-.about {
-    width: 600px;
-    margin-left: 7%;
-    color: white;
-    z-index: 1;
-    position: relative;
-    /* top: calc(100vw * 0.0801 * -1 + 0px); */
-    top: 0px;
-}
-
-.sachacks {
-    font-size: calc(100vw * 0.04697986577 + 0pt);
-    font-weight: 700;
-    margin: 20px 0px;
-}
-
-.co-host {
+.lace-map-buttons{
     display: flex;
-    align-items: flex-start;
-    margin-top: 6%;
 }
 
-.co-host h6 {
-    font-size: calc(100vw * 0.01140939597 + 1pt);
-    margin: 0;
-}
-
-.co-host img {
-    height: calc(100vw * 0.026 + 0px);
-    width: auto;
-    margin: 0 0 5% 6%;
-}
-
-.motto {
-    font-size: calc(100vw * 0.02013422818 + 5pt);
-    font-weight: 600;
-    width: 100%;
-    margin: 15px 0px;
-}
-
-.motto .red {
-    color: #f27672;
-    padding-right: 10px;
-}
-
-.motto .green {
-    color: #7bddde;
-    padding-right: 10px;
-}
-
-.motto .blue {
-    color: #8995ff;
-}
-
-.date {
-    font-size: calc(100vw * 0.01140939597 + 5pt);
-    margin: 10px 0;
-}
-
-.description {
-    width: calc(100vw * 0.4497992 + 0px);
-    font-size: calc(100vw * 0.01140939597 + 5pt);
-    line-height: calc(100vw * 0.024096 + 0pt);
-}
-
-.map-buttons {
-    height: 60px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.map-button {
-    height: calc(100vw * 0.027 + 3px);
-    width: calc(100vw * 0.118 + 0px);
-    font-size: calc(100vw * 0.008 + 3px) !important;
-    background-color: #6C51F5;
-    margin: 0px 20px 0px 0px;
-    border: 0px solid #dcdcdc;
-    border-radius: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-.map-button a {
-    color: black;
-}
-
-
-@media (max-width: 900px) {
-    .ada-lovelace-window-image {
-        display: none;
-    }
-}
-
-@media (max-width: 541px) {
-    .about {
-        position: relative;
-        width: 83%;
-        top: 20vh;
-        left: 0;
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 10px 0px 20px 10px;
-    }
-
-    .sachacks {
-        font-size: 55px;
-        margin: 10px 0 0 0;
-    }
-
-    .co-host h6 {
-        font-size: 16px;
-    }
-
-    .co-host img {
-        height: 25px;
-        width: auto;
-    }
-
-    .motto {
-        font-size: 26px;
-        margin: 10px 0;
-    }
-
-    .date {
-        font-size: 18px;
-    }
-
-    .description {
-        width: 80%;
-        font-size: 18px;
-        line-height: 24px;
-        margin: 10px 0 0 0;
-    }
-
-    .map-button {
-        height: 35px;
-        width: 120px;
-        font-size: 18px;
+@media screen and (max-width: 450px) {
+    .event-title{
+        font-size: 8vw;
     }
 }
 
 
-/* Iphone SE  */
-@media (max-width: 325px) {
-    .about {
-        margin-left: 0px;
-        width: 100%;
-        top: 90px;
-        padding: 0px 0px 14px 10px;
-    }
-}
