@@ -1,0 +1,16 @@
+.lovelace-page {
+    background-color: #03113A;
+    background-image: url("/lovelace2021/lovelace-background.svg");
+    /*background-repeat: no-repeat; *//* Do not repeat the image */
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.lovelace-extension{
+
+}
+
+html {
+    scroll-behavior: smooth;
+}

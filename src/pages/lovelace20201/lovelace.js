@@ -3,21 +3,25 @@ import './lovelace.css';
 
 import Nav_Lovelace from '../../shared/LovelaceNavBar/Navbar-Lovelace';
 import About_Lovelace from '../../components/LovelacePage/About-Lovelace';
+import Lovelace_Mission from '../../components/LovelacePage/Lovelace-Mission';
+import Team_Lovelace from "../../components/LovelacePage/Team-Lovelace";
 import FAQPage from '../../components/LovelacePage/FAQPage';
 import Sponsors_Lovelace from '../../components/LovelacePage/Sponsors-Lovelace';
-import Lovelace_Mission from '../../components/LovelacePage/Lovelace-Mission';
+import Footer_Lovelace from '../../components/LovelacePage/Footer-Lovelace';
 
 const Lovelace = () => {
     return (
         <React.Fragment>
-            <div className='lace-nav'>
-                <Nav_Lovelace />
-                <About_Lovelace />
-            </div>
+          <div className="lovelace-page">
+            <Nav_Lovelace />
+            <About_Lovelace />
+            /*<div className="lovelace-extension"></div>*/
+            <Lovelace_Mission />
+            <Team_Lovelace />
             <FAQPage />
             <Sponsors_Lovelace />
-            <Lovelace_Mission />
-          
+            <Footer_Lovelace />
+          </div>
         </React.Fragment>
     );
 };

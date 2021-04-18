@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:regular,bold');
 
 .lace-navbar{
-    background: #FFFFFF; 
     display: flex;
     overflow: hidden;
     position: relative;
@@ -11,20 +10,31 @@
     position: absolute;
     right: 0px;
     padding-top: 2.7vw;
+    padding-right: 5vw;
 }
 
-.lace-nav-links a{
-    color: #0E0909;
+.lace-nav-links a {
+    color: #C49FFF;
     text-align: center;
     padding: 2vw;
     font-size: 1.7vw;
-    font-family: Righteous;
+    font-family: "DM Sans", bold, sans-serif;
+    font-weight: bold;
 }
  /*use 20px for the font size*/
 
 .lace-navbar img{
-    height: 6vw;
-    padding-top: 0.5vw;
-    padding-bottom: 0.5vw;
-    padding-left: 1.2vw;
+    height: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 4vw;
+    padding-left: 5vw;
+}
+
+.lace-nav-btn:hover, .apply:hover {
+    border-bottom: 2px solid #FBD59C;
+    padding-bottom: 12px;
+}
+
+html {
+    scroll-behavior: smooth;
 }

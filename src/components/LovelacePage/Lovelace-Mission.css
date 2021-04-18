@@ -1,54 +1,139 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:bold');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:regular,bold');
+@import url('https://fonts.googleapis.com/css?family=Lato:regular');
+
 
 .Lace-Mission{
-    background: #FFEAFC;
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.Lace-Mission-half{
     align-items: center;
-    text-align: center;
     justify-content: center;
-    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.summary{
-    text-align: center;
-    background: #FFEAFC;
-    font-family: 'Palanquin';
-    padding: 1vw 20vw 1vw;
+.ada-bio{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 10%;
 }
 
-.summary h4{
-    padding-top: 3vh;
-    font-weight: 100;
-    padding: 0 2vw;
-    font-size: 1.4vw;
+.who-was-ada{
+    margin-left: 10%;
 }
 
-.meet{
-    text-align: center;
-    background: #FFFFFF;
-    margin: 0 70vh;
-    border-top-left-radius: 50px 50px;
-    border-bottom-left-radius: 50px 50px;
-    border-top-right-radius: 50px 50px;
-    border-bottom-right-radius: 50px 50px;
+.who-was-ada p{
+    margin-right: 20%;
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-family: "DM Sans", regular, sans-serif;
 }
 
-.meet h1{
-    font-size: 2.75vw;
-    font-family: 'Palanquin Dark';
-    font-weight: 100;
+.who-was-ada h1{
+    color: #FFFFFF;
+    font-size: 4vw;
+    font-family: "DM Sans", bold, sans-serif;
+}
+
+.ada-bio img{
+  /*  padding-top: 65px;*/
+    width: 12vw;
+    margin-left: 7%;
+}
+
+.lovelace-values h1{
+    color: #FFFFFF;
+    font-size: 4vw;
+    font-family: "DM Sans", bold, sans-serif;
+}
+
+.awareness-card-front{
+    width: 22vw;
+ }
+
+.thrive-card-front{
+    width: 22vw;
+    padding-right:18%;
+    padding-left:18%;
+}
+
+.exposure-card-front{
+    width: 22vw;
+}
+
+.card-inline {
+    display: flex;
+}
+
+.value-flips {
+    display: flex;
+    flex-direction: row;
+}
+
+.koehl-quote, .keynote-quote{
+    width: 100vw;
+    height: auto;
+}
+
+.koehl{
+}
+
+.sadie{
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------*/
+.lovelace-team h1{
+    color: white;
+    margin-left: 10%;
+    font-size: 4vw;
+    font-family: "DM Sans", regular, sans-serif;
+}
+
+.lace-team{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.person h2{
+    font-size: 2vw;
+}
+
+.person h3{
+    font-size: 1.2vw;
+}
+
+.person h2, .person h3{
+    color: white;
 }
 
 .rows{
-    background: #FFEAFC;
     align-items: center;
     text-align: center;
     padding: 1vw 0px 0px;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+}
+
+.person{
+    margin: 5vw;
 }
 
 .square{
-    width: 15vw;
-    height: 19vw;
-    margin: 3vw;
-    background: #C4C4C4;
-} */
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    background-image: url("/lovelace2021/team-profilepics.svg");
+    /*background-color: #C4C4C4;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+

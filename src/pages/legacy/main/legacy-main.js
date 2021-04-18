@@ -46,7 +46,7 @@ const LegacyMain = props => {
                 <img id="legacy-main-logo" src="/legacy/sachack-main-logo.png" alt='legacy main logo' />
                 <p className='lg-main-subheader'>Sacramento's Intercollegiate Hackathon</p>
                 <div className='lg-buttons' style={ { display: 'flex' } }>
-                    <Link to='/2021'><div className='lg-main-btn' style={ { marginRight: '2rem' } }>Enter SacHacks III Site</div></Link>
+                    <Link to='/lovelace'><div className='lg-main-btn' style={ { marginRight: '2rem' } }>Enter Lovelace Hacks Website</div></Link>
                     <a href='https://form.typeform.com/to/r2sYTJ' target='_blank' rel='noopener noreferrer'><div className='lg-main-btn'>Join Our Team!</div></a>
                 </div>
             </div>

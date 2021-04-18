@@ -5,30 +5,13 @@ const Sponsors_Lovelace = () => {
     return (
         <React.Fragment>
             <div className = "Lace-Sponsors">
-                <div className = "extension"></div>
-                <div className = "Title">
+                <a id="sponsors"></a>
+                <div className = "Lace-Sponsors-Title">
                     <h1>
-                        Sponsors
+                        Sponsors - Coming Soon!
                     </h1>
                 </div>
-                <div className = "row row-1">
-                    <a href="#" className="fa fa-ibm"><img src=''/></a>
-                </div>
-                <div className = "row row-2">
-                    <a href="#" className="fa fa-8vc"><img src=''/></a>
-                    <a href="#" className="fa fa-8vc"><img src=''/></a>
-                    <a href="#" className="fa fa-8vc"><img src=''/></a>
-                </div>
-                <div className = "row row-3">
-                    <a href="#" className="fa fa-8vc"><img src=''/></a>
-                    <a href="#" className="fa fa-8vc"><img src=''/></a>
-                    <a href="#" className="fa fa-8vc"><img src=''/></a>
-                </div>
-                <div className = "row row-4">
-                    <a href="#" className="fa fa-8vc"><img src=''/></a>
-                    <a href="#" className="fa fa-8vc"><img src=''/></a>
-                </div>
-                <div className = "extension_two"></div>
+                <div className = "extension-lace"></div>
             </div>
         </React.Fragment>
     );

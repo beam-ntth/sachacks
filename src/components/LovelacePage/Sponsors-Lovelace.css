@@ -1,40 +1,67 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
 
-.Lace-Sponsors{
-	background: #FFFFFF;
+.Lace-Sponsors-Title h1{
+	color: #FFFFFF;
+    font-size: 50px;
+    font-family: "DM Sans", bold, sans-serif;
+    margin-left: 7%; 
 }
 
-.Lace-Sponsors .extension{
-	background: #FFEAFC;
-	padding: 4vh; 
+.footer-lovelace{
+	background-color: #342B67;
 }
 
-.Title{
-	text-align: center;
-	background: #FFFFFF;
+.col{
+	margin-left: 7%;
+    padding: 1vw 0px 0px;
+    display: inline-block;
 }
 
-.Title h1{
-	padding-top: 10px;
-	font-size: 46px;
-	font-family: 'Palanquin Dark';
-	font-weight: 100;
+.col-1 h1{
+
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Crimson Text", bold, serif;
 }
 
-.row{
-	background: #FFEAFC;
-	align-items: center;
-	text-align: center;
-	padding: 10px 0px 0px;
+.col-2 h1{
+	color: #FFFFFF;
+	padding-bottom: 10px;
+    font-size: 12px;
+    font-family: "DM Sans", regular, sans-serif;
 }
 
-.row img{
-	padding-left: 70px;
-	padding-right: 70px;
-	width: 15%;
+.col-3 h1{
+	color: #FFFFFF;
+	padding-bottom: 10px;
+    font-size: 12px;
+    font-family: "DM Sans", regular, sans-serif;
 }
 
-.extension_two{
-	background: #FFEAFC;
+.col-3 h2{
+	color: #D5BDEA;
+	font-size: 12px;
 }
- */
+
+.lace-social-media img{
+	width:25px;
+}
+
+.Lovelace-Hacks-Instagram{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.col-4{
+	margin-left: 8%;
+}
+
+.col-4 h1{
+	color: #FFFFFF;
+	padding-bottom: 10px;
+    font-size: 12px;
+    font-family: "DM Sans", regular, sans-serif;
+}
+
+.extension-lace{
+	padding-bottom: 10vw;
+}

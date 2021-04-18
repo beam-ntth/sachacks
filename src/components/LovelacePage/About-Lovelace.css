@@ -1,161 +1,104 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Palanquin&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-
-
-.LogoPartners{
-	background-color: #FFEAFC;
-	display: flex;
-	position: relative;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-	text-align: center;
+*{
+    line-height: 1;
 }
 
-.PartnerLogos{
-	padding-top: 10px;
-	justify-content: center;
-	align-items: center;
-	margin-left: auto;
-    margin-right: auto;
+/* Lovelace Hacks Graphic Standard */
+.grid-container{
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    flex-direction: row;
+    align-items: center;
+    /*margin-bottom: -120vw;*/
+}
+.event-title {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    color: white;
+    font-size: 6.8vw;
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
 }
 
-.PartnerLogos h5,h4,p{
-	font-family: Righteous;
-	font-size: 2.1vw;
-	align-items: center;
-	margin: auto;
-    justify-content: center;
-    text-align: center;
-    font-weight: 100;
+.ada-lovelace-window-grid {
+    margin-left: auto;
 }
 
-.PartnerLogos h5{
-	padding: 1.4vw 0px;
+.ada-lovelace-window-image{
+    width: 30vw;
 }
 
-.PartnerLogos img{
-	padding: 0% 3%;
-	padding-top: 1.9vw;
-	width: 14.5vw;
+.purple-text {
+    color: #D3B8FF;
 }
 
-.ellipse{
-	background-color: #FFFFFF;
-	background: 'lovelace2021/logo.png';
-	border-radius: 50%;
-	width: 100%;
-	height: auto;
-	padding-top: 100%;
-	background: white;
+.yellow-text {
+    color: #F8E589;
 }
 
-.sideElements{
-	position: absolute;
-	right: 0px;
-	font-family: Righteous;
-	font-size: 5vw;
-	text-align: center;
-	padding-right: 3vw;
-	padding-bottom: 20vh;
-
+.event-date {
+    font-size: 1.3vw;
+    font-family: "DM Sans", bold, sans-serif;
 }
 
-.button {
-	background-color: #000000;
-	border: none;
-	color: white;
-	padding: 1.2vw 2vw;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 1.3vw;
-	margin: 0px 7px;
-	cursor: pointer;
+.button-text {
+    padding: 1vw;
+    border-radius: 50px;
+    border-color: #6C51F5;
+    color: white;
+    font-size: 1.3vw;
+    font-family: "Lato", sans-serif;
+    background-color: #6C51F5;
 }
 
-.Mentor{
-	padding: 1.2vw 3vw;
+.lace-mentor{
+    margin-left: 10px;
 }
 
-.AboutUs{
-	align-items: center;
-	text-align: center;
-	background: #FFFFFF;
+.body-text {
+    font-size: 1.3vw;
+    font-family: "DM Sans", regular, sans-serif;
 }
 
-.AboutUs h1{
-	font-family: 'Palanquin Dark';
-	font-size: 3vw;
-	font-weight: 100;
+.letter-spacing-7 {
+    letter-spacing: 0.07em;
 }
 
-.AboutUs p,h4{
-	font-family: 'Palanquin';
-	padding: 0 25vw;
-	font-size: 1.4vw;
+.letter-spacing-5 {
+    letter-spacing: 0.05em;
 }
 
-.rectangle{
-	background: #C4C4C4;
-	width: 45%;
-	padding-bottom: 20%;
-	height: auto;
-	margin: auto;
+.letter-spacing-3 {
+    letter-spacing: 0.03em;
+}
+.lace-sponsor-logos{
+    display: flex;
+    align-items: center;
+}
+.sachacks-logo-size {
+    width: 12vw;
+    height: auto;
 }
 
-.AboutUs a{
-	font-size: 1.4vw;
-	color: #000000;
-	font-family: 'Palanquin';
+.wics-logo-size {
+    margin-left: 50px;
+    width: 10vw;
+    height: auto;
 }
 
-.extension{
-	padding-bottom: 20px;
+.lace-map-buttons{
+    display: flex;
 }
 
-.Social{
-	align-items: center;
-	text-align: center;
-	background: #FFEAFC;
-	padding-top: 20px;
+@media screen and (max-width: 450px) {
+    .event-title{
+        font-size: 8vw;
+    }
 }
 
-.Social a{
-	font-family: 'Ribeye Marrow';
-	font-size: 1.2vw;
-	color: #000000;
-}
 
-.Social p{
-	font-size: 2vw;
-}
-
-.fa img{
-	padding: 3px 10px;
-	width: 4.5%;
-}
-
-.fa-twitter img{
-	border-radius: 30%;
-	width: 4%;
-}
-
-.fa-facebook img{
-	border-radius: 30%;
-	width: 4.2%;
-}
-
-.heartline{
-	display: inline;
-	font-family: 'Rhodium Libre';
-}
-
-.heart:before {
-  content: '\2665';
-  color: #DD2E44;
-} */

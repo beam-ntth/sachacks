@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
 
 .lace-FAQPage{
-	background: #03113A;
+	/*background: #03113A;*/
 	padding-left: 10%;
 }
 
 .lace-FAQPage .lace-extension{
-	background: #03113A;
+	/*background: #03113A;*/
 	padding: 30px; 
 }
 .lace-FAQ{
 	text-align: left;
-	background: #03113A;
+/*	background: #03113A;*/
 	color: white;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .lace-extension_one{
-	background: #03113A;
+/*	background: #03113A;*/
 	padding-bottom: 5vh; 
 }
 
@@ -62,6 +62,6 @@
 }
 
 .lace-extension_two{
-	background: #03113A;
+/*	background: #03113A;*/
 	padding: 11vh;
 }

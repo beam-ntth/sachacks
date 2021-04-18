@@ -1,58 +1,83 @@
 import React, { useState } from 'react';
+import ReactCardFlip from "react-card-flip";
 import "./Lovelace-Mission.css";
 
-const Lovelace_Mission = () => {
-    return (
-        <React.Fragment>
-            <div className = "Lace-Mission">
-                <div className = "extension"></div>
-                <div className = "Title">
-                    <h1>
-                        Our Mission
-                    </h1>
-                </div>
-                <div className = "summary">
-                    <h4>
-                        Our mission is to help individuals through technological use. We provide opportunities for females and minorities through this hackathon. We  strive to create a secure community in which individuals can learn, grow, and interact.
-                    </h4>
-                </div>
-                <div className = "meet">
-                    <h1>
-                        Meet the team!
-                    </h1>
-                </div>
-                <div className = "rows row-1">
-                    <div className = "square square-1"></div>
-                    <div className = "square square-2"></div>
-                </div>
-                <div className = "rows row-2">
-                    <div className = "square square-3"></div>
-                    <div className = "square square-4"></div>
-                </div>
-                <div className = "rows row-3">
-                    <div className = "square square-5"></div>
-                    <div className = "square square-6"></div>
-                </div>
-                <div className = "rows row-4">
-                    <div className = "square square-7"></div>
-                    <div className = "square square-8"></div>
-                </div>
-                <div className = "Social Media">
-                    <a href="mailto:lovelacehacks@gmail.com">lovelacehacks@gmail.com</a>
-                    <div className = "Sociallogos">
-                        <a href="#" className="fa fa-gmail"><img src='lovelace2021/gmail.png'/></a>
-                        <a href="#" className="fa fa-twitter"><img src='lovelace2021/twitter.png'/></a>
-                        <a href="#" className="fa fa-instagram"><img src='lovelace2021/instagram.png'/></a>
-                        <a href="#" className="fa fa-facebook"><img src='lovelace2021/facebook.png'/></a>
-                    </div>
-                    <p className = "heartline">
-                        Made with <span className="heart"></span> @ Davis
-                    </p>
-                    <div className = "extension 2"></div>
-                </div>
-            </div>
-        </React.Fragment>
-    );
-};
+class Lovelace_Mission extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            isFlipped: false
+        };
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick(e) {
+        e.preventDefault();
+        this.setState(prevState => ({ isFlipped: !prevState.isFlipped }));
+    }
+
+    render() {
+        return(
+          <React.Fragment>
+              <a id="about"></a>
+              <div className = "Lace-Mission">
+                  <div className = "Lace-Mission-half">
+                      <div className="ada-bio">
+                          <div className="ada-image"><img src="/lovelace2021/portrait.svg" alt="Ada Lovelace portrait" className="potrait-ada-lovelace"/></div>
+                          <div className="who-was-ada">
+                              <h1>
+                                  Who was <span className="yellow-text">Ada Lovelace</span>?
+                              </h1>
+                              <p>
+                                  Ada Lovelace, who has been called the first computer programmer, made the first
+                                  published computer program, or algorithm, to compute Bernoulli numbers using the
+                                  Analytical Engine, the first computer. Her work became one of the critical documents
+                                  to inspire Alan Turing’s work on the first modern computers in the 1940s.
+                              </p>
+                          </div>
+                      </div>
+                      <div className="lovelace-values">
+                          <h1>
+                              Our Values
+                          </h1>
+                          <div className="value-flips">
+                              <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal" className="card-inline">
+                                  <div>
+                                      <img src="/lovelace2021/awareness-card-front.svg" alt="Lovelace awareness" className="awareness-card-front card-inline" onClick={this.handleClick} />
+                                  </div>
+                                  <div>
+                                      <img src="/lovelace2021/awareness-card-back.svg" alt="Lovelace awareness" className="awareness-card-front card-inline" onClick={this.handleClick} />
+                                  </div>
+                              </ReactCardFlip>
+                              <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal" className="card-inline">
+                                  <div>
+                                      <img src="/lovelace2021/thrive-card-front.svg" alt="Lovelace thrive" className="thrive-card-front card-inline" onClick={this.handleClick}/>
+                                  </div>
+                                  <div>
+                                      <img src="/lovelace2021/thrive-card-back.svg" alt="Lovelace thrive" className="thrive-card-front card-inline" onClick={this.handleClick}/>
+                                  </div>
+                              </ReactCardFlip>
+                              <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal" className="card-inline">
+                                  <div>
+                                      <img src="/lovelace2021/exposure-card-front.svg" alt="Lovelace exposure" className="exposure-card-front card-inline" onClick={this.handleClick}/>
+                                  </div>
+                                  <div>
+                                      <img src="/lovelace2021/exposure-card-back.svg" alt="Lovelace exposure" className="exposure-card-front card-inline" onClick={this.handleClick}/>
+                                  </div>
+                              </ReactCardFlip>
+                          </div>
+                      </div>
+                  </div>
+                  <div className="lovelace-quotes koehl">
+                      <img src="/lovelace2021/AboutTeam.png" className="koehl-quote"/>
+                  </div>
+                  <div className="lovelace-quotes sadie">
+                      <img src="/lovelace2021/KeynoteSpeaker.svg" className="keynote-quote"/>
+                  </div>
+              </div>
+          </React.Fragment>
+        );
+    }
+}
 
 export default Lovelace_Mission;
